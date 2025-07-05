@@ -8,6 +8,8 @@ public class Bullet : MonoBehaviour
     private Vector3 mousedirection;
     private float angle = 0;
 
+    [SerializeField] private bool bounce = false;
+
     private void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
@@ -20,6 +22,12 @@ public class Bullet : MonoBehaviour
         mousedirection = (mouse - transform.position).normalized;
         angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
+
+        if (bounce)
+            Physics2D.IgnoreLayerCollision(6, 7, false);
+        else
+            Physics2D.IgnoreLayerCollision(6, 7, true);
+
     }
 
     void Update()
@@ -31,7 +39,22 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
+        }
+        else if (collision.gameObject.CompareTag("Wall"))
+        {
+            collision.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+            Vector2 normal = collision.contacts[0].normal;
+            mousedirection = Vector2.Reflect(mousedirection, normal).normalized;
+
+            float angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
+            rigid.angularVelocity = 0f;
+            rigid.rotation = angle;
+            transform.rotation = Quaternion.Euler(0, 0, angle);
+        }
+        else if (collision.gameObject.CompareTag("DeadZone"))
+        {
+            gameObject.SetActive(false);
         }
     }
 }

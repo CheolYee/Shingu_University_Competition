@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 905093869618841182}
   - component: {fileID: 4318384971505847469}
   - component: {fileID: 6366040450314966602}
-  - component: {fileID: 1646669146474433322}
-  m_Layer: 0
+  - component: {fileID: 8600961111643113703}
+  m_Layer: 6
   m_Name: bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6464703323161136829}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.00000086426724, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.47674, y: 0.47674, z: 0.47674}
   m_ConstrainProportionsScale: 0
@@ -102,6 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b90de657e319a4fb5b2c873125ccdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bounce: 1
 --- !u!50 &6366040450314966602
 Rigidbody2D:
   serializedVersion: 5
@@ -127,9 +128,9 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
---- !u!70 &1646669146474433322
+--- !u!70 &8600961111643113703
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,5 +165,5 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.99999994, y: 1.9999999}
+  m_Size: {x: 1, y: 2}
   m_Direction: 0
