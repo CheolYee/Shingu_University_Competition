@@ -1,10 +1,22 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Gun : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
+    private GameObject[] bulletPool;
+    private bool canfire = true;
+
     private Vector3 mouse;
+
+    private void Start()
+    {
+        bulletPool = new GameObject[1];
+        GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        bulletPool[0] = bullet;
+        bullet.SetActive(false);
+    }
 
     private void Update()
     {
@@ -19,7 +31,7 @@ public class Gun : MonoBehaviour
         if (-90 <= angle && angle <= 90)
         {
             transform.rotation = Quaternion.Euler(0f, 0f, angle); //z축으로 회전
-            if (Keyboard.current.spaceKey.wasPressedThisFrame)
+            if (Keyboard.current.spaceKey.wasPressedThisFrame && canfire)
             {
                 Shot();
             }
@@ -28,6 +40,18 @@ public class Gun : MonoBehaviour
 
     private void Shot()
     {
-        GameObject bullt = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        GameObject bullet = bulletPool[0];
+        if (bullet.activeSelf || !canfire)
+            return;
+        bullet.transform.position = transform.position;
+        bullet.SetActive(true);
+        canfire = false;
+        StartCoroutine(CoolTime());
+    }
+
+    private IEnumerator CoolTime()
+    {
+        yield return new WaitForSeconds(1f);
+        canfire = true;
     }
 }
