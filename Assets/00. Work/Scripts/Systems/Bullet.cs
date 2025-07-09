@@ -62,5 +62,18 @@ public class Bullet : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    public Vector3 Dir
+    {
+        get
+        {
+            return mousedirection;
+        }
+
+        set
+        {
+            mousedirection = value;
+        }
+    }
 }
 
