@@ -9,8 +9,12 @@ public class Bullet : MonoBehaviour
     private Vector3 mousedirection;
     private float angle = 0;
 
+    [Header("Card")]
     [SerializeField] private bool bounce = false;
     [SerializeField] private bool penetration = false;
+    [SerializeField] private bool speedUp = false;
+    [SerializeField] private bool speedDown = false;
+
     private void Awake()
     {
         collidier = GetComponent<Collider2D>();
@@ -29,6 +33,10 @@ public class Bullet : MonoBehaviour
             collidier.isTrigger = false;
         else if (penetration)
             collidier.isTrigger = true;
+        else if (speedUp)
+            speed = 13f;
+        else if (speedDown)
+            speed = 7f;
     }
 
     void Update()
