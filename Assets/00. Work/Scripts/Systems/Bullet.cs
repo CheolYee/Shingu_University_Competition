@@ -4,6 +4,7 @@ public class Bullet : MonoBehaviour
 {
     private float speed = 10f;
     private Rigidbody2D rigid;
+    private Collider2D collidier;
     private Vector3 mouse;
     private Vector3 mousedirection;
     private float angle = 0;
@@ -12,6 +13,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] private bool penetration = false;
     private void Awake()
     {
+        collidier = GetComponent<Collider2D>();
         rigid = GetComponent<Rigidbody2D>();
     }
 
@@ -24,9 +26,9 @@ public class Bullet : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
         if (bounce)
-            Physics2D.IgnoreLayerCollision(6, 7, false);
+            collidier.isTrigger = false;
         else if (penetration)
-            Physics2D.IgnoreLayerCollision(6, 7, true);
+            collidier.isTrigger = true;
     }
 
     void Update()
