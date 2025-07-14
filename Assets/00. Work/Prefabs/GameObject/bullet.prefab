@@ -102,7 +102,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b90de657e319a4fb5b2c873125ccdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounce: 1
+  boomEffect: {fileID: 5799705157616716178, guid: d60523dfeee02d54b9b0e6a6fe233704, type: 3}
+  bounce: 0
+  penetration: 0
+  speedUp: 0
+  speedDown: 0
+  boom: 0
 --- !u!50 &6366040450314966602
 Rigidbody2D:
   serializedVersion: 5

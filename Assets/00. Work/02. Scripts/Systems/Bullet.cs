@@ -4,14 +4,22 @@ public class Bullet : MonoBehaviour
 {
     private float speed = 10f;
     private Rigidbody2D rigid;
+    private Collider2D collidier;
     private Vector3 mouse;
     private Vector3 mousedirection;
     private float angle = 0;
+    [SerializeField] private GameObject boomEffect;
 
+    [Header("Card")]
     [SerializeField] private bool bounce = false;
     [SerializeField] private bool penetration = false;
+    [SerializeField] private bool speedUp = false;
+    [SerializeField] private bool speedDown = false;
+    [SerializeField] private bool boom = false;
+
     private void Awake()
     {
+        collidier = GetComponent<Collider2D>();
         rigid = GetComponent<Rigidbody2D>();
     }
 
@@ -22,11 +30,16 @@ public class Bullet : MonoBehaviour
         mousedirection = (mouse - transform.position).normalized;
         angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        collidier.isTrigger = false;
 
         if (bounce)
-            Physics2D.IgnoreLayerCollision(6, 7, false);
+            collidier.isTrigger = false;
         else if (penetration)
-            Physics2D.IgnoreLayerCollision(6, 7, true);
+            collidier.isTrigger = true;
+        else if (speedUp)
+            speed = 13f;
+        else if (speedDown)
+            speed = 7f;
     }
 
     void Update()
@@ -38,6 +51,10 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            if (boom)
+            {
+                GameObject boomeffect = Instantiate(boomEffect, transform.position, Quaternion.identity);
+            }
             gameObject.SetActive(false);
         }
         else if (collision.gameObject.CompareTag("Wall"))
@@ -52,14 +69,32 @@ public class Bullet : MonoBehaviour
                 rigid.rotation = angle;
                 transform.rotation = Quaternion.Euler(0, 0, angle);
             }
+            else if (boom)
+            {
+                GameObject boomeffect = Instantiate(boomEffect, transform.position, Quaternion.identity);
+            }
             else
             {
                 gameObject.SetActive(false);
             }
+
         }
         else if (collision.gameObject.CompareTag("DeadZone"))
         {
             gameObject.SetActive(false);
+        }
+    }
+
+    public Vector3 Dir
+    {
+        get
+        {
+            return mousedirection;
+        }
+
+        set
+        {
+            mousedirection = value;
         }
     }
 }
