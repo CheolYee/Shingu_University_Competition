@@ -626,11 +626,11 @@ Transform:
   m_GameObject: {fileID: 454607727}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.00000046193594, w: 1}
-  m_LocalPosition: {x: 0.06, y: -4.54, z: 0}
+  m_LocalPosition: {x: 6.8069453, y: 0.25078058, z: 0.055231724}
   m_LocalScale: {x: 9.46, y: 0.44, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2069281248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &454607730
 BoxCollider2D:
@@ -1821,11 +1821,11 @@ Transform:
   m_GameObject: {fileID: 1644008962}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.70710677, w: 0.7071069}
-  m_LocalPosition: {x: 6.77, y: 0.05, z: 0}
+  m_LocalPosition: {x: 13.516945, y: 4.8407807, z: 0.055231724}
   m_LocalScale: {x: 9.46, y: 0.44, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2069281248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &1679251181
 GameObject:
@@ -2315,6 +2315,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062270027}
   m_CullTransparentMesh: 1
+--- !u!1 &2069281247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2069281248}
+  m_Layer: 0
+  m_Name: Wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2069281248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069281247}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.7469454, y: -4.7907805, z: -0.055231724}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 454607729}
+  - {fileID: 1644008965}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2324,8 +2357,7 @@ SceneRoots:
   - {fileID: 385578062}
   - {fileID: 103779476}
   - {fileID: 729385693}
-  - {fileID: 454607729}
-  - {fileID: 1644008965}
   - {fileID: 1679251183}
   - {fileID: 275738889}
   - {fileID: 10787573}
+  - {fileID: 2069281248}

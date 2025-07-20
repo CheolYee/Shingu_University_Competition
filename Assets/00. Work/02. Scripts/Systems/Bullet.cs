@@ -53,36 +53,51 @@ public class Bullet : MonoBehaviour
         {
             if (boom)
             {
-                GameObject boomeffect = Instantiate(boomEffect, transform.position, Quaternion.identity);
+                BulletBoom();
             }
-            gameObject.SetActive(false);
+            BulletDead();
         }
         else if (collision.gameObject.CompareTag("Wall"))
         {
             if (bounce)
             {
-                collision.gameObject.GetComponent<BoxCollider2D>().enabled = true;
-                Vector2 normal = collision.contacts[0].normal;
-                mousedirection = Vector2.Reflect(mousedirection, normal).normalized;
-                float angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
-                rigid.angularVelocity = 0f;
-                rigid.rotation = angle;
-                transform.rotation = Quaternion.Euler(0, 0, angle);
+                BulletBounce(collision);
             }
             else if (boom)
             {
-                GameObject boomeffect = Instantiate(boomEffect, transform.position, Quaternion.identity);
+                BulletBoom();
             }
             else
             {
-                gameObject.SetActive(false);
+                BulletDead();
             }
 
         }
         else if (collision.gameObject.CompareTag("DeadZone"))
         {
-            gameObject.SetActive(false);
+            BulletDead();
         }
+    }
+
+    private void BulletBounce(Collision2D collision)
+    {
+        collision.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        Vector2 normal = collision.contacts[0].normal;
+        mousedirection = Vector2.Reflect(mousedirection, normal).normalized;
+        float angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
+        rigid.angularVelocity = 0f;
+        rigid.rotation = angle;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
+    }
+
+    private void BulletBoom()
+    {
+        GameObject boomeffect = Instantiate(boomEffect, transform.position, Quaternion.identity);
+    }
+
+    private void BulletDead()
+    {
+        gameObject.SetActive(false);
     }
 
     public Vector3 Dir
