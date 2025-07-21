@@ -37,9 +37,10 @@ namespace _00._Work.Teams.PMC._01._Codes
 
         private IEnumerator StartEffectFlow(int count)
         {
+            yield return null;
             for (int i = 0; i < count; i++)
             {
-                Vector3 targetPos = starSlots[i].transform.position; //별 생성
+                Vector3 targetPos = starSlots[i].transform.position; //별 생성 위치
 
                 // 총알 RectTransform 이동 설정
                 RectTransform startRect = bulletStartPoints[i].GetComponent<RectTransform>();
