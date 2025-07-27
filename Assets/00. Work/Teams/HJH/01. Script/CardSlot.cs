@@ -5,7 +5,6 @@ public class CardSlot : MonoBehaviour, IDropHandler
 {
     public void OnDrop(PointerEventData eventData)
     {
-        // 이미 자식이 있으면 받지 않음
         if (transform.childCount > 0) return;
 
         GameObject dropped = eventData.pointerDrag;

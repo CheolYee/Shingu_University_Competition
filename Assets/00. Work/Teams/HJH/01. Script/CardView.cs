@@ -1,21 +1,21 @@
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class CardView : MonoBehaviour
+public class CardView : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public CardData data;
 
-    public Image imageRenderer;
-    public Text nameText;
-    public Text attributeText;
+    public CardNameUI cardNameUI;
 
-    void Start()
+    public void OnPointerEnter(PointerEventData eventData)
     {
-        if (data != null)
-        {
-            imageRenderer.sprite = data.cardImage;
-            nameText.text = data.cardName;
-            attributeText.text = data.cardEnum.ToString();
-        }
+        if (cardNameUI != null && data != null)
+            cardNameUI.Show(data);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if (cardNameUI != null)
+            cardNameUI.Hide();
     }
 }
