@@ -21,7 +21,7 @@ namespace _00._Work._02._Scripts.Manager.MoneyManager
             //인스턴스가 없을 때 이걸로 지정
             Instance = this;
             //씬이 바뀌어도 사라지지 않게하기
-            DontDestroyOnLoad(this.gameObject);
+            //DontDestroyOnLoad(this.gameObject);
         }
 
         //Money가 바뀌었을 때 모든 구독자들에게 방송하는 시스템

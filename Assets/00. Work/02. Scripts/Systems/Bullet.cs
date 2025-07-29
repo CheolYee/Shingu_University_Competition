@@ -1,4 +1,7 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.Accessibility;
 
 public class Bullet : MonoBehaviour
 {
@@ -17,11 +20,15 @@ public class Bullet : MonoBehaviour
     [SerializeField] private bool speedDown = false;
     [SerializeField] private bool boom = false;
 
+    [Header("Slots")]
+    [SerializeField] private List<CardEnum> currentSequence = new List<CardEnum>();
+
     private void Awake()
     {
         collidier = GetComponent<Collider2D>();
         rigid = GetComponent<Rigidbody2D>();
     }
+
 
     private void OnEnable()
     {
@@ -112,5 +119,22 @@ public class Bullet : MonoBehaviour
             mousedirection = value;
         }
     }
+
+
+    // 홍지후 스크립트
+    public void SetCardSequence(List<CardEnum> sequence)
+    {
+        currentSequence = new List<CardEnum>(sequence);
+        Debug.Log("받은 카드 시퀀스: " + string.Join(", ", currentSequence));
+    }
+
+    private bool HasCard(CardEnum type)
+    {
+        return currentSequence.Contains(type);
+    }
+    // 홍지후 스크립트
 }
+
+
+
 

@@ -108,6 +108,7 @@ MonoBehaviour:
   speedUp: 0
   speedDown: 0
   boom: 0
+  currentSequence: 
 --- !u!50 &6366040450314966602
 Rigidbody2D:
   serializedVersion: 5
