@@ -8,5 +8,6 @@ public enum CardEnum
     SpeedDown,
     Gravity,
     Explode,
-    Magnet
+    Magnet,
+    Default
 }

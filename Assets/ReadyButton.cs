@@ -4,12 +4,21 @@ using UnityEngine;
 public class ReadyButton : MonoBehaviour
 {
     public Transform[] slotParents;
+    public GameObject bulletPrefab;
+    public List<CardEnum> cardSequence = new List<CardEnum>();
+    public Bullet targetBullet;
+    public static List<CardEnum> lastUsedSequence = new List<CardEnum>();
 
-    public List<CardEnum> cardList = new List<CardEnum>();
+    public void RegisterBullet(Bullet bullet)
+    {
+        targetBullet = bullet;
+    }
 
     public void OnClick_Ready()
     {
-        cardList = GetCardSequenceFromSlots();
+        cardSequence = GetCardSequenceFromSlots();
+        lastUsedSequence = new List<CardEnum>(cardSequence);
+        Debug.Log($"ReadyButton 시퀀스 저장: {string.Join(", ", cardSequence)}");
     }
 
     private List<CardEnum> GetCardSequenceFromSlots()
@@ -25,9 +34,19 @@ public class ReadyButton : MonoBehaviour
                 if (card != null && card.data != null)
                 {
                     sequence.Add(card.data.cardEnum);
+                    Debug.Log($"슬롯 {i}: {card.data.cardEnum}");
+                }
+                else
+                {
+                    Debug.Log($"슬롯 {i}: 카드 정보 없음");
                 }
             }
+            else
+            {
+                Debug.Log($"슬롯 {i}: 비어 있음");
+            }
         }
+
         return sequence;
     }
 }

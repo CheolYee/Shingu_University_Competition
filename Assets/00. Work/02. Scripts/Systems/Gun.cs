@@ -1,21 +1,24 @@
-using System.Collections;
+癤퓎sing System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Gun : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
-    private GameObject[] bulletPool;
+    [SerializeField] private int poolSize = 10;
+    private List<GameObject> bulletPool = new List<GameObject>();
     private bool canfire = true;
-
     private Vector3 mouse;
 
     private void Start()
     {
-        bulletPool = new GameObject[1];
-        GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-        bulletPool[0] = bullet;
-        bullet.SetActive(false);
+        for (int i = 0; i < poolSize; i++)
+        {
+            GameObject bullet = Instantiate(bulletPrefab);
+            bullet.SetActive(false);
+            bulletPool.Add(bullet);
+        }
     }
 
     private void Update()
@@ -26,11 +29,12 @@ public class Gun : MonoBehaviour
     private void LookAtMouse()
     {
         mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 mousedirection = mouse - transform.position;//마우스포인터 방향 계산
-        float angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg; //회전 각도 계산(라디안 각도 반환)
+        Vector3 mousedirection = mouse - transform.position;
+        float angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
+
         if (-90 <= angle && angle <= 90)
         {
-            transform.rotation = Quaternion.Euler(0f, 0f, angle); //z축으로 회전
+            transform.rotation = Quaternion.Euler(0f, 0f, angle);
             if (Keyboard.current.spaceKey.wasPressedThisFrame && canfire)
             {
                 Shot();
@@ -40,13 +44,38 @@ public class Gun : MonoBehaviour
 
     private void Shot()
     {
-        GameObject bullet = bulletPool[0];
-        if (bullet.activeSelf || !canfire)
+        GameObject bullet = GetInactiveBulletFromPool();
+        if (bullet == null)
+        {
             return;
+        }
+
         bullet.transform.position = transform.position;
+        bullet.transform.rotation = transform.rotation;
+
+        Bullet bulletScript = bullet.GetComponent<Bullet>();
+
+        ReadyButton readyBtn = FindFirstObjectByType<ReadyButton>();
+        if (readyBtn != null && readyBtn.cardSequence.Count > 0)
+        {
+            bulletScript.SetCardSequence(readyBtn.cardSequence);
+        }
+
         bullet.SetActive(true);
+        bulletScript.Initialize();
+
         canfire = false;
         StartCoroutine(CoolTime());
+    }
+
+    private GameObject GetInactiveBulletFromPool()
+    {
+        foreach (GameObject bullet in bulletPool)
+        {
+            if (!bullet.activeInHierarchy)
+                return bullet;
+        }
+        return null;
     }
 
     private IEnumerator CoolTime()
