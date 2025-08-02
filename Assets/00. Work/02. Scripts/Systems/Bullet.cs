@@ -25,13 +25,12 @@ public class Bullet : MonoBehaviour
 
     private void OnEnable()
     {
-        mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition); 
         mouse.z = 0f;
         mousedirection = (mouse - transform.position).normalized;
         angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
         collidier.isTrigger = false;
-        Debug.Log($"불렛 순서 : {string.Join(", ", currentSequence)}");
     }
 
     private void Update()
