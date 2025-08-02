@@ -8,6 +8,7 @@ public class Gun : MonoBehaviour
     private GameObject[] bulletPool;
     private bool canfire = true;
     private Vector3 mouse;
+    [SerializeField] private ReadyButton readyButton;
 
     private void Start()
     {
@@ -15,6 +16,17 @@ public class Gun : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
         bulletPool[0] = bullet;
         bullet.SetActive(false);
+
+        if (readyButton != null)
+        {
+            Bullet bulletScript = bullet.GetComponent<Bullet>();
+            readyButton.RegisterBullet(bulletScript);
+            Debug.Log("[Gun] ReadyButton에 Bullet 등록 완료");
+        }
+        else
+        {
+            Debug.LogWarning("[Gun] ReadyButton 참조가 유니티에서 연결되지 않았습니다.");
+        }
     }
 
     private void Update()

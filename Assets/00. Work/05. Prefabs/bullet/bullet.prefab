@@ -107,7 +107,6 @@ MonoBehaviour:
   boomEffect: {fileID: 5799705157616716178, guid: d60523dfeee02d54b9b0e6a6fe233704, type: 3}
   boom: 0
   currentSequence: 
-  tempSequence: 
 --- !u!50 &6366040450314966602
 Rigidbody2D:
   serializedVersion: 5

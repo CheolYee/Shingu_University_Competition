@@ -25,12 +25,14 @@ public class Bullet : MonoBehaviour
 
     private void OnEnable()
     {
-        mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition); 
+        mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mouse.z = 0f;
         mousedirection = (mouse - transform.position).normalized;
         angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
         collidier.isTrigger = false;
+
+        Initialize(); // 🔹 항상 활성화될 때 시퀀스 반영
     }
 
     private void Update()
@@ -60,6 +62,7 @@ public class Bullet : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+
     public void SetCardSequence(List<CardEnum> sequence)
     {
         currentSequence = new List<CardEnum>(sequence);
@@ -68,12 +71,11 @@ public class Bullet : MonoBehaviour
 
     public void Initialize()
     {
-        if (currentSequence == null || currentSequence.Count == 0)
-        {
-            SetCardSequence(new List<CardEnum>(ReadyButton.lastUsedSequence));
-        }
+        // 🔹 매번 최신 시퀀스로 덮어쓰기
+        currentSequence = new List<CardEnum>(ReadyButton.lastUsedSequence);
         Debug.Log("[Bullet] 시퀀스 초기화됨: " + string.Join(", ", currentSequence));
     }
+
     private IEnumerator DeactivateAfterTime(float delay)
     {
         yield return new WaitForSeconds(delay);

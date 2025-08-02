@@ -9,6 +9,11 @@ public class ReadyButton : MonoBehaviour
     public Bullet targetBullet;
     public static List<CardEnum> lastUsedSequence = new List<CardEnum>();
 
+    private void Awake()
+    {
+        lastUsedSequence.Clear(); // 게임 시작 시 초기화
+    }
+
     public void RegisterBullet(Bullet bullet)
     {
         targetBullet = bullet;
@@ -19,6 +24,19 @@ public class ReadyButton : MonoBehaviour
         cardSequence = GetCardSequenceFromSlots();
         lastUsedSequence = new List<CardEnum>(cardSequence);
         Debug.Log($"ReadyButton 시퀀스 저장: {string.Join(", ", cardSequence)}");
+
+        if (targetBullet != null)
+        {
+            targetBullet.SetCardSequence(cardSequence);
+            Debug.Log("비활성화 여부: " + !targetBullet.gameObject.activeInHierarchy);
+
+            // 🔹 Bullet이 꺼져있어도 Initialize 강제 호출
+            targetBullet.Initialize();
+        }
+        else
+        {
+            Debug.LogWarning("ReadyButton: Bullet이 등록되지 않았습니다.");
+        }
     }
 
     private List<CardEnum> GetCardSequenceFromSlots()
