@@ -21,11 +21,11 @@ public class CardSlot : MonoBehaviour, IDropHandler
         {
             case CardEnum.Bounce:
                 // 튕기는 효과 만들면 넣어줘, 밑에는 이름만 써놓을꼐
-                bullet.collidier.isTrigger = false;
+                bullet.collid.isTrigger = false;
                 break;
             case CardEnum.Penetration:
                 // 관통 효과
-                bullet.collidier.isTrigger = true;
+                bullet.collid.isTrigger = true;
                 break;
             case CardEnum.SpeedUp:
                 bullet.speed = 13f;
