@@ -1,9 +1,7 @@
-using UnityEngine;
-
 public enum CardEnum
 {
     Bounce,
-    Through,
+    Penetration,
     SpeedUp,
     SpeedDown,
     Gravity,

@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float speed = 10f;
     private Rigidbody2D rigid;
     public Collider2D collidier;
+
     private Vector3 mouse;
     private Vector3 mousedirection;
-    private float angle = 0;
 
+    public float speed = 10f;
+    private float angle = 0;
+    private int currentEffectIndex = 0;
+
+    [Header("Card")]
+    [SerializeField] private bool bounce = false;
+    [SerializeField] private bool penetration = false;
+    [SerializeField] private bool speedUp = false;
+    [SerializeField] private bool speedDown = false;
+    [SerializeField] private bool Explode = false;
     [SerializeField] private GameObject boomEffect;
-    [SerializeField] private bool boom = false;
 
     [Header("EnumName")]
     [SerializeField] private List<CardEnum> currentSequence;
@@ -32,7 +40,7 @@ public class Bullet : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
         collidier.isTrigger = false;
 
-        Initialize(); // 🔹 항상 활성화될 때 시퀀스 반영
+        Initialize(); //항상 활성화될 때 시퀀스 반영
     }
 
     private void Update()
@@ -44,8 +52,28 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            if (boom) BulletBoom();
+            if (Explode)
+            {
+                BulletExplode();
+            }
             BulletDead();
+        }
+        else if (collision.gameObject.CompareTag("Wall"))
+        {
+            NextBulletPower();
+            if (bounce)
+            {
+                BulletBounce(collision);
+            }
+            else if (Explode)
+            {
+                BulletExplode();
+            }
+            else
+            {
+                BulletDead();
+            }
+
         }
         else if (collision.gameObject.CompareTag("DeadZone"))
         {
@@ -53,7 +81,58 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    private void BulletBoom()
+
+    private void NextBulletPower()
+    {
+        if (currentSequence == null || currentSequence.Count == 0 || currentEffectIndex >= currentSequence.Count)
+            return;
+
+        string effectName = currentSequence[currentEffectIndex].ToString();
+        SetBulletPower(effectName);
+
+        currentEffectIndex++;
+    }
+
+    private void SetBulletPower(string effect)
+    {
+        bounce = false;
+        penetration = false;
+        speedUp = false;
+        speedDown = false;
+        Explode = false;
+
+        switch (effect)
+        {
+            case "Bounce":
+                bounce = true;
+                break;
+            case "Penetration":
+                penetration = true;
+                break;
+            case "SpeedUp":
+                speedUp = true;
+                break;
+            case "SpeedDown":
+                speedDown = true;
+                break;
+            case "Boom":
+                Explode = true;
+                break;
+        }
+    }
+
+    private void BulletBounce(Collision2D collision)
+    {
+        collision.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        Vector2 normal = collision.contacts[0].normal;
+        mousedirection = Vector2.Reflect(mousedirection, normal).normalized;
+        float angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
+        rigid.angularVelocity = 0f;
+        rigid.rotation = angle;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
+    }
+
+    private void BulletExplode()
     {
         Instantiate(boomEffect, transform.position, Quaternion.identity);
     }

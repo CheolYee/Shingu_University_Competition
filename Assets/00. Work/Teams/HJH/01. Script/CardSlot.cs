@@ -23,7 +23,7 @@ public class CardSlot : MonoBehaviour, IDropHandler
                 // 튕기는 효과 만들면 넣어줘, 밑에는 이름만 써놓을꼐
                 bullet.collidier.isTrigger = false;
                 break;
-            case CardEnum.Through:
+            case CardEnum.Penetration:
                 // 관통 효과
                 bullet.collidier.isTrigger = true;
                 break;
