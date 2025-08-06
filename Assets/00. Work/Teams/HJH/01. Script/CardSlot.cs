@@ -22,14 +22,14 @@ public class CardSlot : MonoBehaviour, IDropHandler
         {
             case CardEnum.Bounce:
                 // ƨ��� ȿ�� ����� �־���, �ؿ��� �̸��� �������
-                bullet.collid.isTrigger = false;
+                bulletCollid.collid.isTrigger = false;
                 break;
             case CardEnum.Penetration:
                 // ���� ȿ��
-                bullet.collid.isTrigger = true;
+                bulletCollid.collid.isTrigger = true;
                 break;
             case CardEnum.SpeedUp:
-                bullet.speed = 13f;
+                bulletCollid.speed = 13f;
                 // �ӵ� ����
                 break;
             case CardEnum.Explode:
@@ -37,7 +37,7 @@ public class CardSlot : MonoBehaviour, IDropHandler
                 break;
             // ���...
             case CardEnum.Default:
-                bullet.speed = 10f; // �⺻ �ӵ�
+                bulletCollid.speed = 10f; // �⺻ �ӵ�
                 break;
         }*/
     }

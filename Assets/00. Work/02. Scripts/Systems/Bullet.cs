@@ -24,6 +24,7 @@ namespace _00._Work._02._Scripts.Systems
         [SerializeField] private bool speedUp;
         [SerializeField] private bool speedDown;
         [SerializeField] private bool explode;
+        [SerializeField] public bool magnet;
         [SerializeField] private GameObject boomEffect;
 
         [Header("EnumName")]
@@ -161,6 +162,7 @@ namespace _00._Work._02._Scripts.Systems
             speedUp = false;
             speedDown = false;
             explode = false;
+            magnet = false;
 
             switch (effect)
             {
@@ -184,6 +186,11 @@ namespace _00._Work._02._Scripts.Systems
                 case CardEnum.Explode:
                     explode = true;
                     break;
+
+                case CardEnum.Magnet:
+                    magnet = true;
+                    break;
+
                 case CardEnum.Default:
                     break;
             }
