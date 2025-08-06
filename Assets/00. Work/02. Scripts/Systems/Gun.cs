@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,8 +7,8 @@ public class Gun : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     private GameObject[] bulletPool;
     private bool canfire = true;
-
     private Vector3 mouse;
+    [SerializeField] private ReadyButton readyButton;
 
     private void Start()
     {
@@ -16,21 +16,36 @@ public class Gun : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
         bulletPool[0] = bullet;
         bullet.SetActive(false);
+
+        if (readyButton != null)
+        {
+            Bullet bulletScript = bullet.GetComponent<Bullet>();
+            readyButton.RegisterBullet(bulletScript);
+            Debug.Log("[Gun] ReadyButtonì— Bullet ë“±ë¡ ì™„ë£Œ");
+        }
+        else
+        {
+            Debug.LogWarning("[Gun] ReadyButton ì°¸ì¡°ê°€ ìœ ë‹ˆí‹°ì—ì„œ ì—°ê²°ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.");
+        }
     }
 
     private void Update()
     {
+        if (Time.timeScale == 0f)
+            return;
+
         LookAtMouse();
     }
 
     private void LookAtMouse()
     {
         mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 mousedirection = mouse - transform.position;//¸¶¿ì½ºÆ÷ÀÎÅÍ ¹æÇâ °è»ê
-        float angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg; //È¸Àü °¢µµ °è»ê(¶óµğ¾È °¢µµ ¹İÈ¯)
+        Vector3 mousedirection = mouse - transform.position;
+        float angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
+
         if (-90 <= angle && angle <= 90)
         {
-            transform.rotation = Quaternion.Euler(0f, 0f, angle); //zÃàÀ¸·Î È¸Àü
+            transform.rotation = Quaternion.Euler(0f, 0f, angle);
             if (Keyboard.current.spaceKey.wasPressedThisFrame && canfire)
             {
                 Shot();
@@ -43,6 +58,7 @@ public class Gun : MonoBehaviour
         GameObject bullet = bulletPool[0];
         if (bullet.activeSelf || !canfire)
             return;
+
         bullet.transform.position = transform.position;
         bullet.SetActive(true);
         canfire = false;
