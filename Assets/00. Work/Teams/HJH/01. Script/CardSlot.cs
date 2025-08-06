@@ -1,3 +1,4 @@
+using _00._Work._02._Scripts.Systems;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -20,23 +21,23 @@ public class CardSlot : MonoBehaviour, IDropHandler
         /*switch (attribute)
         {
             case CardEnum.Bounce:
-                // Æ¨±â´Â È¿°ú ¸¸µé¸é ³Ö¾îÁà, ¹Ø¿¡´Â ÀÌ¸§¸¸ ½á³õÀ»²¾
+                // Æ¨ï¿½ï¿½ï¿½ È¿ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½, ï¿½Ø¿ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                 bullet.collid.isTrigger = false;
                 break;
             case CardEnum.Penetration:
-                // °üÅë È¿°ú
+                // ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½
                 bullet.collid.isTrigger = true;
                 break;
             case CardEnum.SpeedUp:
                 bullet.speed = 13f;
-                // ¼Óµµ Áõ°¡
+                // ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½
                 break;
             case CardEnum.Explode:
-                // Æø¹ß ÀÌÆåÆ®
+                // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®
                 break;
-            // µîµî...
+            // ï¿½ï¿½ï¿½...
             case CardEnum.Default:
-                bullet.speed = 10f; // ±âº» ¼Óµµ
+                bullet.speed = 10f; // ï¿½âº» ï¿½Óµï¿½
                 break;
         }*/
     }

@@ -2,291 +2,292 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+namespace _00._Work._02._Scripts.Systems
 {
-    private Rigidbody2D rigid;
-    public Collider2D collid;
-
-    private Vector3 mouse;
-    private Vector3 mousedirection;
-
-    public float speed = 10f;
-    private float angle = 0;
-    private int currentEffectIndex = 0;
-
-    private bool hasTriggered = false;
-
-    [Header("Card")]
-    [SerializeField] private bool bounce = false;
-    [SerializeField] public bool penetration = false;
-    [SerializeField] private bool speedUp = false;
-    [SerializeField] private bool speedDown = false;
-    [SerializeField] private bool Explode = false;
-    [SerializeField] private GameObject boomEffect;
-
-    [Header("EnumName")]
-    [SerializeField] private List<CardEnum> currentSequence;
-
-    private void Awake()
+    public class Bullet : MonoBehaviour
     {
-        collid = GetComponent<Collider2D>();
-        rigid = GetComponent<Rigidbody2D>();
-    }
+        private Rigidbody2D rigid;
+        public Collider2D collide;
 
-    private void OnEnable()
-    {
-        mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mouse.z = 0f;
-        mousedirection = (mouse - transform.position).normalized;
-        angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0f, 0f, angle);
-        collid.isTrigger = false;
+        private Vector3 mouse;
+        private Vector3 mouseDir;
 
-        Initialize();
-    }
+        public float speed = 10f;
+        private float angle;
+        private int currentEffectIndex;
 
-    private void Update()
-    {
-        SpeedUpDown();
-        PenetrationSetting();
-        rigid.linearVelocity = mousedirection * speed;
-    }
+        //private bool hasTriggered = false; 아직 안써서 주석
 
+        [Header("Card")]
+        [SerializeField] private bool bounce;
+        [SerializeField] public bool penetration;
+        [SerializeField] private bool speedUp;
+        [SerializeField] private bool speedDown;
+        [SerializeField] private bool explode;
+        [SerializeField] private GameObject boomEffect;
 
-    #region 벽 충돌 판정
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (penetration) return;
+        [Header("EnumName")]
+        [SerializeField] private List<CardEnum> currentSequence;
 
-        if (collision.gameObject.CompareTag("Enemy"))
+        private void Awake()
         {
-            if (Explode) BulletExplode();
-            BulletDead();
-            return;
+            collide = GetComponent<Collider2D>();
+            rigid = GetComponent<Rigidbody2D>();
         }
 
-        if (collision.gameObject.CompareTag("Wall"))
+        private void OnEnable()
         {
-            if (bounce)
+            if (Camera.main != null) mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mouse.z = 0f;
+            mouseDir = (mouse - transform.position).normalized;
+            angle = Mathf.Atan2(mouseDir.y, mouseDir.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0f, 0f, angle);
+            collide.isTrigger = false;
+
+            Initialize();
+        }
+
+        private void Update()
+        {
+            SpeedUpDown();
+            PenetrationSetting();
+            rigid.linearVelocity = mouseDir * speed;
+        }
+
+
+        #region 벽 충돌 판정
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (penetration) return;
+
+            if (collision.gameObject.CompareTag("Enemy"))
             {
-                BulletBounce(collision);
-                StartCoroutine(DisableCollider());
-                NextBulletPower();
+                if (explode) BulletExplode();
+                BulletDead();
                 return;
             }
 
-            if (Explode)
+            if (collision.gameObject.CompareTag("Wall"))
             {
-                BulletExplode();
+                if (bounce)
+                {
+                    BulletBounce(collision);
+                    StartCoroutine(DisableCollider());
+                    NextBulletPower();
+                    return;
+                }
+
+                if (explode)
+                {
+                    BulletExplode();
+                    BulletDead();
+                    NextBulletPower();
+                    return;
+                }
+
                 BulletDead();
                 NextBulletPower();
                 return;
             }
 
-            BulletDead();
-            NextBulletPower();
-            return;
-        }
-
-        if (collision.gameObject.CompareTag("DeadZone"))
-        {
-            BulletDead();
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            if (Explode) BulletExplode();
-            BulletDead();
-        }
-        else if (collision.gameObject.CompareTag("Wall"))
-        {
-            if (penetration)
-            {
-                return;
-            }
-            else
+            if (collision.gameObject.CompareTag("DeadZone"))
             {
                 BulletDead();
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.gameObject.CompareTag("Enemy"))
+            {
+                if (explode) BulletExplode();
+                BulletDead();
+            }
+            else if (collision.gameObject.CompareTag("Wall"))
+            {
+                if (penetration)
+                {
+                }
+                else
+                {
+                    BulletDead();
+                    NextBulletPower();
+                }
+            }
+            else if (collision.gameObject.CompareTag("DeadZone"))
+            {
+                BulletDead();
+            }
+        }
+
+        private void OnTriggerExit2D(Collider2D collision)
+        {
+            if (penetration && collision.CompareTag("Wall"))
+            {
+                penetration = false;
+                collide.isTrigger = false;
                 NextBulletPower();
             }
         }
-        else if (collision.gameObject.CompareTag("DeadZone"))
+        #endregion
+
+
+        #region 총알 능력 스왑
+        private void NextBulletPower()
         {
-            BulletDead();
-        }
-    }
+            if (currentSequence == null || currentSequence.Count == 0)
+            {
+                SetBulletPower();
+                return;
+            }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (penetration && collision.CompareTag("Wall"))
-        {
-            penetration = false;
-            collid.isTrigger = false;
-            NextBulletPower();
-        }
-    }
-    #endregion
+            if (currentEffectIndex >= currentSequence.Count)
+            {
+                SetBulletPower();
+                return;
+            }
 
-
-    #region 총알 능력 스왑
-    private void NextBulletPower()
-    {
-        if (currentSequence == null || currentSequence.Count == 0)
-        {
-            SetBulletPower("All");
-            return;
-        }
-
-        if (currentEffectIndex >= currentSequence.Count)
-        {
-            SetBulletPower("All");
-            return;
-        }
-
-        string effectName = currentSequence[currentEffectIndex].ToString();
-        SetBulletPower(effectName);
-        currentEffectIndex++;
-    }
-
-    private void SetBulletPower(string effect)
-    {
-        if (!gameObject.activeInHierarchy) return;
-
-        bounce = false;
-        penetration = false;
-        speedUp = false;
-        speedDown = false;
-        Explode = false;
-
-        switch (effect)
-        {
-            case "Bounce":
-                bounce = true;
-                break;
-
-            case "Penetration":
-                penetration = true;
-                collid.isTrigger = true;
-                break;
-
-            case "SpeedUp":
-                StartCoroutine(SpeedEffect(true));
-                break;
-
-            case "SpeedDown":
-                StartCoroutine(SpeedEffect(false));
-                break;
-
-            case "Boom":
-                Explode = true;
-                break;
-        }
-    }
-    #endregion
-
-
-
-    #region 총알 능력
-    private void BulletBounce(Collision2D collision)
-    {
-        Vector2 normal = collision.contacts[0].normal;
-        mousedirection = Vector2.Reflect(mousedirection, normal).normalized;
-        float angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
-        rigid.angularVelocity = 0f;
-        rigid.rotation = angle;
-        transform.rotation = Quaternion.Euler(0, 0, angle);
-    }
-
-    private void PenetrationSetting()
-    {
-        if (penetration)
-            collid.isTrigger = true;
-        else
-            collid.isTrigger = false;
-    }
-
-    private void SpeedUpDown()
-    {
-        if (speedUp)
-            speed = 13f;
-        else if (speedDown)
-            speed = 7f;
-        else if (!speedUp && !speedDown)
-            speed = 10f;
-    }
-
-    private void BulletExplode()
-    {
-        Instantiate(boomEffect, transform.position, Quaternion.identity);
-    }
-
-    private void BulletDead()
-    {
-        gameObject.SetActive(false);
-    }
-    #endregion
-
-
-
-
-    #region 유지 코루틴
-    private IEnumerator DisableCollider()
-    {
-        collid.enabled = false;
-        yield return new WaitForSeconds(0.05f);
-        collid.enabled = true;
-    }
-
-    private IEnumerator PenetrationTime()
-    {
-        penetration = true;
-        collid.isTrigger = true;
-
-        yield return new WaitForSeconds(0.3f);
-
-        penetration = false;
-        collid.isTrigger = false;
-    }
-
-    private IEnumerator SpeedEffect(bool isSpeedUp)
-    {
-        if (isSpeedUp)
-            speedUp = true;
-        else
-            speedDown = true;
-
-        yield return new WaitForSeconds(1f);
-
-        if (isSpeedUp) speedUp = false;
-        else speedDown = false;
-    }
-    #endregion
-
-
-
-
-
-    #region 카드 받아오기
-    public void SetCardSequence(List<CardEnum> sequence)
-    {
-        currentSequence = new List<CardEnum>(sequence);
-        Debug.Log("=== 불렛 시퀀스 저장됨 === " + string.Join(", ", currentSequence));
-    }
-
-    public void Initialize()
-    {
-        currentEffectIndex = 0;
-        currentSequence = new List<CardEnum>(ReadyButton.lastUsedSequence);
-        Debug.Log("[Bullet] 시퀀스 초기화됨: " + string.Join(", ", currentSequence));
-
-        if (currentSequence.Count > 0)
-        {
-            SetBulletPower(currentSequence[currentEffectIndex].ToString());
+            CardEnum effect = currentSequence[currentEffectIndex];
+            SetBulletPower(effect);
             currentEffectIndex++;
         }
+
+        private void SetBulletPower(CardEnum effect = CardEnum.Default)
+        {
+            if (!gameObject.activeInHierarchy) return;
+
+            bounce = false;
+            penetration = false;
+            speedUp = false;
+            speedDown = false;
+            explode = false;
+
+            switch (effect)
+            {
+                case CardEnum.Bounce:
+                    bounce = true;
+                    break;
+
+                case CardEnum.Penetration:
+                    penetration = true;
+                    collide.isTrigger = true;
+                    break;
+
+                case CardEnum.SpeedUp:
+                    StartCoroutine(SpeedEffect(true));
+                    break;
+
+                case CardEnum.SpeedDown:
+                    StartCoroutine(SpeedEffect(false));
+                    break;
+
+                case CardEnum.Explode:
+                    explode = true;
+                    break;
+                case CardEnum.Default:
+                    break;
+            }
+        }
+        #endregion
+
+
+
+        #region 총알 능력
+        private void BulletBounce(Collision2D collision)
+        {
+            Vector2 normal = collision.contacts[0].normal;
+            mouseDir = Vector2.Reflect(mouseDir, normal).normalized;
+            float rotation = Mathf.Atan2(mouseDir.y, mouseDir.x) * Mathf.Rad2Deg;
+            rigid.angularVelocity = 0f;
+            rigid.rotation = rotation;
+            transform.rotation = Quaternion.Euler(0, 0, rotation);
+        }
+
+        private void PenetrationSetting()
+        {
+            collide.isTrigger = penetration;
+        }
+
+        private void SpeedUpDown()
+        {
+            if (speedUp)
+                speed = 13f;
+            else if (speedDown)
+                speed = 7f;
+            else if (!speedUp && !speedDown)
+                speed = 10f;
+        }
+
+        private void BulletExplode()
+        {
+            Instantiate(boomEffect, transform.position, Quaternion.identity);
+        }
+
+        private void BulletDead()
+        {
+            gameObject.SetActive(false);
+        }
+        #endregion
+
+
+
+
+        #region 유지 코루틴
+        private IEnumerator DisableCollider()
+        {
+            collide.enabled = false;
+            yield return new WaitForSeconds(0.05f);
+            collide.enabled = true;
+        }
+
+        private IEnumerator PenetrationTime()
+        {
+            penetration = true;
+            collide.isTrigger = true;
+
+            yield return new WaitForSeconds(0.3f);
+
+            penetration = false;
+            collide.isTrigger = false;
+        }
+
+        private IEnumerator SpeedEffect(bool isSpeedUp)
+        {
+            if (isSpeedUp)
+                speedUp = true;
+            else
+                speedDown = true;
+
+            yield return new WaitForSeconds(1f);
+
+            if (isSpeedUp) speedUp = false;
+            else speedDown = false;
+        }
+        #endregion
+
+
+
+
+
+        #region 카드 받아오기
+        public void SetCardSequence(List<CardEnum> sequence)
+        {
+            currentSequence = new List<CardEnum>(sequence);
+            Debug.Log("=== 불렛 시퀀스 저장됨 === " + string.Join(", ", currentSequence));
+        }
+
+        public void Initialize()
+        {
+            currentEffectIndex = 0;
+            currentSequence = new List<CardEnum>(ReadyButton.lastUsedSequence);
+            Debug.Log("[Bullet] 시퀀스 초기화됨: " + string.Join(", ", currentSequence));
+
+            if (currentSequence.Count > 0)
+            {
+                SetBulletPower(currentSequence[currentEffectIndex]);
+                currentEffectIndex++;
+            }
+        }
+        #endregion
     }
-    #endregion
 }

@@ -1,3 +1,4 @@
+using _00._Work._02._Scripts.Systems;
 using UnityEngine;
 
 public class MagnetWall : MonoBehaviour

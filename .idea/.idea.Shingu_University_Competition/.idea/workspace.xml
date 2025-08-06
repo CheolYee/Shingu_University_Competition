@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f311dd68-401b-4f3f-8caf-82d353dd7f53" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shingu_University_Competition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shingu_University_Competition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Gun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Gun.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/Start.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/Start.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/ClearUIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/ClearUIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/StarPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/StarPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/HJH/01. Script/CardSlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/HJH/01. Script/CardSlot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/SJH/script/MagnetWall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/SJH/script/MagnetWall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ReadyButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReadyButton.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +28,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/UI/StartUIAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@4027c60e8806/Editor/UGUI/UI/HorizontalOrVerticalLayoutGroupEditor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="30BEflpkOF7P30R8TKYWA1kZTAd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "PMC",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -97,6 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753092675631</updated>
       <workItem from="1753092735459" duration="4321000" />
+      <workItem from="1754448675172" duration="1328000" />
     </task>
     <servers />
   </component>
