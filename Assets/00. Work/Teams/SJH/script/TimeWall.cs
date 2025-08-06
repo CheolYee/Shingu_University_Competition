@@ -1,4 +1,5 @@
 using System.Collections;
+using _00._Work._02._Scripts.Systems;
 using UnityEngine;
 
 public class TimeWall : MonoBehaviour
@@ -6,6 +7,7 @@ public class TimeWall : MonoBehaviour
     [SerializeField] private float time;
     private SpriteRenderer mySpriteRenderer;
     private Collider2D myCollider;
+    private Bullet bullet;
 
     void Awake()
     {
@@ -31,4 +33,5 @@ public class TimeWall : MonoBehaviour
         mySpriteRenderer.color = new Color32((byte)mySpriteRenderer.color.r,(byte)mySpriteRenderer.color.g,(byte)mySpriteRenderer.color.b,1);
         
     }
+
 }

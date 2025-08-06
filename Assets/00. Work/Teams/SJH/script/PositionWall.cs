@@ -1,21 +1,35 @@
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
+using System.Collections;
 
 public class PositionWall : MonoBehaviour
 {
     [SerializeField] private List<Transform> location;
-    [SerializeField] private float changeTime = 1f;
+    [SerializeField] private float moveTime = 1f;
     private int currentLocation = 0;
-    void Update()
+
+    void Start()
     {
-        transform.position = Vector2.MoveTowards(transform.position,location[currentLocation].position, 0);
-        if(currentLocation == location.Count)
+        StartCoroutine(MoveWall());
+    }
+
+    IEnumerator MoveWall()
+    {
+        if(gameObject != null)
         {
-            currentLocation = 0;
-        }
-        else
-        {
-            currentLocation++;
+            transform.DOMove(location[currentLocation].position,moveTime).SetEase(Ease.Linear);
+            if(currentLocation == location.Count - 1)
+            {
+                currentLocation = 0;
+            }
+            else{
+                currentLocation++;
+            }
+            yield return new WaitForSeconds(moveTime);
+            StartCoroutine(MoveWall());
         }
     }
+
+
 }

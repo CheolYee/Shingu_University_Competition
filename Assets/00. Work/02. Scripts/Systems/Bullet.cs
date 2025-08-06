@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,8 @@ namespace _00._Work._02._Scripts.Systems
 {
     public class Bullet : MonoBehaviour
     {
+        public event Action fireEvent;
+
         private Rigidbody2D rigid;
         public Collider2D collide;
 
@@ -38,6 +41,7 @@ namespace _00._Work._02._Scripts.Systems
 
         private void OnEnable()
         {
+            fireEvent?.Invoke();
             if (Camera.main != null) mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mouse.z = 0f;
             mouseDir = (mouse - transform.position).normalized;
@@ -285,5 +289,16 @@ namespace _00._Work._02._Scripts.Systems
             }
         }
         #endregion
+
+        public Vector3 Dir 
+        {
+            get{
+                return mouseDir;
+            }
+
+            set{
+                mouseDir = value;
+            }
+        }
     }
 }
