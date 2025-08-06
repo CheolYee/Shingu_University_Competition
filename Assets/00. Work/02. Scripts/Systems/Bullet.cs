@@ -240,17 +240,6 @@ namespace _00._Work._02._Scripts.Systems
             collide.enabled = true;
         }
 
-        private IEnumerator PenetrationTime()
-        {
-            penetration = true;
-            collide.isTrigger = true;
-
-            yield return new WaitForSeconds(0.3f);
-
-            penetration = false;
-            collide.isTrigger = false;
-        }
-
         private IEnumerator SpeedEffect(bool isSpeedUp)
         {
             if (isSpeedUp)
