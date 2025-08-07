@@ -10,7 +10,8 @@ namespace _00._Work._02._Scripts.Systems
         public event Action fireEvent;
 
         private Rigidbody2D rigid;
-        public Collider2D collide;
+        public Collider2D collid;
+        private TrailRenderer trail;
 
         private Vector3 mouse;
         private Vector3 mouseDir;
@@ -35,8 +36,9 @@ namespace _00._Work._02._Scripts.Systems
 
         private void Awake()
         {
-            collide = GetComponent<Collider2D>();
+            collid = GetComponent<Collider2D>();
             rigid = GetComponent<Rigidbody2D>();
+            trail = GetComponent<TrailRenderer>();
         }
 
         private void OnEnable()
@@ -47,7 +49,7 @@ namespace _00._Work._02._Scripts.Systems
             mouseDir = (mouse - transform.position).normalized;
             angle = Mathf.Atan2(mouseDir.y, mouseDir.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0f, 0f, angle);
-            collide.isTrigger = false;
+            collid.isTrigger = false;
 
             Initialize();
         }
@@ -130,7 +132,7 @@ namespace _00._Work._02._Scripts.Systems
             if (penetration && collision.CompareTag("Wall"))
             {
                 penetration = false;
-                collide.isTrigger = false;
+                collid.isTrigger = false;
                 NextBulletPower();
             }
         }
@@ -166,16 +168,19 @@ namespace _00._Work._02._Scripts.Systems
             speedDown = false;
             explode = false;
             magnet = false;
+            ChangeTrailColorSimple("#FFFFFF");
 
             switch (effect)
             {
                 case CardEnum.Bounce:
                     bounce = true;
+                    ChangeTrailColorSimple("#00FFFF");
                     break;
 
                 case CardEnum.Penetration:
                     penetration = true;
-                    collide.isTrigger = true;
+                    collid.isTrigger = true;
+                    ChangeTrailColorSimple("#FF00FF");
                     break;
 
                 case CardEnum.SpeedUp:
@@ -188,9 +193,11 @@ namespace _00._Work._02._Scripts.Systems
 
                 case CardEnum.Explode:
                     explode = true;
+                    ChangeTrailColorSimple("#8000FF");
                     break;
 
                 case CardEnum.Magnet:
+                    MagnetTrail();
                     StartCoroutine(MagnetCoroutine());
                     break;
 
@@ -213,7 +220,7 @@ namespace _00._Work._02._Scripts.Systems
 
         private void PenetrationSetting()
         {
-            collide.isTrigger = penetration;
+            collid.isTrigger = penetration;
         }
 
         private void SpeedUpDown()
@@ -235,14 +242,32 @@ namespace _00._Work._02._Scripts.Systems
         {
             gameObject.SetActive(false);
         }
+
+        private void ChangeTrailColorSimple(string stringColor)
+        {
+            if (UnityEngine.ColorUtility.TryParseHtmlString(stringColor, out Color color))
+            {
+                var trail = GetComponent<TrailRenderer>();
+                trail.startColor = color;
+                trail.endColor = color;
+            }
+        }
+
+        private void MagnetTrail()
+        {
+            var trail = GetComponent<TrailRenderer>();
+            Color MagnetColor = new Color(1f - trail.startColor.r, 1f - trail.startColor.g, 1f - trail.startColor.b, trail.startColor.a);
+            trail.startColor = MagnetColor;
+            trail.endColor = MagnetColor;
+        }
         #endregion
 
         #region 유지 코루틴
         private IEnumerator DisableCollider()
         {
-            collide.enabled = false;
+            collid.enabled = false;
             yield return new WaitForSeconds(0.05f);
-            collide.enabled = true;
+            collid.enabled = true;
             NextBulletPower();
         }
 
