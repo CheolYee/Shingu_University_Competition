@@ -136,7 +136,6 @@ namespace _00._Work._02._Scripts.Systems
         }
         #endregion
 
-
         #region 총알 능력 스왑
         private void NextBulletPower()
         {
@@ -180,11 +179,11 @@ namespace _00._Work._02._Scripts.Systems
                     break;
 
                 case CardEnum.SpeedUp:
-                    StartCoroutine(SpeedEffect(true));
+                    StartCoroutine(SpeedCoroutine(true));
                     break;
 
                 case CardEnum.SpeedDown:
-                    StartCoroutine(SpeedEffect(false));
+                    StartCoroutine(SpeedCoroutine(false));
                     break;
 
                 case CardEnum.Explode:
@@ -192,7 +191,7 @@ namespace _00._Work._02._Scripts.Systems
                     break;
 
                 case CardEnum.Magnet:
-                    magnet = true;
+                    StartCoroutine(MagnetCoroutine());
                     break;
 
                 case CardEnum.Default:
@@ -200,8 +199,6 @@ namespace _00._Work._02._Scripts.Systems
             }
         }
         #endregion
-
-
 
         #region 총알 능력
         private void BulletBounce(Collision2D collision)
@@ -240,34 +237,39 @@ namespace _00._Work._02._Scripts.Systems
         }
         #endregion
 
-
-
-
         #region 유지 코루틴
         private IEnumerator DisableCollider()
         {
             collide.enabled = false;
             yield return new WaitForSeconds(0.05f);
             collide.enabled = true;
+            NextBulletPower();
         }
 
-        private IEnumerator SpeedEffect(bool isSpeedUp)
+        private IEnumerator SpeedCoroutine(bool speedUp)
         {
-            if (isSpeedUp)
-                speedUp = true;
+            if (speedUp)
+                this.speedUp = true;
             else
                 speedDown = true;
 
             yield return new WaitForSeconds(1f);
 
-            if (isSpeedUp) speedUp = false;
-            else speedDown = false;
+            if (speedUp)
+                this.speedUp = false;
+            else
+                speedDown = false;
+            NextBulletPower();
+        }
+
+        private IEnumerator MagnetCoroutine()
+        {
+            magnet = true;
+            yield return new WaitForSeconds(1f);
+            magnet = false;
+            NextBulletPower();
         }
         #endregion
-
-
-
-
 
         #region 카드 받아오기
         public void SetCardSequence(List<CardEnum> sequence)
@@ -290,15 +292,19 @@ namespace _00._Work._02._Scripts.Systems
         }
         #endregion
 
-        public Vector3 Dir 
+        #region 자석 벽 
+        public Vector3 Dir
         {
-            get{
+            get
+            {
                 return mouseDir;
             }
 
-            set{
+            set
+            {
                 mouseDir = value;
             }
         }
+        #endregion
     }
 }

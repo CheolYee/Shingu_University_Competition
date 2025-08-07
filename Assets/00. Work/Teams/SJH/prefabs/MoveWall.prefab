@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 9034596500134528234}
   m_Layer: 0
   m_Name: MoveWall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
