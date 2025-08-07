@@ -4901,7 +4901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7741209210498211575}
   - component: {fileID: -2304329734037707358}
-  - component: {fileID: 4531686622613989901}
+  - component: {fileID: 8936406722376405177}
   m_Layer: 0
   m_Name: BoomEffect
   m_TagString: Bullet
@@ -4937,7 +4937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7084e93fc9ec5ab4780edb02d3e48057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!58 &4531686622613989901
+--- !u!58 &8936406722376405177
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4972,4 +4972,4 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.49999997
+  m_Radius: 0.5
