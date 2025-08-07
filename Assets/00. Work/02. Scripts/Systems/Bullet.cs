@@ -7,10 +7,10 @@ namespace _00._Work._02._Scripts.Systems
 {
     public class Bullet : MonoBehaviour
     {
-        public event Action fireEvent;
+        private event Action fireEvent;
 
         private Rigidbody2D rigid;
-        public Collider2D collid;
+        public Collider2D collide;
         private TrailRenderer trail;
 
         private Vector3 mouse;
@@ -19,8 +19,6 @@ namespace _00._Work._02._Scripts.Systems
         public float speed = 10f;
         private float angle;
         private int currentEffectIndex;
-
-        //private bool hasTriggered = false; 아직 안써서 주석
 
         [Header("Card")]
         [SerializeField] private bool bounce;
@@ -36,20 +34,19 @@ namespace _00._Work._02._Scripts.Systems
 
         private void Awake()
         {
-            collid = GetComponent<Collider2D>();
+            collide = GetComponent<Collider2D>();
             rigid = GetComponent<Rigidbody2D>();
             trail = GetComponent<TrailRenderer>();
         }
 
         private void OnEnable()
         {
-            fireEvent?.Invoke();
             if (Camera.main != null) mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mouse.z = 0f;
             mouseDir = (mouse - transform.position).normalized;
             angle = Mathf.Atan2(mouseDir.y, mouseDir.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0f, 0f, angle);
-            collid.isTrigger = false;
+            collide.isTrigger = false;
 
             Initialize();
         }
@@ -132,7 +129,7 @@ namespace _00._Work._02._Scripts.Systems
             if (penetration && collision.CompareTag("Wall"))
             {
                 penetration = false;
-                collid.isTrigger = false;
+                collide.isTrigger = false;
                 NextBulletPower();
             }
         }
@@ -168,7 +165,6 @@ namespace _00._Work._02._Scripts.Systems
             speedDown = false;
             explode = false;
             magnet = false;
-            ChangeTrailColorSimple("#FFFFFF");
 
             switch (effect)
             {
@@ -179,16 +175,16 @@ namespace _00._Work._02._Scripts.Systems
 
                 case CardEnum.Penetration:
                     penetration = true;
-                    collid.isTrigger = true;
+                    collide.isTrigger = true;
                     ChangeTrailColorSimple("#FF00FF");
                     break;
 
                 case CardEnum.SpeedUp:
-                    StartCoroutine(SpeedCoroutine(true));
+                    StartCoroutine(SpeedEffect(true));
                     break;
 
                 case CardEnum.SpeedDown:
-                    StartCoroutine(SpeedCoroutine(false));
+                    StartCoroutine(SpeedEffect(false));
                     break;
 
                 case CardEnum.Explode:
@@ -198,7 +194,7 @@ namespace _00._Work._02._Scripts.Systems
 
                 case CardEnum.Magnet:
                     MagnetTrail();
-                    StartCoroutine(MagnetCoroutine());
+                    magnet = true;
                     break;
 
                 case CardEnum.Default:
@@ -220,7 +216,7 @@ namespace _00._Work._02._Scripts.Systems
 
         private void PenetrationSetting()
         {
-            collid.isTrigger = penetration;
+            collide.isTrigger = penetration;
         }
 
         private void SpeedUpDown()
@@ -265,34 +261,22 @@ namespace _00._Work._02._Scripts.Systems
         #region 유지 코루틴
         private IEnumerator DisableCollider()
         {
-            collid.enabled = false;
+            collide.enabled = false;
             yield return new WaitForSeconds(0.05f);
-            collid.enabled = true;
-            NextBulletPower();
+            collide.enabled = true;
         }
 
-        private IEnumerator SpeedCoroutine(bool speedUp)
+        private IEnumerator SpeedEffect(bool isSpeedUp)
         {
-            if (speedUp)
-                this.speedUp = true;
+            if (isSpeedUp)
+                speedUp = true;
             else
                 speedDown = true;
 
             yield return new WaitForSeconds(1f);
 
-            if (speedUp)
-                this.speedUp = false;
-            else
-                speedDown = false;
-            NextBulletPower();
-        }
-
-        private IEnumerator MagnetCoroutine()
-        {
-            magnet = true;
-            yield return new WaitForSeconds(1f);
-            magnet = false;
-            NextBulletPower();
+            if (isSpeedUp) speedUp = false;
+            else speedDown = false;
         }
         #endregion
 
