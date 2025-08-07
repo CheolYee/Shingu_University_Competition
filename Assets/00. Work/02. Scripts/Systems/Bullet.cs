@@ -7,10 +7,11 @@ namespace _00._Work._02._Scripts.Systems
 {
     public class Bullet : MonoBehaviour
     {
-        public event Action fireEvent;
+        private event Action fireEvent;
 
         private Rigidbody2D rigid;
         public Collider2D collide;
+        private TrailRenderer trail;
 
         private Vector3 mouse;
         private Vector3 mouseDir;
@@ -18,8 +19,6 @@ namespace _00._Work._02._Scripts.Systems
         public float speed = 10f;
         private float angle;
         private int currentEffectIndex;
-
-        //private bool hasTriggered = false; 아직 안써서 주석
 
         [Header("Card")]
         [SerializeField] private bool bounce;
@@ -37,11 +36,11 @@ namespace _00._Work._02._Scripts.Systems
         {
             collide = GetComponent<Collider2D>();
             rigid = GetComponent<Rigidbody2D>();
+            trail = GetComponent<TrailRenderer>();
         }
 
         private void OnEnable()
         {
-            fireEvent?.Invoke();
             if (Camera.main != null) mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mouse.z = 0f;
             mouseDir = (mouse - transform.position).normalized;
@@ -171,27 +170,31 @@ namespace _00._Work._02._Scripts.Systems
             {
                 case CardEnum.Bounce:
                     bounce = true;
+                    ChangeTrailColorSimple("#00FFFF");
                     break;
 
                 case CardEnum.Penetration:
                     penetration = true;
                     collide.isTrigger = true;
+                    ChangeTrailColorSimple("#FF00FF");
                     break;
 
                 case CardEnum.SpeedUp:
-                    StartCoroutine(SpeedCoroutine(true));
+                    StartCoroutine(SpeedEffect(true));
                     break;
 
                 case CardEnum.SpeedDown:
-                    StartCoroutine(SpeedCoroutine(false));
+                    StartCoroutine(SpeedEffect(false));
                     break;
 
                 case CardEnum.Explode:
                     explode = true;
+                    ChangeTrailColorSimple("#8000FF");
                     break;
 
                 case CardEnum.Magnet:
-                    StartCoroutine(MagnetCoroutine());
+                    MagnetTrail();
+                    magnet = true;
                     break;
 
                 case CardEnum.Default:
@@ -235,6 +238,24 @@ namespace _00._Work._02._Scripts.Systems
         {
             gameObject.SetActive(false);
         }
+
+        private void ChangeTrailColorSimple(string stringColor)
+        {
+            if (UnityEngine.ColorUtility.TryParseHtmlString(stringColor, out Color color))
+            {
+                var trail = GetComponent<TrailRenderer>();
+                trail.startColor = color;
+                trail.endColor = color;
+            }
+        }
+
+        private void MagnetTrail()
+        {
+            var trail = GetComponent<TrailRenderer>();
+            Color MagnetColor = new Color(1f - trail.startColor.r, 1f - trail.startColor.g, 1f - trail.startColor.b, trail.startColor.a);
+            trail.startColor = MagnetColor;
+            trail.endColor = MagnetColor;
+        }
         #endregion
 
         #region 유지 코루틴
@@ -243,31 +264,19 @@ namespace _00._Work._02._Scripts.Systems
             collide.enabled = false;
             yield return new WaitForSeconds(0.05f);
             collide.enabled = true;
-            NextBulletPower();
         }
 
-        private IEnumerator SpeedCoroutine(bool speedUp)
+        private IEnumerator SpeedEffect(bool isSpeedUp)
         {
-            if (speedUp)
-                this.speedUp = true;
+            if (isSpeedUp)
+                speedUp = true;
             else
                 speedDown = true;
 
             yield return new WaitForSeconds(1f);
 
-            if (speedUp)
-                this.speedUp = false;
-            else
-                speedDown = false;
-            NextBulletPower();
-        }
-
-        private IEnumerator MagnetCoroutine()
-        {
-            magnet = true;
-            yield return new WaitForSeconds(1f);
-            magnet = false;
-            NextBulletPower();
+            if (isSpeedUp) speedUp = false;
+            else speedDown = false;
         }
         #endregion
 
