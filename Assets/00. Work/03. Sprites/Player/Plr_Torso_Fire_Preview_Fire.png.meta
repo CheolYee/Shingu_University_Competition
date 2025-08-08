@@ -1,0 +1,1117 @@
+fileFormatVersion: 2
+guid: a8ffcf0d396f32b4093cdcdee3224ec8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7013153667402499989
+    second: Plr_Torso_Fire_Preview_Fire_0
+  - first:
+      213: -8876505546719682427
+    second: Plr_Torso_Fire_Preview_Fire_1
+  - first:
+      213: 6223975917649690043
+    second: Plr_Torso_Fire_Preview_Fire_2
+  - first:
+      213: -8553875303198572017
+    second: Plr_Torso_Fire_Preview_Fire_3
+  - first:
+      213: 1780639003740848133
+    second: Plr_Torso_Fire_Preview_Fire_4
+  - first:
+      213: -4078356461217435020
+    second: Plr_Torso_Fire_Preview_Fire_5
+  - first:
+      213: -6183154689290082792
+    second: Plr_Torso_Fire_Preview_Fire_6
+  - first:
+      213: -1370029130111103822
+    second: Plr_Torso_Fire_Preview_Fire_7
+  - first:
+      213: -6065137123490279715
+    second: Plr_Torso_Fire_Preview_Fire_8
+  - first:
+      213: 6328257288872644038
+    second: Plr_Torso_Fire_Preview_Fire_9
+  - first:
+      213: -3693604590412557752
+    second: Plr_Torso_Fire_Preview_Fire_10
+  - first:
+      213: 7810384702128935076
+    second: Plr_Torso_Fire_Preview_Fire_11
+  - first:
+      213: -5149471275812797162
+    second: Plr_Torso_Fire_Preview_Fire_12
+  - first:
+      213: 2978159153428413098
+    second: Plr_Torso_Fire_Preview_Fire_13
+  - first:
+      213: -7904217349069326705
+    second: Plr_Torso_Fire_Preview_Fire_14
+  - first:
+      213: -7305636483222188337
+    second: Plr_Torso_Fire_Preview_Fire_15
+  - first:
+      213: 8341412843517177048
+    second: Plr_Torso_Fire_Preview_Fire_16
+  - first:
+      213: 7406703409625204708
+    second: Plr_Torso_Fire_Preview_Fire_17
+  - first:
+      213: -8728399470171379295
+    second: Plr_Torso_Fire_Preview_Fire_18
+  - first:
+      213: 3796611267963280827
+    second: Plr_Torso_Fire_Preview_Fire_19
+  - first:
+      213: 2254532738565881838
+    second: Plr_Torso_Fire_Preview_Fire_20
+  - first:
+      213: 1975677012435013144
+    second: Plr_Torso_Fire_Preview_Fire_21
+  - first:
+      213: -8899226323947353866
+    second: Plr_Torso_Fire_Preview_Fire_22
+  - first:
+      213: 2747714702202685865
+    second: Plr_Torso_Fire_Preview_Fire_23
+  - first:
+      213: -4922589030768394764
+    second: Plr_Torso_Fire_Preview_Fire_24
+  - first:
+      213: -6247501563810879604
+    second: Plr_Torso_Fire_Preview_Fire_25
+  - first:
+      213: 2926391330212169073
+    second: Plr_Torso_Fire_Preview_Fire_26
+  - first:
+      213: 2659391680447047046
+    second: Plr_Torso_Fire_Preview_Fire_27
+  - first:
+      213: -1228505032252791747
+    second: Plr_Torso_Fire_Preview_Fire_28
+  - first:
+      213: 739483026384143534
+    second: Plr_Torso_Fire_Preview_Fire_29
+  - first:
+      213: -2541301607153918162
+    second: Plr_Torso_Fire_Preview_Fire_30
+  - first:
+      213: -592153491549258159
+    second: Plr_Torso_Fire_Preview_Fire_31
+  - first:
+      213: 4102077912546121564
+    second: Plr_Torso_Fire_Preview_Fire_32
+  - first:
+      213: -2270744874210291697
+    second: Plr_Torso_Fire_Preview_Fire_33
+  - first:
+      213: 990756445289450564
+    second: Plr_Torso_Fire_Preview_Fire_34
+  - first:
+      213: 3533594083438608761
+    second: Plr_Torso_Fire_Preview_Fire_35
+  - first:
+      213: -8378075306607043327
+    second: Plr_Torso_Fire_Preview_Fire_36
+  - first:
+      213: 8195253900879792121
+    second: Plr_Torso_Fire_Preview_Fire_37
+  - first:
+      213: -2386348445811856814
+    second: Plr_Torso_Fire_Preview_Fire_38
+  - first:
+      213: 1125490726962733526
+    second: Plr_Torso_Fire_Preview_Fire_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 242
+        width: 114
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59701cc6a1ab35160800000000000000
+      internalID: 7013153667402499989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 242
+        width: 107
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5802df82c3150d480800000000000000
+      internalID: -8876505546719682427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 242
+        width: 109
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd781efe11006650800000000000000
+      internalID: 6223975917649690043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 242
+        width: 110
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02ccdb6bb78a4980800000000000000
+      internalID: -8553875303198572017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_4
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 241
+        width: 111
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500cd2b5db916b810800000000000000
+      internalID: 1780639003740848133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_5
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 241
+        width: 112
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47237b51864c667c0800000000000000
+      internalID: -4078356461217435020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_6
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 242
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816e291e195013aa0800000000000000
+      internalID: -6183154689290082792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 194
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc4acfc3cdacfce0800000000000000
+      internalID: -1370029130111103822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_8
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 194
+        width: 113
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddec350bbed44dba0800000000000000
+      internalID: -6065137123490279715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 194
+        width: 113
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdc786c97c72d750800000000000000
+      internalID: 6328257288872644038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_10
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 194
+        width: 113
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84215bfc13eadbcc0800000000000000
+      internalID: -3693604590412557752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_11
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 194
+        width: 113
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a05a81618f046c60800000000000000
+      internalID: 7810384702128935076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_12
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 194
+        width: 113
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615c91068276988b0800000000000000
+      internalID: -5149471275812797162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_13
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 194
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaabda898fb845920800000000000000
+      internalID: 2978159153428413098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 146
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f863e3903349e4290800000000000000
+      internalID: -7904217349069326705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 146
+        width: 111
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce486f435a2d9a90800000000000000
+      internalID: -7305636483222188337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_16
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 146
+        width: 110
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dce8b659c6a2c370800000000000000
+      internalID: 8341412843517177048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_17
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 146
+        width: 106
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e782673285e9c660800000000000000
+      internalID: 7406703409625204708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_18
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 146
+        width: 106
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a92aba4dee7ed680800000000000000
+      internalID: -8728399470171379295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_19
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 146
+        width: 107
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd523935d540b430800000000000000
+      internalID: 3796611267963280827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_20
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 146
+        width: 108
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef35b8a495b94f10800000000000000
+      internalID: 2254532738565881838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 109
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e081576c30b6b10800000000000000
+      internalID: 1975677012435013144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_22
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 98
+        width: 110
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f80059fec89f7480800000000000000
+      internalID: -8899226323947353866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_23
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 98
+        width: 111
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9c8e0b6f7d12620800000000000000
+      internalID: 2747714702202685865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_24
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 98
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdb0d58b537fabb0800000000000000
+      internalID: -4922589030768394764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_25
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 98
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87ea5bad6a6c49a0800000000000000
+      internalID: -6247501563810879604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_26
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 98
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175441ff861ac9820800000000000000
+      internalID: 2926391330212169073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_27
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 98
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685ecafa4ae08e420800000000000000
+      internalID: 2659391680447047046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 50
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34eacb9e2973fee0800000000000000
+      internalID: -1228505032252791747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_29
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 50
+        width: 111
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4ce0105eb234a00800000000000000
+      internalID: 739483026384143534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_30
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 50
+        width: 110
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f167617ab7bbcd0800000000000000
+      internalID: -2541301607153918162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_31
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 50
+        width: 110
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ef2bb698f38c7f0800000000000000
+      internalID: -592153491549258159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_32
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 50
+        width: 111
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c579942b0228de830800000000000000
+      internalID: 4102077912546121564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_33
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 50
+        width: 111
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00182d5191bc70e0800000000000000
+      internalID: -2270744874210291697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_34
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 50
+        width: 112
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c086cdcbfdfbd00800000000000000
+      internalID: 990756445289450564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 113
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971c7cbd819d90130800000000000000
+      internalID: 3533594083438608761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_36
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2
+        width: 113
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d1738c5e81bbb80800000000000000
+      internalID: -8378075306607043327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_37
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2
+        width: 114
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f70316a0046bb170800000000000000
+      internalID: 8195253900879792121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_38
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 2
+        width: 114
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a24116bbcf1eed0800000000000000
+      internalID: -2386348445811856814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Fire_Preview_Fire_39
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2
+        width: 114
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d12c926adb8e9f00800000000000000
+      internalID: 1125490726962733526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
