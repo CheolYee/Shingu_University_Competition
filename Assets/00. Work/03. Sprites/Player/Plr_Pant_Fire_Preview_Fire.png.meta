@@ -168,7 +168,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1109,7 +1109,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plr_Pant_Fire_Preview_Fire_0: -4881569880528792279
+      Plr_Pant_Fire_Preview_Fire_1: -5315690029149422247
+      Plr_Pant_Fire_Preview_Fire_10: -3451632553245512214
+      Plr_Pant_Fire_Preview_Fire_11: 8278876010862710678
+      Plr_Pant_Fire_Preview_Fire_12: -7835562904032514970
+      Plr_Pant_Fire_Preview_Fire_13: -8579628135776042638
+      Plr_Pant_Fire_Preview_Fire_14: -8092978368506177253
+      Plr_Pant_Fire_Preview_Fire_15: 204707919579046847
+      Plr_Pant_Fire_Preview_Fire_16: -8426395121866117623
+      Plr_Pant_Fire_Preview_Fire_17: 8692639124457105067
+      Plr_Pant_Fire_Preview_Fire_18: 1838531196800457178
+      Plr_Pant_Fire_Preview_Fire_19: 1186816278989466419
+      Plr_Pant_Fire_Preview_Fire_2: -1143520471973207067
+      Plr_Pant_Fire_Preview_Fire_20: -5744953625368179130
+      Plr_Pant_Fire_Preview_Fire_21: -4611193620720419803
+      Plr_Pant_Fire_Preview_Fire_22: -1612275967914236747
+      Plr_Pant_Fire_Preview_Fire_23: 9081880093803316520
+      Plr_Pant_Fire_Preview_Fire_24: 9202831834632860764
+      Plr_Pant_Fire_Preview_Fire_25: -8417865626924625404
+      Plr_Pant_Fire_Preview_Fire_26: -4925655502044133568
+      Plr_Pant_Fire_Preview_Fire_27: -6736656436027996476
+      Plr_Pant_Fire_Preview_Fire_28: -5548064874329444254
+      Plr_Pant_Fire_Preview_Fire_29: -8032851267953819890
+      Plr_Pant_Fire_Preview_Fire_3: -4878521285105266102
+      Plr_Pant_Fire_Preview_Fire_30: -8167530710118451325
+      Plr_Pant_Fire_Preview_Fire_31: 2945644769629701812
+      Plr_Pant_Fire_Preview_Fire_32: -5537893833157119241
+      Plr_Pant_Fire_Preview_Fire_33: 8542802706088580783
+      Plr_Pant_Fire_Preview_Fire_34: 2745583815159757110
+      Plr_Pant_Fire_Preview_Fire_35: -2737376469182983090
+      Plr_Pant_Fire_Preview_Fire_36: 2956344669605987427
+      Plr_Pant_Fire_Preview_Fire_37: -2308916306237875514
+      Plr_Pant_Fire_Preview_Fire_38: -2663587563230175418
+      Plr_Pant_Fire_Preview_Fire_39: 704318051300891136
+      Plr_Pant_Fire_Preview_Fire_4: -7015126707395939325
+      Plr_Pant_Fire_Preview_Fire_5: 4816701072945965292
+      Plr_Pant_Fire_Preview_Fire_6: 5793356050607656939
+      Plr_Pant_Fire_Preview_Fire_7: -6500452762667020534
+      Plr_Pant_Fire_Preview_Fire_8: -2723012536923419259
+      Plr_Pant_Fire_Preview_Fire_9: 7780888505490026940
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

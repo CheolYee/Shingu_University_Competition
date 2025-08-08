@@ -192,7 +192,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1309,7 +1309,55 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plr_Torso_Aim_Preview_Aiming_0: -6492903164714506843
+      Plr_Torso_Aim_Preview_Aiming_1: -5841227434775596967
+      Plr_Torso_Aim_Preview_Aiming_10: 552330615137017070
+      Plr_Torso_Aim_Preview_Aiming_11: 5072394634057072269
+      Plr_Torso_Aim_Preview_Aiming_12: -9105169369488865901
+      Plr_Torso_Aim_Preview_Aiming_13: -5947495197157214908
+      Plr_Torso_Aim_Preview_Aiming_14: -2864021142614614804
+      Plr_Torso_Aim_Preview_Aiming_15: -684028986773946987
+      Plr_Torso_Aim_Preview_Aiming_16: -7306615355621231434
+      Plr_Torso_Aim_Preview_Aiming_17: -2811935557375811887
+      Plr_Torso_Aim_Preview_Aiming_18: 4499366866599196699
+      Plr_Torso_Aim_Preview_Aiming_19: -7100002093821407924
+      Plr_Torso_Aim_Preview_Aiming_2: 7037534527191135945
+      Plr_Torso_Aim_Preview_Aiming_20: -7320971251921904980
+      Plr_Torso_Aim_Preview_Aiming_21: 5985706374790509088
+      Plr_Torso_Aim_Preview_Aiming_22: -8607489768876346687
+      Plr_Torso_Aim_Preview_Aiming_23: 1453373694310252495
+      Plr_Torso_Aim_Preview_Aiming_24: 5444035546492447881
+      Plr_Torso_Aim_Preview_Aiming_25: -1306075929052179791
+      Plr_Torso_Aim_Preview_Aiming_26: -2841466725825549435
+      Plr_Torso_Aim_Preview_Aiming_27: 954092359858847881
+      Plr_Torso_Aim_Preview_Aiming_28: 944778087768914182
+      Plr_Torso_Aim_Preview_Aiming_29: -4754578477838181455
+      Plr_Torso_Aim_Preview_Aiming_3: -9048817288778848565
+      Plr_Torso_Aim_Preview_Aiming_30: 1871603526045283099
+      Plr_Torso_Aim_Preview_Aiming_31: -7064643375575826787
+      Plr_Torso_Aim_Preview_Aiming_32: 3085819837847438150
+      Plr_Torso_Aim_Preview_Aiming_33: 5860309169289766721
+      Plr_Torso_Aim_Preview_Aiming_34: -8154055868965408661
+      Plr_Torso_Aim_Preview_Aiming_35: -7685458825073377979
+      Plr_Torso_Aim_Preview_Aiming_36: -6596784752029412553
+      Plr_Torso_Aim_Preview_Aiming_37: -6566949481928325664
+      Plr_Torso_Aim_Preview_Aiming_38: 167668907121117861
+      Plr_Torso_Aim_Preview_Aiming_39: 7282004252872308811
+      Plr_Torso_Aim_Preview_Aiming_4: 1491558836437541188
+      Plr_Torso_Aim_Preview_Aiming_40: -968955978344039625
+      Plr_Torso_Aim_Preview_Aiming_41: -2275186588554251389
+      Plr_Torso_Aim_Preview_Aiming_42: 7205932604404895457
+      Plr_Torso_Aim_Preview_Aiming_43: 6756739072867882974
+      Plr_Torso_Aim_Preview_Aiming_44: 6517412551354372705
+      Plr_Torso_Aim_Preview_Aiming_45: 7258943036056397483
+      Plr_Torso_Aim_Preview_Aiming_46: -2551231171736323810
+      Plr_Torso_Aim_Preview_Aiming_47: 6516077159974857338
+      Plr_Torso_Aim_Preview_Aiming_5: 3558693645123242351
+      Plr_Torso_Aim_Preview_Aiming_6: 4380067938663585084
+      Plr_Torso_Aim_Preview_Aiming_7: -4983829940171531514
+      Plr_Torso_Aim_Preview_Aiming_8: 4368733097275789835
+      Plr_Torso_Aim_Preview_Aiming_9: 8340713346570357931
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

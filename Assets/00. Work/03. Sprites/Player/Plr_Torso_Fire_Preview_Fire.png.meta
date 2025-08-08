@@ -168,7 +168,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1109,7 +1109,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plr_Torso_Fire_Preview_Fire_0: 7013153667402499989
+      Plr_Torso_Fire_Preview_Fire_1: -8876505546719682427
+      Plr_Torso_Fire_Preview_Fire_10: -3693604590412557752
+      Plr_Torso_Fire_Preview_Fire_11: 7810384702128935076
+      Plr_Torso_Fire_Preview_Fire_12: -5149471275812797162
+      Plr_Torso_Fire_Preview_Fire_13: 2978159153428413098
+      Plr_Torso_Fire_Preview_Fire_14: -7904217349069326705
+      Plr_Torso_Fire_Preview_Fire_15: -7305636483222188337
+      Plr_Torso_Fire_Preview_Fire_16: 8341412843517177048
+      Plr_Torso_Fire_Preview_Fire_17: 7406703409625204708
+      Plr_Torso_Fire_Preview_Fire_18: -8728399470171379295
+      Plr_Torso_Fire_Preview_Fire_19: 3796611267963280827
+      Plr_Torso_Fire_Preview_Fire_2: 6223975917649690043
+      Plr_Torso_Fire_Preview_Fire_20: 2254532738565881838
+      Plr_Torso_Fire_Preview_Fire_21: 1975677012435013144
+      Plr_Torso_Fire_Preview_Fire_22: -8899226323947353866
+      Plr_Torso_Fire_Preview_Fire_23: 2747714702202685865
+      Plr_Torso_Fire_Preview_Fire_24: -4922589030768394764
+      Plr_Torso_Fire_Preview_Fire_25: -6247501563810879604
+      Plr_Torso_Fire_Preview_Fire_26: 2926391330212169073
+      Plr_Torso_Fire_Preview_Fire_27: 2659391680447047046
+      Plr_Torso_Fire_Preview_Fire_28: -1228505032252791747
+      Plr_Torso_Fire_Preview_Fire_29: 739483026384143534
+      Plr_Torso_Fire_Preview_Fire_3: -8553875303198572017
+      Plr_Torso_Fire_Preview_Fire_30: -2541301607153918162
+      Plr_Torso_Fire_Preview_Fire_31: -592153491549258159
+      Plr_Torso_Fire_Preview_Fire_32: 4102077912546121564
+      Plr_Torso_Fire_Preview_Fire_33: -2270744874210291697
+      Plr_Torso_Fire_Preview_Fire_34: 990756445289450564
+      Plr_Torso_Fire_Preview_Fire_35: 3533594083438608761
+      Plr_Torso_Fire_Preview_Fire_36: -8378075306607043327
+      Plr_Torso_Fire_Preview_Fire_37: 8195253900879792121
+      Plr_Torso_Fire_Preview_Fire_38: -2386348445811856814
+      Plr_Torso_Fire_Preview_Fire_39: 1125490726962733526
+      Plr_Torso_Fire_Preview_Fire_4: 1780639003740848133
+      Plr_Torso_Fire_Preview_Fire_5: -4078356461217435020
+      Plr_Torso_Fire_Preview_Fire_6: -6183154689290082792
+      Plr_Torso_Fire_Preview_Fire_7: -1370029130111103822
+      Plr_Torso_Fire_Preview_Fire_8: -6065137123490279715
+      Plr_Torso_Fire_Preview_Fire_9: 6328257288872644038
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

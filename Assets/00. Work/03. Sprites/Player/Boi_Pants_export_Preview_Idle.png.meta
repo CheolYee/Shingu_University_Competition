@@ -192,7 +192,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1309,7 +1309,55 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boi_Pants_export_Preview_Idle_0: 5992368769996177062
+      Boi_Pants_export_Preview_Idle_1: -9053534869909115560
+      Boi_Pants_export_Preview_Idle_10: 8832466696312184614
+      Boi_Pants_export_Preview_Idle_11: 3468515311384775956
+      Boi_Pants_export_Preview_Idle_12: 6899498154032238814
+      Boi_Pants_export_Preview_Idle_13: -2186736247051326346
+      Boi_Pants_export_Preview_Idle_14: 8632357292473155521
+      Boi_Pants_export_Preview_Idle_15: -3862552732743327034
+      Boi_Pants_export_Preview_Idle_16: 5354444765326320385
+      Boi_Pants_export_Preview_Idle_17: -7444994243483457702
+      Boi_Pants_export_Preview_Idle_18: -4194854299642699993
+      Boi_Pants_export_Preview_Idle_19: 1073086432296598664
+      Boi_Pants_export_Preview_Idle_2: 8462430982631814960
+      Boi_Pants_export_Preview_Idle_20: 1514862008370523141
+      Boi_Pants_export_Preview_Idle_21: -7995451037188959595
+      Boi_Pants_export_Preview_Idle_22: 190705364383859723
+      Boi_Pants_export_Preview_Idle_23: -2991921990884031348
+      Boi_Pants_export_Preview_Idle_24: 7702386492569714585
+      Boi_Pants_export_Preview_Idle_25: -1429317880646249469
+      Boi_Pants_export_Preview_Idle_26: -7457769289207084145
+      Boi_Pants_export_Preview_Idle_27: 1007299652639511152
+      Boi_Pants_export_Preview_Idle_28: 3684827842367316214
+      Boi_Pants_export_Preview_Idle_29: 7291995515102118442
+      Boi_Pants_export_Preview_Idle_3: 8535664818292591270
+      Boi_Pants_export_Preview_Idle_30: -7884350209555179772
+      Boi_Pants_export_Preview_Idle_31: -3835824881415054817
+      Boi_Pants_export_Preview_Idle_32: -3664229842344817073
+      Boi_Pants_export_Preview_Idle_33: -5677616536503590897
+      Boi_Pants_export_Preview_Idle_34: 6623947599283108168
+      Boi_Pants_export_Preview_Idle_35: 4779815972230355307
+      Boi_Pants_export_Preview_Idle_36: 9198601337784263515
+      Boi_Pants_export_Preview_Idle_37: 3842270452860843561
+      Boi_Pants_export_Preview_Idle_38: 4901951525690005489
+      Boi_Pants_export_Preview_Idle_39: 8300684643146692072
+      Boi_Pants_export_Preview_Idle_4: -5487871139369478051
+      Boi_Pants_export_Preview_Idle_40: -1687754120542912980
+      Boi_Pants_export_Preview_Idle_41: -3249748475128696743
+      Boi_Pants_export_Preview_Idle_42: -7427413320082235827
+      Boi_Pants_export_Preview_Idle_43: -267911990301830630
+      Boi_Pants_export_Preview_Idle_44: 1131418148297548387
+      Boi_Pants_export_Preview_Idle_45: -4702191522490361872
+      Boi_Pants_export_Preview_Idle_46: -422123408019960966
+      Boi_Pants_export_Preview_Idle_47: -3574066691875275336
+      Boi_Pants_export_Preview_Idle_5: 8958260423817248469
+      Boi_Pants_export_Preview_Idle_6: -5117210253769780849
+      Boi_Pants_export_Preview_Idle_7: -8373489174137723270
+      Boi_Pants_export_Preview_Idle_8: 3178683967770747816
+      Boi_Pants_export_Preview_Idle_9: 7493970513425446264
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

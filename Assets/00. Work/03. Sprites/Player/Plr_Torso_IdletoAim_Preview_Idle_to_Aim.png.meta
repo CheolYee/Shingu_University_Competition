@@ -192,7 +192,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1309,7 +1309,55 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_0: -3136513254046746836
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_1: 2492131838011061484
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_10: -9213574205028214830
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_11: 2828821801988079662
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_12: 6627731224991783227
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_13: 1763362728861263704
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_14: 8301293882517189278
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_15: -712768081374346245
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_16: 3876891358874263449
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_17: 4807996774804183887
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_18: -8332312452104589336
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_19: -1623953507301543646
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_2: 6346173978153486597
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_20: 8861357278217021252
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_21: -8927367476937711072
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_22: 1118378299339260768
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_23: 1048768220637461224
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_24: 5952675808120481207
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_25: -3254875997811210697
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_26: 5535251664160311179
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_27: 279687120454290015
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_28: -1506385819987157109
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_29: 2411292976180264824
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_3: -1035285249581434481
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_30: 889524352239954716
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_31: -778311589541988096
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_32: -5497506704335997482
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_33: -1726219300815002317
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_34: -6204522933444774376
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_35: -8911542886036621981
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_36: 2009928209577673780
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_37: -4266316555635538277
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_38: -1028240269317458257
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_39: 1467006655188745000
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_4: -3373244651752385013
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_40: -3018707472489761827
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_41: 189098325357377119
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_42: 3748091341645290084
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_43: 7999294387933914065
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_44: -3638826946899311214
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_45: -1704318083455498671
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_46: -1148349366982554388
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_47: 8224519953838949348
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_5: 1232906909297271055
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_6: -431776743385827687
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_7: 4156473580764666730
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_8: -8468263278283193592
+      Plr_Torso_IdletoAim_Preview_Idle_to_Aim_9: -1216937339770933749
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
