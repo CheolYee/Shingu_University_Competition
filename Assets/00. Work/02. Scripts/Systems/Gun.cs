@@ -69,19 +69,21 @@ public class Gun : MonoBehaviour
         bullet.SetActive(true);
         canfire = false;
         PlayerAnimation.Instance.FireAnimation();
-        StartCoroutine(CoolTime());
+        StartCoroutine(CoolTime(1));
     }
 
-    private IEnumerator CoolTime()
+    private IEnumerator CoolTime(float time)
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(time);
         canfire = true;
     }
 
     private void Aiming()
     {
-        PlayerAnimation.Instance.IdleToAimAnimation();
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            PlayerAnimation.Instance.IdleToAimAnimation();
             aim = true;
+        }
     }
 }

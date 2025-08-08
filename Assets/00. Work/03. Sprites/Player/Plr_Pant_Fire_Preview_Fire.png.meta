@@ -220,9 +220,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 205
-        width: 42
+        x: 0
+        y: 255
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -242,10 +242,10 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_1
       rect:
         serializedVersion: 2
-        x: 12
-        y: 256
-        width: 37
-        height: 50
+        x: 56
+        y: 255
+        width: 56
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +264,10 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_2
       rect:
         serializedVersion: 2
-        x: 55
-        y: 256
-        width: 51
-        height: 50
+        x: 112
+        y: 255
+        width: 56
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,9 +286,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_3
       rect:
         serializedVersion: 2
-        x: 61
-        y: 205
-        width: 45
+        x: 168
+        y: 255
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -308,10 +308,10 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_4
       rect:
         serializedVersion: 2
-        x: 111
-        y: 256
-        width: 54
-        height: 50
+        x: 224
+        y: 255
+        width: 56
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,9 +330,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_5
       rect:
         serializedVersion: 2
-        x: 117
-        y: 205
-        width: 44
+        x: 280
+        y: 255
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -352,10 +352,10 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_6
       rect:
         serializedVersion: 2
-        x: 170
-        y: 256
-        width: 53
-        height: 50
+        x: 336
+        y: 255
+        width: 56
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,9 +374,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_7
       rect:
         serializedVersion: 2
-        x: 173
-        y: 205
-        width: 45
+        x: 0
+        y: 204
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -396,10 +396,10 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_8
       rect:
         serializedVersion: 2
-        x: 227
-        y: 256
-        width: 46
-        height: 50
+        x: 56
+        y: 204
+        width: 56
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,9 +418,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_9
       rect:
         serializedVersion: 2
-        x: 230
-        y: 205
-        width: 43
+        x: 112
+        y: 204
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -440,10 +440,10 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_10
       rect:
         serializedVersion: 2
-        x: 286
-        y: 256
-        width: 43
-        height: 50
+        x: 168
+        y: 204
+        width: 56
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,9 +462,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_11
       rect:
         serializedVersion: 2
-        x: 289
-        y: 205
-        width: 40
+        x: 224
+        y: 204
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -484,10 +484,10 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_12
       rect:
         serializedVersion: 2
-        x: 344
-        y: 256
-        width: 41
-        height: 50
+        x: 280
+        y: 204
+        width: 56
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,9 +506,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_13
       rect:
         serializedVersion: 2
-        x: 348
-        y: 205
-        width: 37
+        x: 336
+        y: 204
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -528,9 +528,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_14
       rect:
         serializedVersion: 2
-        x: 12
-        y: 103
-        width: 39
+        x: 0
+        y: 153
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -550,9 +550,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_15
       rect:
         serializedVersion: 2
-        x: 13
-        y: 154
-        width: 36
+        x: 56
+        y: 153
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -572,9 +572,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_16
       rect:
         serializedVersion: 2
-        x: 67
-        y: 103
-        width: 38
+        x: 112
+        y: 153
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -594,9 +594,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_17
       rect:
         serializedVersion: 2
-        x: 68
-        y: 154
-        width: 37
+        x: 168
+        y: 153
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -616,9 +616,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_18
       rect:
         serializedVersion: 2
-        x: 121
-        y: 103
-        width: 40
+        x: 224
+        y: 153
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -638,9 +638,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_19
       rect:
         serializedVersion: 2
-        x: 123
-        y: 154
-        width: 39
+        x: 280
+        y: 153
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -660,9 +660,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_20
       rect:
         serializedVersion: 2
-        x: 176
-        y: 103
-        width: 41
+        x: 336
+        y: 153
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -682,9 +682,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_21
       rect:
         serializedVersion: 2
-        x: 178
-        y: 154
-        width: 40
+        x: 0
+        y: 102
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -704,9 +704,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_22
       rect:
         serializedVersion: 2
-        x: 232
-        y: 103
-        width: 41
+        x: 56
+        y: 102
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -726,9 +726,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_23
       rect:
         serializedVersion: 2
-        x: 233
-        y: 154
-        width: 42
+        x: 112
+        y: 102
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -748,9 +748,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_24
       rect:
         serializedVersion: 2
-        x: 289
-        y: 154
-        width: 43
+        x: 168
+        y: 102
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -770,9 +770,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_25
       rect:
         serializedVersion: 2
-        x: 289
-        y: 103
-        width: 40
+        x: 224
+        y: 102
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -792,9 +792,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_26
       rect:
         serializedVersion: 2
-        x: 346
-        y: 103
-        width: 39
+        x: 280
+        y: 102
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -814,9 +814,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_27
       rect:
         serializedVersion: 2
-        x: 347
-        y: 154
-        width: 41
+        x: 336
+        y: 102
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -836,9 +836,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_28
       rect:
         serializedVersion: 2
-        x: 12
-        y: 52
-        width: 37
+        x: 0
+        y: 51
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -858,9 +858,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_29
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1
-        width: 35
+        x: 56
+        y: 51
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -880,9 +880,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_30
       rect:
         serializedVersion: 2
-        x: 67
-        y: 52
-        width: 38
+        x: 112
+        y: 51
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -902,9 +902,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_31
       rect:
         serializedVersion: 2
-        x: 69
-        y: 1
-        width: 36
+        x: 168
+        y: 51
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -924,9 +924,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_32
       rect:
         serializedVersion: 2
-        x: 122
-        y: 52
-        width: 39
+        x: 224
+        y: 51
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -946,9 +946,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_33
       rect:
         serializedVersion: 2
-        x: 124
-        y: 1
-        width: 37
+        x: 280
+        y: 51
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -968,9 +968,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_34
       rect:
         serializedVersion: 2
-        x: 177
-        y: 52
-        width: 40
+        x: 336
+        y: 51
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -990,9 +990,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_35
       rect:
         serializedVersion: 2
-        x: 179
-        y: 1
-        width: 38
+        x: 0
+        y: 0
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1012,9 +1012,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_36
       rect:
         serializedVersion: 2
-        x: 234
-        y: 52
-        width: 39
+        x: 56
+        y: 0
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1034,9 +1034,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_37
       rect:
         serializedVersion: 2
-        x: 236
-        y: 1
-        width: 37
+        x: 112
+        y: 0
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1056,9 +1056,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_38
       rect:
         serializedVersion: 2
-        x: 291
-        y: 52
-        width: 38
+        x: 168
+        y: 0
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1078,9 +1078,9 @@ TextureImporter:
       name: Plr_Pant_Fire_Preview_Fire_39
       rect:
         serializedVersion: 2
-        x: 349
-        y: 52
-        width: 36
+        x: 224
+        y: 0
+        width: 56
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1100,7 +1100,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6a9b5a8322772374bb1d956f195beb91
     internalID: 0
     vertices: []
     indices: 

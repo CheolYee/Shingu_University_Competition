@@ -245,8 +245,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 45
+        y: 306
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -266,10 +266,10 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 307
-        width: 37
-        height: 50
+        x: 46
+        y: 306
+        width: 46
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,9 +288,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_2
       rect:
         serializedVersion: 2
-        x: 46
-        y: 256
-        width: 45
+        x: 92
+        y: 306
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -310,10 +310,10 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_3
       rect:
         serializedVersion: 2
-        x: 55
-        y: 307
-        width: 36
-        height: 50
+        x: 138
+        y: 306
+        width: 46
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,9 +332,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_4
       rect:
         serializedVersion: 2
-        x: 93
-        y: 256
-        width: 44
+        x: 184
+        y: 306
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -354,10 +354,10 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_5
       rect:
         serializedVersion: 2
-        x: 101
-        y: 307
-        width: 36
-        height: 50
+        x: 230
+        y: 306
+        width: 46
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,9 +376,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_6
       rect:
         serializedVersion: 2
-        x: 140
-        y: 256
-        width: 43
+        x: 276
+        y: 306
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -398,10 +398,10 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_7
       rect:
         serializedVersion: 2
-        x: 146
-        y: 307
-        width: 37
-        height: 50
+        x: 0
+        y: 255
+        width: 46
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,9 +420,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_8
       rect:
         serializedVersion: 2
-        x: 187
-        y: 256
-        width: 42
+        x: 46
+        y: 255
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -442,10 +442,10 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_9
       rect:
         serializedVersion: 2
-        x: 190
-        y: 307
-        width: 39
-        height: 50
+        x: 92
+        y: 255
+        width: 46
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,9 +464,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_10
       rect:
         serializedVersion: 2
-        x: 232
-        y: 256
-        width: 43
+        x: 138
+        y: 255
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -486,10 +486,10 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_11
       rect:
         serializedVersion: 2
-        x: 235
-        y: 307
-        width: 40
-        height: 50
+        x: 184
+        y: 255
+        width: 46
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,10 +508,10 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_12
       rect:
         serializedVersion: 2
-        x: 276
-        y: 307
-        width: 45
-        height: 50
+        x: 230
+        y: 255
+        width: 46
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,9 +530,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_13
       rect:
         serializedVersion: 2
-        x: 278
-        y: 256
-        width: 43
+        x: 276
+        y: 255
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -553,8 +553,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 154
-        width: 45
+        y: 204
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -574,9 +574,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_15
       rect:
         serializedVersion: 2
-        x: 3
-        y: 205
-        width: 42
+        x: 46
+        y: 204
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -596,8 +596,8 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_16
       rect:
         serializedVersion: 2
-        x: 45
-        y: 154
+        x: 92
+        y: 204
         width: 46
         height: 51
       alignment: 0
@@ -618,9 +618,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_17
       rect:
         serializedVersion: 2
-        x: 48
-        y: 205
-        width: 43
+        x: 138
+        y: 204
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -640,9 +640,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_18
       rect:
         serializedVersion: 2
-        x: 92
-        y: 154
-        width: 45
+        x: 184
+        y: 204
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -662,9 +662,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_19
       rect:
         serializedVersion: 2
-        x: 95
-        y: 205
-        width: 42
+        x: 230
+        y: 204
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -684,9 +684,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_20
       rect:
         serializedVersion: 2
-        x: 140
-        y: 154
-        width: 43
+        x: 276
+        y: 204
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -706,9 +706,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_21
       rect:
         serializedVersion: 2
-        x: 142
-        y: 205
-        width: 41
+        x: 0
+        y: 153
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -728,9 +728,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_22
       rect:
         serializedVersion: 2
-        x: 186
-        y: 154
-        width: 43
+        x: 46
+        y: 153
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -750,9 +750,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_23
       rect:
         serializedVersion: 2
-        x: 189
-        y: 205
-        width: 40
+        x: 92
+        y: 153
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -772,9 +772,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_24
       rect:
         serializedVersion: 2
-        x: 233
-        y: 154
-        width: 42
+        x: 138
+        y: 153
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -794,9 +794,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_25
       rect:
         serializedVersion: 2
-        x: 235
-        y: 205
-        width: 40
+        x: 184
+        y: 153
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -816,9 +816,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_26
       rect:
         serializedVersion: 2
-        x: 279
-        y: 154
-        width: 42
+        x: 230
+        y: 153
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -838,9 +838,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_27
       rect:
         serializedVersion: 2
-        x: 281
-        y: 205
-        width: 40
+        x: 276
+        y: 153
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -860,9 +860,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_28
       rect:
         serializedVersion: 2
-        x: 3
-        y: 103
-        width: 42
+        x: 0
+        y: 102
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -882,9 +882,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_29
       rect:
         serializedVersion: 2
-        x: 9
-        y: 52
-        width: 36
+        x: 46
+        y: 102
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -904,9 +904,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_30
       rect:
         serializedVersion: 2
-        x: 49
-        y: 103
-        width: 42
+        x: 92
+        y: 102
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -926,9 +926,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_31
       rect:
         serializedVersion: 2
-        x: 54
-        y: 52
-        width: 37
+        x: 138
+        y: 102
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -948,9 +948,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_32
       rect:
         serializedVersion: 2
-        x: 95
-        y: 103
-        width: 42
+        x: 184
+        y: 102
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -970,9 +970,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_33
       rect:
         serializedVersion: 2
-        x: 99
-        y: 52
-        width: 38
+        x: 230
+        y: 102
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -992,9 +992,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_34
       rect:
         serializedVersion: 2
-        x: 143
-        y: 103
-        width: 40
+        x: 276
+        y: 102
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1014,9 +1014,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_35
       rect:
         serializedVersion: 2
-        x: 144
-        y: 52
-        width: 39
+        x: 0
+        y: 51
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1036,9 +1036,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_36
       rect:
         serializedVersion: 2
-        x: 189
-        y: 52
-        width: 40
+        x: 46
+        y: 51
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1058,9 +1058,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_37
       rect:
         serializedVersion: 2
-        x: 192
-        y: 103
-        width: 37
+        x: 92
+        y: 51
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1080,9 +1080,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_38
       rect:
         serializedVersion: 2
-        x: 231
-        y: 52
-        width: 44
+        x: 138
+        y: 51
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1102,9 +1102,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_39
       rect:
         serializedVersion: 2
-        x: 239
-        y: 103
-        width: 36
+        x: 184
+        y: 51
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1124,8 +1124,8 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_40
       rect:
         serializedVersion: 2
-        x: 275
-        y: 52
+        x: 230
+        y: 51
         width: 46
         height: 51
       alignment: 0
@@ -1146,9 +1146,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_41
       rect:
         serializedVersion: 2
-        x: 284
-        y: 103
-        width: 37
+        x: 276
+        y: 51
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1169,8 +1169,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 45
+        y: 0
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1191,8 +1191,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 46
-        y: 1
-        width: 45
+        y: 0
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1212,9 +1212,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_44
       rect:
         serializedVersion: 2
-        x: 93
-        y: 1
-        width: 44
+        x: 92
+        y: 0
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1234,9 +1234,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_45
       rect:
         serializedVersion: 2
-        x: 140
-        y: 1
-        width: 43
+        x: 138
+        y: 0
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1256,9 +1256,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_46
       rect:
         serializedVersion: 2
-        x: 186
-        y: 1
-        width: 43
+        x: 184
+        y: 0
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1278,9 +1278,9 @@ TextureImporter:
       name: Plr_Pant_IdletoAim_Preview_Idle_to_Aim_47
       rect:
         serializedVersion: 2
-        x: 235
-        y: 1
-        width: 40
+        x: 230
+        y: 0
+        width: 46
         height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1300,7 +1300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2af40227a8d48264aa964cc9d4821efe
     internalID: 0
     vertices: []
     indices: 

@@ -10,7 +10,7 @@ public class IdleToAimAnimation : MonoBehaviour
 
     public void FireQuit()
     {
-        PlayerAnimation.Instance.Upperani.SetBool("Fire", true);
-        PlayerAnimation.Instance.Lowerani.SetBool("Fire", true);
+        PlayerAnimation.Instance.Upperani.SetBool("Fire", false);
+        PlayerAnimation.Instance.Lowerani.SetBool("Fire", false);
     }
 }
