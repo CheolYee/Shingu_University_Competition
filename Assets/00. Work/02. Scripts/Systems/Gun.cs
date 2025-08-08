@@ -1,15 +1,17 @@
-﻿using System.Collections;
-using _00._Work._02._Scripts.Systems;
+﻿using _00._Work._02._Scripts.Systems;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Gun : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
-    private GameObject[] bulletPool;
-    private bool canfire = true;
-    private Vector3 mouse;
     [SerializeField] private ReadyButton readyButton;
+    private GameObject[] bulletPool;
+    private Vector3 mouse;
+
+    private bool canfire = true;
+    private bool aim = false;
 
     private void Start()
     {
@@ -35,7 +37,10 @@ public class Gun : MonoBehaviour
         if (Time.timeScale == 0f)
             return;
 
-        LookAtMouse();
+        if (aim)
+            LookAtMouse();
+        else if (!aim)
+            Aiming();
     }
 
     private void LookAtMouse()
@@ -63,6 +68,7 @@ public class Gun : MonoBehaviour
         bullet.transform.position = transform.position;
         bullet.SetActive(true);
         canfire = false;
+        PlayerAnimation.Instance.FireAnimation();
         StartCoroutine(CoolTime());
     }
 
@@ -70,5 +76,12 @@ public class Gun : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         canfire = true;
+    }
+
+    private void Aiming()
+    {
+        PlayerAnimation.Instance.IdleToAimAnimation();
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+            aim = true;
     }
 }
