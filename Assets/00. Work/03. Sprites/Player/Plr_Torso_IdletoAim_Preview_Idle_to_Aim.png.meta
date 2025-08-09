@@ -244,12 +244,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 564
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 566
+        width: 58
+        height: 92
+      alignment: 9
+      pivot: {x: 0.025, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -266,12 +266,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_1
       rect:
         serializedVersion: 2
-        x: 127
-        y: 564
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 137
+        y: 566
+        width: 58
+        height: 92
+      alignment: 9
+      pivot: {x: 0.025, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_2
       rect:
         serializedVersion: 2
-        x: 254
-        y: 564
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 263
+        y: 567
+        width: 60
+        height: 91
+      alignment: 9
+      pivot: {x: 0.025, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -310,12 +310,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_3
       rect:
         serializedVersion: 2
-        x: 381
-        y: 564
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 390
+        y: 568
+        width: 65
+        height: 90
+      alignment: 9
+      pivot: {x: 0.025, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -332,12 +332,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_4
       rect:
         serializedVersion: 2
-        x: 508
-        y: 564
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 516
+        y: 571
+        width: 72
+        height: 87
+      alignment: 9
+      pivot: {x: 0.025, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -354,12 +354,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_5
       rect:
         serializedVersion: 2
-        x: 635
-        y: 564
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 643
+        y: 574
+        width: 78
+        height: 82
+      alignment: 9
+      pivot: {x: 0.025, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -376,12 +376,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_6
       rect:
         serializedVersion: 2
-        x: 762
-        y: 564
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 769
+        y: 576
+        width: 84
+        height: 76
+      alignment: 9
+      pivot: {x: 0.025, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -398,12 +398,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 470
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6
+        y: 484
+        width: 90
+        height: 68
+      alignment: 9
+      pivot: {x: 0.03, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -420,12 +420,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_8
       rect:
         serializedVersion: 2
-        x: 127
-        y: 470
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 132
+        y: 485
+        width: 95
+        height: 61
+      alignment: 9
+      pivot: {x: 0.03, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -442,12 +442,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_9
       rect:
         serializedVersion: 2
-        x: 254
-        y: 470
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 258
+        y: 485
+        width: 99
+        height: 55
+      alignment: 9
+      pivot: {x: 0.03, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -464,12 +464,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_10
       rect:
         serializedVersion: 2
-        x: 381
-        y: 470
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 486
+        width: 102
+        height: 53
+      alignment: 9
+      pivot: {x: 0.03, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -486,12 +486,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_11
       rect:
         serializedVersion: 2
-        x: 508
-        y: 470
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 510
+        y: 488
+        width: 104
+        height: 51
+      alignment: 9
+      pivot: {x: 0.03, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -508,12 +508,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_12
       rect:
         serializedVersion: 2
-        x: 635
-        y: 470
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 636
+        y: 490
+        width: 106
+        height: 49
+      alignment: 9
+      pivot: {x: 0.03, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -531,11 +531,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 762
-        y: 470
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 491
+        width: 108
+        height: 48
+      alignment: 9
+      pivot: {x: 0.03, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -552,12 +552,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 376
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1
+        y: 397
+        width: 108
+        height: 48
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -574,12 +574,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_15
       rect:
         serializedVersion: 2
-        x: 127
-        y: 376
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 129
+        y: 398
+        width: 108
+        height: 47
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -596,12 +596,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_16
       rect:
         serializedVersion: 2
-        x: 254
-        y: 376
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 258
+        y: 399
+        width: 110
+        height: 46
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -618,12 +618,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_17
       rect:
         serializedVersion: 2
-        x: 381
-        y: 376
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 387
+        y: 400
+        width: 111
+        height: 45
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -640,12 +640,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_18
       rect:
         serializedVersion: 2
-        x: 508
-        y: 376
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 515
+        y: 400
+        width: 113
+        height: 45
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -662,12 +662,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_19
       rect:
         serializedVersion: 2
-        x: 635
-        y: 376
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 643
+        y: 400
+        width: 113
+        height: 45
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -684,12 +684,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_20
       rect:
         serializedVersion: 2
-        x: 762
-        y: 376
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 771
+        y: 400
+        width: 115
+        height: 45
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -706,12 +706,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 282
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 306
+        width: 115
+        height: 45
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -728,12 +728,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_22
       rect:
         serializedVersion: 2
-        x: 127
-        y: 282
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 137
+        y: 306
+        width: 114
+        height: 45
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -750,12 +750,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_23
       rect:
         serializedVersion: 2
-        x: 254
-        y: 282
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 265
+        y: 306
+        width: 113
+        height: 45
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -772,12 +772,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_24
       rect:
         serializedVersion: 2
-        x: 381
-        y: 282
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 392
+        y: 306
+        width: 112
+        height: 45
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -794,12 +794,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_25
       rect:
         serializedVersion: 2
-        x: 508
-        y: 282
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 518
+        y: 306
+        width: 112
+        height: 45
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -816,12 +816,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_26
       rect:
         serializedVersion: 2
-        x: 635
-        y: 282
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 645
+        y: 306
+        width: 110
+        height: 45
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -838,12 +838,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_27
       rect:
         serializedVersion: 2
-        x: 762
-        y: 282
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 772
+        y: 306
+        width: 110
+        height: 44
+      alignment: 9
+      pivot: {x: 0.01, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -860,12 +860,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 188
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 212
+        width: 109
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -882,12 +882,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_29
       rect:
         serializedVersion: 2
-        x: 127
-        y: 188
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 138
+        y: 212
+        width: 110
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -904,12 +904,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_30
       rect:
         serializedVersion: 2
-        x: 254
-        y: 188
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 265
+        y: 212
+        width: 111
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -926,12 +926,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_31
       rect:
         serializedVersion: 2
-        x: 381
-        y: 188
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 392
+        y: 212
+        width: 111
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -948,12 +948,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_32
       rect:
         serializedVersion: 2
-        x: 508
-        y: 188
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 519
+        y: 212
+        width: 112
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -970,12 +970,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_33
       rect:
         serializedVersion: 2
-        x: 635
-        y: 188
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 645
+        y: 212
+        width: 113
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -992,12 +992,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_34
       rect:
         serializedVersion: 2
-        x: 762
-        y: 188
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 772
+        y: 212
+        width: 113
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1014,12 +1014,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_35
       rect:
         serializedVersion: 2
-        x: 0
-        y: 94
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 119
+        width: 112
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1036,12 +1036,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_36
       rect:
         serializedVersion: 2
-        x: 127
-        y: 94
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 137
+        y: 118
+        width: 112
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1058,12 +1058,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_37
       rect:
         serializedVersion: 2
-        x: 254
-        y: 94
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 264
+        y: 118
+        width: 112
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1080,12 +1080,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_38
       rect:
         serializedVersion: 2
-        x: 381
-        y: 94
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 391
+        y: 118
+        width: 112
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1102,12 +1102,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_39
       rect:
         serializedVersion: 2
-        x: 508
-        y: 94
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 518
+        y: 118
+        width: 112
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1124,12 +1124,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_40
       rect:
         serializedVersion: 2
-        x: 635
-        y: 94
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 645
+        y: 118
+        width: 112
+        height: 45
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1146,12 +1146,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_41
       rect:
         serializedVersion: 2
-        x: 762
-        y: 94
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 772
+        y: 118
+        width: 112
+        height: 45
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1168,12 +1168,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_42
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 24
+        width: 112
+        height: 45
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1190,12 +1190,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_43
       rect:
         serializedVersion: 2
-        x: 127
-        y: 0
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 137
+        y: 24
+        width: 112
+        height: 45
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1212,12 +1212,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_44
       rect:
         serializedVersion: 2
-        x: 254
-        y: 0
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 264
+        y: 24
+        width: 112
+        height: 45
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1234,12 +1234,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_45
       rect:
         serializedVersion: 2
-        x: 381
-        y: 0
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 391
+        y: 24
+        width: 112
+        height: 45
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1256,12 +1256,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_46
       rect:
         serializedVersion: 2
-        x: 508
-        y: 0
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 518
+        y: 24
+        width: 112
+        height: 45
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1278,12 +1278,12 @@ TextureImporter:
       name: Plr_Torso_IdletoAim_Preview_Idle_to_Aim_47
       rect:
         serializedVersion: 2
-        x: 635
-        y: 0
-        width: 127
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 645
+        y: 24
+        width: 112
+        height: 45
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

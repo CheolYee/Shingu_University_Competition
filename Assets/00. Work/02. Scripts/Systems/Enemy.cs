@@ -15,11 +15,6 @@ public class Enemy : MonoBehaviour
         ani = GetComponent<Animator>();
     }
 
-    private void Start()
-    {
-        bullet = GameObject.FindWithTag("Bullet").GetComponent<Bullet>();
-    }
-
     private void Update()
     {
         if (bullet == null)
