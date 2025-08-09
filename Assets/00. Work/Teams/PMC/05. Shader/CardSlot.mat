@@ -60,6 +60,6 @@ Material:
     m_Floats:
     - _Intensity: 0
     m_Colors:
-    - _EmissionColor: {r: 0, g: 2.972621, b: 4.237095, a: 1}
+    - _EmissionColor: {r: 0, g: 2.2528253, b: 3.2111173, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
