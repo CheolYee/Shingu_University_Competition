@@ -97,7 +97,7 @@ public class Gun : MonoBehaviour
 
     private IEnumerator CoolTime()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(2f);
         canfire = true;
     }
 
@@ -112,7 +112,7 @@ public class Gun : MonoBehaviour
 
     private IEnumerator AimTime()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(2f);
         aim = true;
     }
 }
