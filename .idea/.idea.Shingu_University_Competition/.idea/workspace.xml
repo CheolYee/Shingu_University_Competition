@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f311dd68-401b-4f3f-8caf-82d353dd7f53" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shingu_University_Competition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shingu_University_Competition/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Gun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Gun.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/HJH/01. Script/CardSlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/HJH/01. Script/CardSlot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/SJH/script/MagnetWall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/SJH/script/MagnetWall.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReadyButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReadyButton.cs" afterDir="false" />
-    </list>
+    <list default="true" id="f311dd68-401b-4f3f-8caf-82d353dd7f53" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +31,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "PMC",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,6 +94,7 @@
       <updated>1753092675631</updated>
       <workItem from="1753092735459" duration="4321000" />
       <workItem from="1754448675172" duration="1328000" />
+      <workItem from="1754593355923" duration="3464000" />
     </task>
     <servers />
   </component>
