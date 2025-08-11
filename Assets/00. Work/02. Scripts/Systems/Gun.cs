@@ -7,6 +7,7 @@ public class Gun : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private ReadyButton readyButton;
+    private GameObject bulletr;
     private GameObject[] bulletPool;
 
     private SpriteRenderer sprite;
@@ -32,6 +33,7 @@ public class Gun : MonoBehaviour
 
         bulletPool = new GameObject[1];
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        bulletr = bullet;
         bulletPool[0] = bullet;
         bullet.SetActive(false);
 
@@ -56,6 +58,12 @@ public class Gun : MonoBehaviour
             LookAtMouse();
         else if (!aim)
             Aiming();
+
+        if (!bulletr.activeSelf)
+        {
+            bulletr.transform.position = bulletPosition.transform.position;
+            TimeWall.Instance?.DoReset();
+        }
     }
 
     private void LookAtMouse()
@@ -83,6 +91,7 @@ public class Gun : MonoBehaviour
 
     private void Shot()
     {
+        TimeWall.Instance?.DoTime();
         GameObject bullet = bulletPool[0];
         if (bullet.activeSelf || !canfire)
             return;
