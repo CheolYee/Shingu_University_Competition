@@ -1,18 +1,35 @@
-﻿using System.Collections;
-using _00._Work._02._Scripts.Systems;
+﻿using _00._Work._02._Scripts.Systems;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Gun : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
-    private GameObject[] bulletPool;
-    private bool canfire = true;
-    private Vector3 mouse;
     [SerializeField] private ReadyButton readyButton;
+    private GameObject[] bulletPool;
+
+    private SpriteRenderer sprite;
+
+    [SerializeField] private Transform bulletPosition;
+    private Vector3 mouse;
+    private Vector3 startPos;
+
+    private float followRadius = 1.5f;
+
+    private bool canfire = true;
+    private bool aim = false;
+
+    private void Awake()
+    {
+        sprite = GetComponent<SpriteRenderer>();
+    }
 
     private void Start()
     {
+        sprite.enabled = false;
+        startPos = transform.position;
+
         bulletPool = new GameObject[1];
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
         bulletPool[0] = bullet;
@@ -35,22 +52,32 @@ public class Gun : MonoBehaviour
         if (Time.timeScale == 0f)
             return;
 
-        LookAtMouse();
+        if (aim)
+            LookAtMouse();
+        else if (!aim)
+            Aiming();
     }
 
     private void LookAtMouse()
     {
-        mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 mousedirection = mouse - transform.position;
-        float angle = Mathf.Atan2(mousedirection.y, mousedirection.x) * Mathf.Rad2Deg;
+        sprite.enabled = true;
 
-        if (-90 <= angle && angle <= 90)
+        mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouse.z = 0f;
+        Vector3 dir = mouse - startPos;
+        float distance = dir.magnitude;
+        if (distance > followRadius)
         {
-            transform.rotation = Quaternion.Euler(0f, 0f, angle);
-            if (Keyboard.current.spaceKey.wasPressedThisFrame && canfire)
-            {
-                Shot();
-            }
+            dir = dir.normalized * followRadius;
+        }
+        transform.position = startPos + dir;
+        Vector3 mouseDir = mouse - transform.position;
+        float angle = Mathf.Atan2(mouseDir.y, mouseDir.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);
+
+        if (Keyboard.current.spaceKey.wasPressedThisFrame && canfire)
+        {
+            Shot();
         }
     }
 
@@ -60,15 +87,32 @@ public class Gun : MonoBehaviour
         if (bullet.activeSelf || !canfire)
             return;
 
-        bullet.transform.position = transform.position;
+        bullet.transform.position = bulletPosition.position;
+        bullet.transform.rotation = transform.rotation;
         bullet.SetActive(true);
         canfire = false;
+        PlayerAnimation.Instance.FireAnimation();
         StartCoroutine(CoolTime());
     }
 
     private IEnumerator CoolTime()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         canfire = true;
+    }
+
+    private void Aiming()
+    {
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            PlayerAnimation.Instance.IdleToAimAnimation();
+            StartCoroutine(AimTime());
+        }
+    }
+
+    private IEnumerator AimTime()
+    {
+        yield return new WaitForSeconds(2f);
+        aim = true;
     }
 }

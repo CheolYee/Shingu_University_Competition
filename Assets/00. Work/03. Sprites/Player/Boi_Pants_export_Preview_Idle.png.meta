@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: e660bb8513711124ea3ce5a100c1f1a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5992368769996177062
+    second: Boi_Pants_export_Preview_Idle_0
+  - first:
+      213: -9053534869909115560
+    second: Boi_Pants_export_Preview_Idle_1
+  - first:
+      213: 8462430982631814960
+    second: Boi_Pants_export_Preview_Idle_2
+  - first:
+      213: 8535664818292591270
+    second: Boi_Pants_export_Preview_Idle_3
+  - first:
+      213: -5487871139369478051
+    second: Boi_Pants_export_Preview_Idle_4
+  - first:
+      213: 8958260423817248469
+    second: Boi_Pants_export_Preview_Idle_5
+  - first:
+      213: -5117210253769780849
+    second: Boi_Pants_export_Preview_Idle_6
+  - first:
+      213: -8373489174137723270
+    second: Boi_Pants_export_Preview_Idle_7
+  - first:
+      213: 3178683967770747816
+    second: Boi_Pants_export_Preview_Idle_8
+  - first:
+      213: 7493970513425446264
+    second: Boi_Pants_export_Preview_Idle_9
+  - first:
+      213: 8832466696312184614
+    second: Boi_Pants_export_Preview_Idle_10
+  - first:
+      213: 3468515311384775956
+    second: Boi_Pants_export_Preview_Idle_11
+  - first:
+      213: 6899498154032238814
+    second: Boi_Pants_export_Preview_Idle_12
+  - first:
+      213: -2186736247051326346
+    second: Boi_Pants_export_Preview_Idle_13
+  - first:
+      213: 8632357292473155521
+    second: Boi_Pants_export_Preview_Idle_14
+  - first:
+      213: -3862552732743327034
+    second: Boi_Pants_export_Preview_Idle_15
+  - first:
+      213: 5354444765326320385
+    second: Boi_Pants_export_Preview_Idle_16
+  - first:
+      213: -7444994243483457702
+    second: Boi_Pants_export_Preview_Idle_17
+  - first:
+      213: -4194854299642699993
+    second: Boi_Pants_export_Preview_Idle_18
+  - first:
+      213: 1073086432296598664
+    second: Boi_Pants_export_Preview_Idle_19
+  - first:
+      213: 1514862008370523141
+    second: Boi_Pants_export_Preview_Idle_20
+  - first:
+      213: -7995451037188959595
+    second: Boi_Pants_export_Preview_Idle_21
+  - first:
+      213: 190705364383859723
+    second: Boi_Pants_export_Preview_Idle_22
+  - first:
+      213: -2991921990884031348
+    second: Boi_Pants_export_Preview_Idle_23
+  - first:
+      213: 7702386492569714585
+    second: Boi_Pants_export_Preview_Idle_24
+  - first:
+      213: -1429317880646249469
+    second: Boi_Pants_export_Preview_Idle_25
+  - first:
+      213: -7457769289207084145
+    second: Boi_Pants_export_Preview_Idle_26
+  - first:
+      213: 1007299652639511152
+    second: Boi_Pants_export_Preview_Idle_27
+  - first:
+      213: 3684827842367316214
+    second: Boi_Pants_export_Preview_Idle_28
+  - first:
+      213: 7291995515102118442
+    second: Boi_Pants_export_Preview_Idle_29
+  - first:
+      213: -7884350209555179772
+    second: Boi_Pants_export_Preview_Idle_30
+  - first:
+      213: -3835824881415054817
+    second: Boi_Pants_export_Preview_Idle_31
+  - first:
+      213: -3664229842344817073
+    second: Boi_Pants_export_Preview_Idle_32
+  - first:
+      213: -5677616536503590897
+    second: Boi_Pants_export_Preview_Idle_33
+  - first:
+      213: 6623947599283108168
+    second: Boi_Pants_export_Preview_Idle_34
+  - first:
+      213: 4779815972230355307
+    second: Boi_Pants_export_Preview_Idle_35
+  - first:
+      213: 9198601337784263515
+    second: Boi_Pants_export_Preview_Idle_36
+  - first:
+      213: 3842270452860843561
+    second: Boi_Pants_export_Preview_Idle_37
+  - first:
+      213: 4901951525690005489
+    second: Boi_Pants_export_Preview_Idle_38
+  - first:
+      213: 8300684643146692072
+    second: Boi_Pants_export_Preview_Idle_39
+  - first:
+      213: -1687754120542912980
+    second: Boi_Pants_export_Preview_Idle_40
+  - first:
+      213: -3249748475128696743
+    second: Boi_Pants_export_Preview_Idle_41
+  - first:
+      213: -7427413320082235827
+    second: Boi_Pants_export_Preview_Idle_42
+  - first:
+      213: -267911990301830630
+    second: Boi_Pants_export_Preview_Idle_43
+  - first:
+      213: 1131418148297548387
+    second: Boi_Pants_export_Preview_Idle_44
+  - first:
+      213: -4702191522490361872
+    second: Boi_Pants_export_Preview_Idle_45
+  - first:
+      213: -422123408019960966
+    second: Boi_Pants_export_Preview_Idle_46
+  - first:
+      213: -3574066691875275336
+    second: Boi_Pants_export_Preview_Idle_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae34cab5ab292350800000000000000
+      internalID: 5992368769996177062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 306
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d6475e0026b5280800000000000000
+      internalID: -9053534869909115560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 306
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03777009428907570800000000000000
+      internalID: 8462430982631814960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 306
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa0128ade5c47670800000000000000
+      internalID: 8535664818292591270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 306
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5893c4564a27d3b0800000000000000
+      internalID: -5487871139369478051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 306
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de311f7462225c70800000000000000
+      internalID: 8958260423817248469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 306
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81d017e2640cf8b0800000000000000
+      internalID: -5117210253769780849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7621f4f5f36bcb80800000000000000
+      internalID: -8373489174137723270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 255
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a364303a34fc1c20800000000000000
+      internalID: 3178683967770747816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 255
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875b9f92a7eeff760800000000000000
+      internalID: 7493970513425446264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 255
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fd724f9a9339a70800000000000000
+      internalID: 8832466696312184614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 255
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dc7197c44a22030800000000000000
+      internalID: 3468515311384775956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 255
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed01e871401ffbf50800000000000000
+      internalID: 6899498154032238814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 255
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ce80918f627a1e0800000000000000
+      internalID: -2186736247051326346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf7d18a83b4cc770800000000000000
+      internalID: 8632357292473155521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 204
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2ae9611c4756ac0800000000000000
+      internalID: -3862552732743327034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 204
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103a9be152fce4a40800000000000000
+      internalID: 5354444765326320385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 204
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57275a4e211ea890800000000000000
+      internalID: -7444994243483457702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 204
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fd6416d32e8c5c0800000000000000
+      internalID: -4194854299642699993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 204
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c745abc6e54ee00800000000000000
+      internalID: 1073086432296598664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 204
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ce8a478fed50510800000000000000
+      internalID: 1514862008370523141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592d255b4a37a0190800000000000000
+      internalID: -7995451037188959595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 153
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b048cdcb48585a200800000000000000
+      internalID: 190705364383859723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 153
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c848da91dce8a76d0800000000000000
+      internalID: -2991921990884031348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 153
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f726cb4bf54ea60800000000000000
+      internalID: 7702386492569714585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 153
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30457fcd5fa0a2ce0800000000000000
+      internalID: -1429317880646249469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 153
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b8efb285ea08890800000000000000
+      internalID: -7457769289207084145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 153
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072d3f972b5aafd00800000000000000
+      internalID: 1007299652639511152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0e5ca4663232330800000000000000
+      internalID: 3684827842367316214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 102
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22476d494f523560800000000000000
+      internalID: 7291995515102118442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 102
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407dfaae149259290800000000000000
+      internalID: -7884350209555179772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 102
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a96aae79964cac0800000000000000
+      internalID: -3835824881415054817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 102
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ec6af4f5a062dc0800000000000000
+      internalID: -3664229842344817073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 102
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00e1d267dd0531b0800000000000000
+      internalID: -5677616536503590897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 102
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84932121f3dfceb50800000000000000
+      internalID: 6623947599283108168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69578c5d41555240800000000000000
+      internalID: 4779815972230355307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 51
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5360113e2ff7af70800000000000000
+      internalID: 9198601337784263515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 51
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926ffb1ae9c725530800000000000000
+      internalID: 3842270452860843561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 51
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7dfe2e0fa370440800000000000000
+      internalID: 4901951525690005489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 51
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e57c4b34b4f13370800000000000000
+      internalID: 8300684643146692072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 51
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e76d8c194e398e0800000000000000
+      internalID: -1687754120542912980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 51
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9503692daf296e2d0800000000000000
+      internalID: -3249748475128696743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e5e7000f68ce890800000000000000
+      internalID: -7427413320082235827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12ddfad67f284cf0800000000000000
+      internalID: -267911990301830630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_44
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362a4b5bfca93bf00800000000000000
+      internalID: 1131418148297548387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_45
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7db1c39b57ebeb0800000000000000
+      internalID: -4702191522490361872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_46
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bc7953ff0542af0800000000000000
+      internalID: -422123408019960966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boi_Pants_export_Preview_Idle_47
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdf73ba74d566ec0800000000000000
+      internalID: -3574066691875275336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b87a888bbbac16844b49f9a6b52eb5aa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boi_Pants_export_Preview_Idle_0: 5992368769996177062
+      Boi_Pants_export_Preview_Idle_1: -9053534869909115560
+      Boi_Pants_export_Preview_Idle_10: 8832466696312184614
+      Boi_Pants_export_Preview_Idle_11: 3468515311384775956
+      Boi_Pants_export_Preview_Idle_12: 6899498154032238814
+      Boi_Pants_export_Preview_Idle_13: -2186736247051326346
+      Boi_Pants_export_Preview_Idle_14: 8632357292473155521
+      Boi_Pants_export_Preview_Idle_15: -3862552732743327034
+      Boi_Pants_export_Preview_Idle_16: 5354444765326320385
+      Boi_Pants_export_Preview_Idle_17: -7444994243483457702
+      Boi_Pants_export_Preview_Idle_18: -4194854299642699993
+      Boi_Pants_export_Preview_Idle_19: 1073086432296598664
+      Boi_Pants_export_Preview_Idle_2: 8462430982631814960
+      Boi_Pants_export_Preview_Idle_20: 1514862008370523141
+      Boi_Pants_export_Preview_Idle_21: -7995451037188959595
+      Boi_Pants_export_Preview_Idle_22: 190705364383859723
+      Boi_Pants_export_Preview_Idle_23: -2991921990884031348
+      Boi_Pants_export_Preview_Idle_24: 7702386492569714585
+      Boi_Pants_export_Preview_Idle_25: -1429317880646249469
+      Boi_Pants_export_Preview_Idle_26: -7457769289207084145
+      Boi_Pants_export_Preview_Idle_27: 1007299652639511152
+      Boi_Pants_export_Preview_Idle_28: 3684827842367316214
+      Boi_Pants_export_Preview_Idle_29: 7291995515102118442
+      Boi_Pants_export_Preview_Idle_3: 8535664818292591270
+      Boi_Pants_export_Preview_Idle_30: -7884350209555179772
+      Boi_Pants_export_Preview_Idle_31: -3835824881415054817
+      Boi_Pants_export_Preview_Idle_32: -3664229842344817073
+      Boi_Pants_export_Preview_Idle_33: -5677616536503590897
+      Boi_Pants_export_Preview_Idle_34: 6623947599283108168
+      Boi_Pants_export_Preview_Idle_35: 4779815972230355307
+      Boi_Pants_export_Preview_Idle_36: 9198601337784263515
+      Boi_Pants_export_Preview_Idle_37: 3842270452860843561
+      Boi_Pants_export_Preview_Idle_38: 4901951525690005489
+      Boi_Pants_export_Preview_Idle_39: 8300684643146692072
+      Boi_Pants_export_Preview_Idle_4: -5487871139369478051
+      Boi_Pants_export_Preview_Idle_40: -1687754120542912980
+      Boi_Pants_export_Preview_Idle_41: -3249748475128696743
+      Boi_Pants_export_Preview_Idle_42: -7427413320082235827
+      Boi_Pants_export_Preview_Idle_43: -267911990301830630
+      Boi_Pants_export_Preview_Idle_44: 1131418148297548387
+      Boi_Pants_export_Preview_Idle_45: -4702191522490361872
+      Boi_Pants_export_Preview_Idle_46: -422123408019960966
+      Boi_Pants_export_Preview_Idle_47: -3574066691875275336
+      Boi_Pants_export_Preview_Idle_5: 8958260423817248469
+      Boi_Pants_export_Preview_Idle_6: -5117210253769780849
+      Boi_Pants_export_Preview_Idle_7: -8373489174137723270
+      Boi_Pants_export_Preview_Idle_8: 3178683967770747816
+      Boi_Pants_export_Preview_Idle_9: 7493970513425446264
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

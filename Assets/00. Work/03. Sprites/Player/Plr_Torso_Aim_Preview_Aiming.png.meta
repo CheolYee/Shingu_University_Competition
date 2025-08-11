@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 8f04649bc955f524b8b790a2ca43adf9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6492903164714506843
+    second: Plr_Torso_Aim_Preview_Aiming_0
+  - first:
+      213: -5841227434775596967
+    second: Plr_Torso_Aim_Preview_Aiming_1
+  - first:
+      213: 7037534527191135945
+    second: Plr_Torso_Aim_Preview_Aiming_2
+  - first:
+      213: -9048817288778848565
+    second: Plr_Torso_Aim_Preview_Aiming_3
+  - first:
+      213: 1491558836437541188
+    second: Plr_Torso_Aim_Preview_Aiming_4
+  - first:
+      213: 3558693645123242351
+    second: Plr_Torso_Aim_Preview_Aiming_5
+  - first:
+      213: 4380067938663585084
+    second: Plr_Torso_Aim_Preview_Aiming_6
+  - first:
+      213: -4983829940171531514
+    second: Plr_Torso_Aim_Preview_Aiming_7
+  - first:
+      213: 4368733097275789835
+    second: Plr_Torso_Aim_Preview_Aiming_8
+  - first:
+      213: 8340713346570357931
+    second: Plr_Torso_Aim_Preview_Aiming_9
+  - first:
+      213: 552330615137017070
+    second: Plr_Torso_Aim_Preview_Aiming_10
+  - first:
+      213: 5072394634057072269
+    second: Plr_Torso_Aim_Preview_Aiming_11
+  - first:
+      213: -9105169369488865901
+    second: Plr_Torso_Aim_Preview_Aiming_12
+  - first:
+      213: -5947495197157214908
+    second: Plr_Torso_Aim_Preview_Aiming_13
+  - first:
+      213: -2864021142614614804
+    second: Plr_Torso_Aim_Preview_Aiming_14
+  - first:
+      213: -684028986773946987
+    second: Plr_Torso_Aim_Preview_Aiming_15
+  - first:
+      213: -7306615355621231434
+    second: Plr_Torso_Aim_Preview_Aiming_16
+  - first:
+      213: -2811935557375811887
+    second: Plr_Torso_Aim_Preview_Aiming_17
+  - first:
+      213: 4499366866599196699
+    second: Plr_Torso_Aim_Preview_Aiming_18
+  - first:
+      213: -7100002093821407924
+    second: Plr_Torso_Aim_Preview_Aiming_19
+  - first:
+      213: -7320971251921904980
+    second: Plr_Torso_Aim_Preview_Aiming_20
+  - first:
+      213: 5985706374790509088
+    second: Plr_Torso_Aim_Preview_Aiming_21
+  - first:
+      213: -8607489768876346687
+    second: Plr_Torso_Aim_Preview_Aiming_22
+  - first:
+      213: 1453373694310252495
+    second: Plr_Torso_Aim_Preview_Aiming_23
+  - first:
+      213: 5444035546492447881
+    second: Plr_Torso_Aim_Preview_Aiming_24
+  - first:
+      213: -1306075929052179791
+    second: Plr_Torso_Aim_Preview_Aiming_25
+  - first:
+      213: -2841466725825549435
+    second: Plr_Torso_Aim_Preview_Aiming_26
+  - first:
+      213: 954092359858847881
+    second: Plr_Torso_Aim_Preview_Aiming_27
+  - first:
+      213: 944778087768914182
+    second: Plr_Torso_Aim_Preview_Aiming_28
+  - first:
+      213: -4754578477838181455
+    second: Plr_Torso_Aim_Preview_Aiming_29
+  - first:
+      213: 1871603526045283099
+    second: Plr_Torso_Aim_Preview_Aiming_30
+  - first:
+      213: -7064643375575826787
+    second: Plr_Torso_Aim_Preview_Aiming_31
+  - first:
+      213: 3085819837847438150
+    second: Plr_Torso_Aim_Preview_Aiming_32
+  - first:
+      213: 5860309169289766721
+    second: Plr_Torso_Aim_Preview_Aiming_33
+  - first:
+      213: -8154055868965408661
+    second: Plr_Torso_Aim_Preview_Aiming_34
+  - first:
+      213: -7685458825073377979
+    second: Plr_Torso_Aim_Preview_Aiming_35
+  - first:
+      213: -6596784752029412553
+    second: Plr_Torso_Aim_Preview_Aiming_36
+  - first:
+      213: -6566949481928325664
+    second: Plr_Torso_Aim_Preview_Aiming_37
+  - first:
+      213: 167668907121117861
+    second: Plr_Torso_Aim_Preview_Aiming_38
+  - first:
+      213: 7282004252872308811
+    second: Plr_Torso_Aim_Preview_Aiming_39
+  - first:
+      213: -968955978344039625
+    second: Plr_Torso_Aim_Preview_Aiming_40
+  - first:
+      213: -2275186588554251389
+    second: Plr_Torso_Aim_Preview_Aiming_41
+  - first:
+      213: 7205932604404895457
+    second: Plr_Torso_Aim_Preview_Aiming_42
+  - first:
+      213: 6756739072867882974
+    second: Plr_Torso_Aim_Preview_Aiming_43
+  - first:
+      213: 6517412551354372705
+    second: Plr_Torso_Aim_Preview_Aiming_44
+  - first:
+      213: 7258943036056397483
+    second: Plr_Torso_Aim_Preview_Aiming_45
+  - first:
+      213: -2551231171736323810
+    second: Plr_Torso_Aim_Preview_Aiming_46
+  - first:
+      213: 6516077159974857338
+    second: Plr_Torso_Aim_Preview_Aiming_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5ae2af8f294e5a0800000000000000
+      internalID: -6492903164714506843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 284
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9503fe1a89acfeea0800000000000000
+      internalID: -5841227434775596967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 284
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c636c3bd585aa160800000000000000
+      internalID: 7037534527191135945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_3
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 284
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc66ce85e942c6280800000000000000
+      internalID: -9048817288778848565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_4
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 284
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441647febd413b410800000000000000
+      internalID: 1491558836437541188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_5
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 284
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69c206f305036130800000000000000
+      internalID: 3558693645123242351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_6
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 284
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35de18659029cc30800000000000000
+      internalID: 4380067938663585084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b9e1b2311e5dab0800000000000000
+      internalID: -4983829940171531514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 237
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b029d9dfa9bd0ac30800000000000000
+      internalID: 4368733097275789835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_9
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 237
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac8fa3099a20c370800000000000000
+      internalID: 8340713346570357931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_10
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 237
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec90d1a4c54aa700800000000000000
+      internalID: 552330615137017070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 237
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8eb1938b04c46640800000000000000
+      internalID: 5072394634057072269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_12
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 237
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39549df13b0f3a180800000000000000
+      internalID: -9105169369488865901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_13
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 237
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4453a1e11a0467da0800000000000000
+      internalID: -5947495197157214908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec5f3de1f3f048d0800000000000000
+      internalID: -2864021142614614804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 190
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59db44bb247d186f0800000000000000
+      internalID: -684028986773946987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_16
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 190
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b438c1db00b99a90800000000000000
+      internalID: -7306615355621231434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_17
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 190
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de1353428ff9f8d0800000000000000
+      internalID: -2811935557375811887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_18
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 190
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18bec59356f07e30800000000000000
+      internalID: 4499366866599196699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_19
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 190
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dce3d86b9b77d90800000000000000
+      internalID: -7100002093821407924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_20
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 190
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa195e3f6fa66a90800000000000000
+      internalID: -7320971251921904980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 143
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022fd27fb30811350800000000000000
+      internalID: 5985706374790509088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_22
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 143
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2f05ed8ad0c8880800000000000000
+      internalID: -8607489768876346687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_23
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 143
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf7247bcab6b2410800000000000000
+      internalID: 1453373694310252495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_24
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 143
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c284d5c791d8b40800000000000000
+      internalID: 5444035546492447881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_25
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 143
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b21827ccd2efdde0800000000000000
+      internalID: -1306075929052179791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_26
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 143
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b631e41151198d0800000000000000
+      internalID: -2841466725825549435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_27
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 143
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9800d4042fd9d3d00800000000000000
+      internalID: 954092359858847881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609f9094aa68c1d00800000000000000
+      internalID: 944778087768914182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_29
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 96
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbdcb3b018540eb0800000000000000
+      internalID: -4754578477838181455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_30
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 96
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b133c42ad7549f910800000000000000
+      internalID: 1871603526045283099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_31
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 96
+        width: 111
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e7cfda74855fd90800000000000000
+      internalID: -7064643375575826787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_32
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 96
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64300cb0bc803da20800000000000000
+      internalID: 3085819837847438150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_33
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 96
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1472b75e320045150800000000000000
+      internalID: 5860309169289766721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_34
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 96
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60b0a3a369f6de80800000000000000
+      internalID: -8154055868965408661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d3c9bfae3c75590800000000000000
+      internalID: -7685458825073377979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_36
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 49
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733d29328338374a0800000000000000
+      internalID: -6596784752029412553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_37
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 49
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e50ab74d328dd4a0800000000000000
+      internalID: -6566949481928325664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_38
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 49
+        width: 112
+        height: 44
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa05d09bfda35200800000000000000
+      internalID: 167668907121117861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_39
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 49
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4876594940ee0560800000000000000
+      internalID: 7282004252872308811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_40
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 49
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bffc3eba39d82f0800000000000000
+      internalID: -968955978344039625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_41
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 49
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383bd772ad9ec60e0800000000000000
+      internalID: -2275186588554251389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426421cc1ccbd4b49abd58bf20912702
+      internalID: 7205932604404895457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_43
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dcf10e570a5a140bd47e907bf65a64
+      internalID: 6756739072867882974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_44
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65ce061b148bbe4abb2fa898f1acd4c
+      internalID: 6517412551354372705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_45
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0558008917907747aec2625c9fb1c5a
+      internalID: 7258943036056397483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_46
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 2
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127419bdbf44f9c44aa65428756fd67e
+      internalID: -2551231171736323810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Torso_Aim_Preview_Aiming_47
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2
+        width: 112
+        height: 45
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9030e3baba8a554fa57f9cea54d1b83
+      internalID: 6516077159974857338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 033260d9a5c45cb47960a238e061c0b7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plr_Torso_Aim_Preview_Aiming_0: -6492903164714506843
+      Plr_Torso_Aim_Preview_Aiming_1: -5841227434775596967
+      Plr_Torso_Aim_Preview_Aiming_10: 552330615137017070
+      Plr_Torso_Aim_Preview_Aiming_11: 5072394634057072269
+      Plr_Torso_Aim_Preview_Aiming_12: -9105169369488865901
+      Plr_Torso_Aim_Preview_Aiming_13: -5947495197157214908
+      Plr_Torso_Aim_Preview_Aiming_14: -2864021142614614804
+      Plr_Torso_Aim_Preview_Aiming_15: -684028986773946987
+      Plr_Torso_Aim_Preview_Aiming_16: -7306615355621231434
+      Plr_Torso_Aim_Preview_Aiming_17: -2811935557375811887
+      Plr_Torso_Aim_Preview_Aiming_18: 4499366866599196699
+      Plr_Torso_Aim_Preview_Aiming_19: -7100002093821407924
+      Plr_Torso_Aim_Preview_Aiming_2: 7037534527191135945
+      Plr_Torso_Aim_Preview_Aiming_20: -7320971251921904980
+      Plr_Torso_Aim_Preview_Aiming_21: 5985706374790509088
+      Plr_Torso_Aim_Preview_Aiming_22: -8607489768876346687
+      Plr_Torso_Aim_Preview_Aiming_23: 1453373694310252495
+      Plr_Torso_Aim_Preview_Aiming_24: 5444035546492447881
+      Plr_Torso_Aim_Preview_Aiming_25: -1306075929052179791
+      Plr_Torso_Aim_Preview_Aiming_26: -2841466725825549435
+      Plr_Torso_Aim_Preview_Aiming_27: 954092359858847881
+      Plr_Torso_Aim_Preview_Aiming_28: 944778087768914182
+      Plr_Torso_Aim_Preview_Aiming_29: -4754578477838181455
+      Plr_Torso_Aim_Preview_Aiming_3: -9048817288778848565
+      Plr_Torso_Aim_Preview_Aiming_30: 1871603526045283099
+      Plr_Torso_Aim_Preview_Aiming_31: -7064643375575826787
+      Plr_Torso_Aim_Preview_Aiming_32: 3085819837847438150
+      Plr_Torso_Aim_Preview_Aiming_33: 5860309169289766721
+      Plr_Torso_Aim_Preview_Aiming_34: -8154055868965408661
+      Plr_Torso_Aim_Preview_Aiming_35: -7685458825073377979
+      Plr_Torso_Aim_Preview_Aiming_36: -6596784752029412553
+      Plr_Torso_Aim_Preview_Aiming_37: -6566949481928325664
+      Plr_Torso_Aim_Preview_Aiming_38: 167668907121117861
+      Plr_Torso_Aim_Preview_Aiming_39: 7282004252872308811
+      Plr_Torso_Aim_Preview_Aiming_4: 1491558836437541188
+      Plr_Torso_Aim_Preview_Aiming_40: -968955978344039625
+      Plr_Torso_Aim_Preview_Aiming_41: -2275186588554251389
+      Plr_Torso_Aim_Preview_Aiming_42: 7205932604404895457
+      Plr_Torso_Aim_Preview_Aiming_43: 6756739072867882974
+      Plr_Torso_Aim_Preview_Aiming_44: 6517412551354372705
+      Plr_Torso_Aim_Preview_Aiming_45: 7258943036056397483
+      Plr_Torso_Aim_Preview_Aiming_46: -2551231171736323810
+      Plr_Torso_Aim_Preview_Aiming_47: 6516077159974857338
+      Plr_Torso_Aim_Preview_Aiming_5: 3558693645123242351
+      Plr_Torso_Aim_Preview_Aiming_6: 4380067938663585084
+      Plr_Torso_Aim_Preview_Aiming_7: -4983829940171531514
+      Plr_Torso_Aim_Preview_Aiming_8: 4368733097275789835
+      Plr_Torso_Aim_Preview_Aiming_9: 8340713346570357931
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

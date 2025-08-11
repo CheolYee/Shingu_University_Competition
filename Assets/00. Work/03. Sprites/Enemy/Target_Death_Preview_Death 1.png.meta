@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: c21108b35ae6b1b4786bf2c8594b695c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7460805296484573975
+    second: Target_Death_Preview_Death 1_0
+  - first:
+      213: 8001814469708189760
+    second: Target_Death_Preview_Death 1_1
+  - first:
+      213: 7855723399438325023
+    second: Target_Death_Preview_Death 1_2
+  - first:
+      213: 4126731383896007106
+    second: Target_Death_Preview_Death 1_3
+  - first:
+      213: -9144777059643446135
+    second: Target_Death_Preview_Death 1_4
+  - first:
+      213: -1870464709118572432
+    second: Target_Death_Preview_Death 1_5
+  - first:
+      213: 651998269059426760
+    second: Target_Death_Preview_Death 1_6
+  - first:
+      213: -2953779994585227891
+    second: Target_Death_Preview_Death 1_7
+  - first:
+      213: 188018295985978155
+    second: Target_Death_Preview_Death 1_8
+  - first:
+      213: 6437535545456835649
+    second: Target_Death_Preview_Death 1_9
+  - first:
+      213: -8972444160589659576
+    second: Target_Death_Preview_Death 1_10
+  - first:
+      213: 1529959095034158103
+    second: Target_Death_Preview_Death 1_11
+  - first:
+      213: -1300724382603487508
+    second: Target_Death_Preview_Death 1_12
+  - first:
+      213: -6525029486209203789
+    second: Target_Death_Preview_Death 1_13
+  - first:
+      213: 4788988015034998757
+    second: Target_Death_Preview_Death 1_14
+  - first:
+      213: -8366545150115945882
+    second: Target_Death_Preview_Death 1_15
+  - first:
+      213: 5238288113931862822
+    second: Target_Death_Preview_Death 1_16
+  - first:
+      213: 1214483908125477982
+    second: Target_Death_Preview_Death 1_17
+  - first:
+      213: -5575063887735312159
+    second: Target_Death_Preview_Death 1_18
+  - first:
+      213: -5799490450035089697
+    second: Target_Death_Preview_Death 1_19
+  - first:
+      213: -1622026103279306481
+    second: Target_Death_Preview_Death 1_20
+  - first:
+      213: 8181609308232213088
+    second: Target_Death_Preview_Death 1_21
+  - first:
+      213: -69707616887494353
+    second: Target_Death_Preview_Death 1_22
+  - first:
+      213: 507620175657171064
+    second: Target_Death_Preview_Death 1_23
+  - first:
+      213: 7790931853276151359
+    second: Target_Death_Preview_Death 1_24
+  - first:
+      213: -5763479897207266647
+    second: Target_Death_Preview_Death 1_25
+  - first:
+      213: -795934261482618241
+    second: Target_Death_Preview_Death 1_26
+  - first:
+      213: -3090419261429692126
+    second: Target_Death_Preview_Death 1_27
+  - first:
+      213: 2879607404908542189
+    second: Target_Death_Preview_Death 1_28
+  - first:
+      213: -9201928174660852880
+    second: Target_Death_Preview_Death 1_29
+  - first:
+      213: 2501104705183113600
+    second: Target_Death_Preview_Death 1_30
+  - first:
+      213: 7669391493563202088
+    second: Target_Death_Preview_Death 1_31
+  - first:
+      213: -4329975756006088888
+    second: Target_Death_Preview_Death 1_32
+  - first:
+      213: 7666849920424737465
+    second: Target_Death_Preview_Death 1_33
+  - first:
+      213: -1407371586628594158
+    second: Target_Death_Preview_Death 1_34
+  - first:
+      213: 5112790737124501807
+    second: Target_Death_Preview_Death 1_35
+  - first:
+      213: 6924459989670158022
+    second: Target_Death_Preview_Death 1_36
+  - first:
+      213: -3226592036416677677
+    second: Target_Death_Preview_Death 1_37
+  - first:
+      213: 3537513515756545378
+    second: Target_Death_Preview_Death 1_38
+  - first:
+      213: -5602494311250759446
+    second: Target_Death_Preview_Death 1_39
+  - first:
+      213: -1713317093570221030
+    second: Target_Death_Preview_Death 1_40
+  - first:
+      213: 8047497551964509715
+    second: Target_Death_Preview_Death 1_41
+  - first:
+      213: -59633422697928241
+    second: Target_Death_Preview_Death 1_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec1fa4ac15e57890800000000000000
+      internalID: -7460805296484573975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 564
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04099816dd72c0f60800000000000000
+      internalID: 8001814469708189760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 564
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15de357fc2250d60800000000000000
+      internalID: 7855723399438325023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 564
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1e39c4458154930800000000000000
+      internalID: 4126731383896007106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 564
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cafc127b9371180800000000000000
+      internalID: -9144777059643446135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_5
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 564
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0784518d146ca06e0800000000000000
+      internalID: -1870464709118572432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 564
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9e475a8fc5c0900800000000000000
+      internalID: 651998269059426760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d9716aeb01207d0800000000000000
+      internalID: -2953779994585227891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 470
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bb48fd4a9fb9200800000000000000
+      internalID: 188018295985978155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_9
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 470
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cb7e79878b65950800000000000000
+      internalID: 6437535545456835649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_10
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 470
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8428601f2997b7380800000000000000
+      internalID: -8972444160589659576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_11
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 470
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c936cd0b18b3510800000000000000
+      internalID: 1529959095034158103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_12
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 470
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6da38c016e2fde0800000000000000
+      internalID: -1300724382603487508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_13
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 470
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b10d8dd0407275a0800000000000000
+      internalID: -6525029486209203789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef93cdf937e57240800000000000000
+      internalID: 4788988015034998757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_15
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 376
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662621a838f04eb80800000000000000
+      internalID: -8366545150115945882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 376
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6234f06394322b840800000000000000
+      internalID: 5238288113931862822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_17
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 376
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c4f390ea6bad010800000000000000
+      internalID: 1214483908125477982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_18
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 376
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0bd6b9ee461a2b0800000000000000
+      internalID: -5575063887735312159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_19
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 376
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde5367a922148fa0800000000000000
+      internalID: -5799490450035089697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_20
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 376
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0930a95ad76d79e0800000000000000
+      internalID: -1622026103279306481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062e53c515aea8170800000000000000
+      internalID: 8181609308232213088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_22
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 282
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f292841ba49580ff0800000000000000
+      internalID: -69707616887494353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_23
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 282
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878fdda3cdd6b0700800000000000000
+      internalID: 507620175657171064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_24
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 282
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3efccf0e33fe1c60800000000000000
+      internalID: 7790931853276151359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_25
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 282
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a22bd8d1910400b0800000000000000
+      internalID: -5763479897207266647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_26
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 282
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7204c7910644f4f0800000000000000
+      internalID: -795934261482618241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_27
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 282
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22945733e00ac15d0800000000000000
+      internalID: -3090419261429692126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8782e8dab66f720800000000000000
+      internalID: 2879607404908542189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_29
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 188
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0736eac341f2c4080800000000000000
+      internalID: -9201928174660852880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_30
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 188
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0816f7a5a75b5b220800000000000000
+      internalID: 2501104705183113600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_31
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 188
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82abc31ede62f6a60800000000000000
+      internalID: 7669391493563202088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_32
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 188
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f1439bdf5d8e3c0800000000000000
+      internalID: -4329975756006088888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_33
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 188
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9baf525c16f166a60800000000000000
+      internalID: 7666849920424737465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_34
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 188
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2165600aff2087ce0800000000000000
+      internalID: -1407371586628594158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29a631361844f640800000000000000
+      internalID: 5112790737124501807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_36
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 94
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ced1b95caf981060800000000000000
+      internalID: 6924459989670158022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_37
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 94
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8974a53a7d833d0800000000000000
+      internalID: -3226592036416677677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_38
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 94
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265efceccc5c71130800000000000000
+      internalID: 3537513515756545378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_39
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 94
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae070c17b11ff32b0800000000000000
+      internalID: -5602494311250759446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_40
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 94
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c64225e231938e0800000000000000
+      internalID: -1713317093570221030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_41
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 94
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3169ba3d2647eaf60800000000000000
+      internalID: 8047497551964509715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Target_Death_Preview_Death 1_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 131
+        height: 94
+      alignment: 9
+      pivot: {x: 0.8, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9695fc7b32c2ff0800000000000000
+      internalID: -59633422697928241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a055e12171090d14c934f7be16cbfca0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Target_Death_Preview_Death 1_0: -7460805296484573975
+      Target_Death_Preview_Death 1_1: 8001814469708189760
+      Target_Death_Preview_Death 1_10: -8972444160589659576
+      Target_Death_Preview_Death 1_11: 1529959095034158103
+      Target_Death_Preview_Death 1_12: -1300724382603487508
+      Target_Death_Preview_Death 1_13: -6525029486209203789
+      Target_Death_Preview_Death 1_14: 4788988015034998757
+      Target_Death_Preview_Death 1_15: -8366545150115945882
+      Target_Death_Preview_Death 1_16: 5238288113931862822
+      Target_Death_Preview_Death 1_17: 1214483908125477982
+      Target_Death_Preview_Death 1_18: -5575063887735312159
+      Target_Death_Preview_Death 1_19: -5799490450035089697
+      Target_Death_Preview_Death 1_2: 7855723399438325023
+      Target_Death_Preview_Death 1_20: -1622026103279306481
+      Target_Death_Preview_Death 1_21: 8181609308232213088
+      Target_Death_Preview_Death 1_22: -69707616887494353
+      Target_Death_Preview_Death 1_23: 507620175657171064
+      Target_Death_Preview_Death 1_24: 7790931853276151359
+      Target_Death_Preview_Death 1_25: -5763479897207266647
+      Target_Death_Preview_Death 1_26: -795934261482618241
+      Target_Death_Preview_Death 1_27: -3090419261429692126
+      Target_Death_Preview_Death 1_28: 2879607404908542189
+      Target_Death_Preview_Death 1_29: -9201928174660852880
+      Target_Death_Preview_Death 1_3: 4126731383896007106
+      Target_Death_Preview_Death 1_30: 2501104705183113600
+      Target_Death_Preview_Death 1_31: 7669391493563202088
+      Target_Death_Preview_Death 1_32: -4329975756006088888
+      Target_Death_Preview_Death 1_33: 7666849920424737465
+      Target_Death_Preview_Death 1_34: -1407371586628594158
+      Target_Death_Preview_Death 1_35: 5112790737124501807
+      Target_Death_Preview_Death 1_36: 6924459989670158022
+      Target_Death_Preview_Death 1_37: -3226592036416677677
+      Target_Death_Preview_Death 1_38: 3537513515756545378
+      Target_Death_Preview_Death 1_39: -5602494311250759446
+      Target_Death_Preview_Death 1_4: -9144777059643446135
+      Target_Death_Preview_Death 1_40: -1713317093570221030
+      Target_Death_Preview_Death 1_41: 8047497551964509715
+      Target_Death_Preview_Death 1_42: -59633422697928241
+      Target_Death_Preview_Death 1_5: -1870464709118572432
+      Target_Death_Preview_Death 1_6: 651998269059426760
+      Target_Death_Preview_Death 1_7: -2953779994585227891
+      Target_Death_Preview_Death 1_8: 188018295985978155
+      Target_Death_Preview_Death 1_9: 6437535545456835649
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

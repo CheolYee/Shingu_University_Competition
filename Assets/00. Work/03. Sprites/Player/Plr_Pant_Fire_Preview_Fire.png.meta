@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 1d7e8cff188645040a5bfde6ad9a3db9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4881569880528792279
+    second: Plr_Pant_Fire_Preview_Fire_0
+  - first:
+      213: -5315690029149422247
+    second: Plr_Pant_Fire_Preview_Fire_1
+  - first:
+      213: -1143520471973207067
+    second: Plr_Pant_Fire_Preview_Fire_2
+  - first:
+      213: -4878521285105266102
+    second: Plr_Pant_Fire_Preview_Fire_3
+  - first:
+      213: -7015126707395939325
+    second: Plr_Pant_Fire_Preview_Fire_4
+  - first:
+      213: 4816701072945965292
+    second: Plr_Pant_Fire_Preview_Fire_5
+  - first:
+      213: 5793356050607656939
+    second: Plr_Pant_Fire_Preview_Fire_6
+  - first:
+      213: -6500452762667020534
+    second: Plr_Pant_Fire_Preview_Fire_7
+  - first:
+      213: -2723012536923419259
+    second: Plr_Pant_Fire_Preview_Fire_8
+  - first:
+      213: 7780888505490026940
+    second: Plr_Pant_Fire_Preview_Fire_9
+  - first:
+      213: -3451632553245512214
+    second: Plr_Pant_Fire_Preview_Fire_10
+  - first:
+      213: 8278876010862710678
+    second: Plr_Pant_Fire_Preview_Fire_11
+  - first:
+      213: -7835562904032514970
+    second: Plr_Pant_Fire_Preview_Fire_12
+  - first:
+      213: -8579628135776042638
+    second: Plr_Pant_Fire_Preview_Fire_13
+  - first:
+      213: -8092978368506177253
+    second: Plr_Pant_Fire_Preview_Fire_14
+  - first:
+      213: 204707919579046847
+    second: Plr_Pant_Fire_Preview_Fire_15
+  - first:
+      213: -8426395121866117623
+    second: Plr_Pant_Fire_Preview_Fire_16
+  - first:
+      213: 8692639124457105067
+    second: Plr_Pant_Fire_Preview_Fire_17
+  - first:
+      213: 1838531196800457178
+    second: Plr_Pant_Fire_Preview_Fire_18
+  - first:
+      213: 1186816278989466419
+    second: Plr_Pant_Fire_Preview_Fire_19
+  - first:
+      213: -5744953625368179130
+    second: Plr_Pant_Fire_Preview_Fire_20
+  - first:
+      213: -4611193620720419803
+    second: Plr_Pant_Fire_Preview_Fire_21
+  - first:
+      213: -1612275967914236747
+    second: Plr_Pant_Fire_Preview_Fire_22
+  - first:
+      213: 9081880093803316520
+    second: Plr_Pant_Fire_Preview_Fire_23
+  - first:
+      213: 9202831834632860764
+    second: Plr_Pant_Fire_Preview_Fire_24
+  - first:
+      213: -8417865626924625404
+    second: Plr_Pant_Fire_Preview_Fire_25
+  - first:
+      213: -4925655502044133568
+    second: Plr_Pant_Fire_Preview_Fire_26
+  - first:
+      213: -6736656436027996476
+    second: Plr_Pant_Fire_Preview_Fire_27
+  - first:
+      213: -5548064874329444254
+    second: Plr_Pant_Fire_Preview_Fire_28
+  - first:
+      213: -8032851267953819890
+    second: Plr_Pant_Fire_Preview_Fire_29
+  - first:
+      213: -8167530710118451325
+    second: Plr_Pant_Fire_Preview_Fire_30
+  - first:
+      213: 2945644769629701812
+    second: Plr_Pant_Fire_Preview_Fire_31
+  - first:
+      213: -5537893833157119241
+    second: Plr_Pant_Fire_Preview_Fire_32
+  - first:
+      213: 8542802706088580783
+    second: Plr_Pant_Fire_Preview_Fire_33
+  - first:
+      213: 2745583815159757110
+    second: Plr_Pant_Fire_Preview_Fire_34
+  - first:
+      213: -2737376469182983090
+    second: Plr_Pant_Fire_Preview_Fire_35
+  - first:
+      213: 2956344669605987427
+    second: Plr_Pant_Fire_Preview_Fire_36
+  - first:
+      213: -2308916306237875514
+    second: Plr_Pant_Fire_Preview_Fire_37
+  - first:
+      213: -2663587563230175418
+    second: Plr_Pant_Fire_Preview_Fire_38
+  - first:
+      213: 704318051300891136
+    second: Plr_Pant_Fire_Preview_Fire_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925d5dcae0e214cb0800000000000000
+      internalID: -4881569880528792279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 255
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d767c0510ea36b0800000000000000
+      internalID: -5315690029149422247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 255
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e366aa70366120f0800000000000000
+      internalID: -1143520471973207067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 255
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a425e1c1db20c4cb0800000000000000
+      internalID: -4878521285105266102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 255
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3043f476d6345ae90800000000000000
+      internalID: -7015126707395939325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 255
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8ef2a1b1c58d240800000000000000
+      internalID: 4816701072945965292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 255
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef44dd22a2266050800000000000000
+      internalID: 5793356050607656939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f860a37a0c9c5a0800000000000000
+      internalID: -6500452762667020534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 204
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d8eb9568ae53ad0800000000000000
+      internalID: -2723012536923419259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 204
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb137aeeed44bfb60800000000000000
+      internalID: 7780888505490026940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 204
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed60a8fa765910d0800000000000000
+      internalID: -3451632553245512214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 204
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f89f65ed974e270800000000000000
+      internalID: 8278876010862710678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 204
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ce9e9ad0d724390800000000000000
+      internalID: -7835562904032514970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_13
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 204
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2714f16daa90fe880800000000000000
+      internalID: -8579628135776042638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19d4426d07ffaf80800000000000000
+      internalID: -8092978368506177253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 153
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3e73da4c447d200800000000000000
+      internalID: 204707919579046847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 153
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ee518184e6f0b80800000000000000
+      internalID: -8426395121866117623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_17
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 153
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6ade56a3572a870800000000000000
+      internalID: 8692639124457105067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 153
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9d3cde166c38910800000000000000
+      internalID: 1838531196800457178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_19
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 153
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b61d22e1b687010800000000000000
+      internalID: 1186816278989466419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 153
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e46d4ad13d540b0800000000000000
+      internalID: -5744953625368179130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c796645dfb100c0800000000000000
+      internalID: -4611193620720419803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 102
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4a294ac8b00a9e0800000000000000
+      internalID: -1612275967914236747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 102
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82586d3d3d1590e70800000000000000
+      internalID: 9081880093803316520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 102
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54b2fe7bc607bf70800000000000000
+      internalID: 9202831834632860764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 102
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402df24efcbbd2b80800000000000000
+      internalID: -8417865626924625404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_26
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 102
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04706ba0b6e84abb0800000000000000
+      internalID: -4925655502044133568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 102
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6c3bce9a69282a0800000000000000
+      internalID: -6736656436027996476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26075c644605103b0800000000000000
+      internalID: -5548064874329444254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_29
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 51
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ff018e454958090800000000000000
+      internalID: -8032851267953819890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 51
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387bb43b71a17ae80800000000000000
+      internalID: -8167530710118451325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_31
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 51
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b60440bf4801e820800000000000000
+      internalID: 2945644769629701812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 51
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2f7d656e27523b0800000000000000
+      internalID: -5537893833157119241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_33
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 51
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6d7aaacc12e8670800000000000000
+      internalID: 8542802706088580783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 51
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639b8a3eee54a1620800000000000000
+      internalID: 2745583815159757110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44d5d1ca92e20ad0800000000000000
+      internalID: -2737376469182983090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_36
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3640c7940db070920800000000000000
+      internalID: 2956344669605987427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca95964ad415ffd0800000000000000
+      internalID: -2308916306237875514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_38
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f54893939090bd0800000000000000
+      internalID: -2663587563230175418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plr_Pant_Fire_Preview_Fire_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a5fa8398d36c900800000000000000
+      internalID: 704318051300891136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6a9b5a8322772374bb1d956f195beb91
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Plr_Pant_Fire_Preview_Fire_0: -4881569880528792279
+      Plr_Pant_Fire_Preview_Fire_1: -5315690029149422247
+      Plr_Pant_Fire_Preview_Fire_10: -3451632553245512214
+      Plr_Pant_Fire_Preview_Fire_11: 8278876010862710678
+      Plr_Pant_Fire_Preview_Fire_12: -7835562904032514970
+      Plr_Pant_Fire_Preview_Fire_13: -8579628135776042638
+      Plr_Pant_Fire_Preview_Fire_14: -8092978368506177253
+      Plr_Pant_Fire_Preview_Fire_15: 204707919579046847
+      Plr_Pant_Fire_Preview_Fire_16: -8426395121866117623
+      Plr_Pant_Fire_Preview_Fire_17: 8692639124457105067
+      Plr_Pant_Fire_Preview_Fire_18: 1838531196800457178
+      Plr_Pant_Fire_Preview_Fire_19: 1186816278989466419
+      Plr_Pant_Fire_Preview_Fire_2: -1143520471973207067
+      Plr_Pant_Fire_Preview_Fire_20: -5744953625368179130
+      Plr_Pant_Fire_Preview_Fire_21: -4611193620720419803
+      Plr_Pant_Fire_Preview_Fire_22: -1612275967914236747
+      Plr_Pant_Fire_Preview_Fire_23: 9081880093803316520
+      Plr_Pant_Fire_Preview_Fire_24: 9202831834632860764
+      Plr_Pant_Fire_Preview_Fire_25: -8417865626924625404
+      Plr_Pant_Fire_Preview_Fire_26: -4925655502044133568
+      Plr_Pant_Fire_Preview_Fire_27: -6736656436027996476
+      Plr_Pant_Fire_Preview_Fire_28: -5548064874329444254
+      Plr_Pant_Fire_Preview_Fire_29: -8032851267953819890
+      Plr_Pant_Fire_Preview_Fire_3: -4878521285105266102
+      Plr_Pant_Fire_Preview_Fire_30: -8167530710118451325
+      Plr_Pant_Fire_Preview_Fire_31: 2945644769629701812
+      Plr_Pant_Fire_Preview_Fire_32: -5537893833157119241
+      Plr_Pant_Fire_Preview_Fire_33: 8542802706088580783
+      Plr_Pant_Fire_Preview_Fire_34: 2745583815159757110
+      Plr_Pant_Fire_Preview_Fire_35: -2737376469182983090
+      Plr_Pant_Fire_Preview_Fire_36: 2956344669605987427
+      Plr_Pant_Fire_Preview_Fire_37: -2308916306237875514
+      Plr_Pant_Fire_Preview_Fire_38: -2663587563230175418
+      Plr_Pant_Fire_Preview_Fire_39: 704318051300891136
+      Plr_Pant_Fire_Preview_Fire_4: -7015126707395939325
+      Plr_Pant_Fire_Preview_Fire_5: 4816701072945965292
+      Plr_Pant_Fire_Preview_Fire_6: 5793356050607656939
+      Plr_Pant_Fire_Preview_Fire_7: -6500452762667020534
+      Plr_Pant_Fire_Preview_Fire_8: -2723012536923419259
+      Plr_Pant_Fire_Preview_Fire_9: 7780888505490026940
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
