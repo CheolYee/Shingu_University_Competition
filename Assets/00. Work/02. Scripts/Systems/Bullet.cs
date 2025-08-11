@@ -198,6 +198,7 @@ namespace _00._Work._02._Scripts.Systems
                     break;
 
                 case CardEnum.Default:
+                    ChangeTrailColorSimple("#FFFFFF");
                     break;
             }
         }

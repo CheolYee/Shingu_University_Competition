@@ -2,11 +2,9 @@ using UnityEngine;
 
 public class ExtinctionWall : MonoBehaviour
 {
-
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        bool _istriggered = Physics2D.OverlapBox(transform.position,transform.localScale,transform.localEulerAngles.z,1<<6);
-        if(_istriggered)
+        if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject);
         }
@@ -14,7 +12,7 @@ public class ExtinctionWall : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Bullet"))
+        if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject);
         }

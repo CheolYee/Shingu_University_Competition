@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5d516967c8d653749960dad1fb34a217
+guid: 48c2e5c1cfddd594c8c0e36e388c50b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4538206261011732803
-    second: SpeedUp 1_0
+      213: 5760202260919997367
+    second: BackGround_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpeedUp 1_0
+      name: BackGround_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 18
-        width: 21
-        height: 13
+        x: 0
+        y: 0
+        width: 576
+        height: 324
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db621f6337d0501c0800000000000000
-      internalID: -4538206261011732803
+      spriteID: 7b3d98cff6950ff40800000000000000
+      internalID: 5760202260919997367
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      SpeedUp 1_0: -4538206261011732803
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
