@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f311dd68-401b-4f3f-8caf-82d353dd7f53" name="변경" comment="" />
+    <list default="true" id="f311dd68-401b-4f3f-8caf-82d353dd7f53" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shingu_University_Competition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shingu_University_Competition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/ClearUIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/ClearUIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/BulletUIPrefabs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/BulletUIPrefabs.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/StarPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/StarPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/bulletTrace.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/bulletTrace.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/05. Shader/SinguBtn.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/05. Shader/SinguBtn.mat" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,20 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "PMC",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;PMC&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.48f1\Editor\Unity.exe" />
@@ -95,6 +105,7 @@
       <workItem from="1753092735459" duration="4321000" />
       <workItem from="1754448675172" duration="1328000" />
       <workItem from="1754593355923" duration="3464000" />
+      <workItem from="1754884907406" duration="2654000" />
     </task>
     <servers />
   </component>

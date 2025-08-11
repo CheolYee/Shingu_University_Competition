@@ -15,6 +15,9 @@ namespace _00._Work.Teams.PMC._01._Codes
         [SerializeField] private GameObject shatterEffectPrefab;
         [SerializeField] private Button clearButton;
         
+        [Header("OnDrowGizmo")]
+        [SerializeField] private bool onDrowGizmo;
+        
         [SerializeField] private Transform[] bulletStartPoints;
         [SerializeField] private float bulletArrivalTime;
         [SerializeField] private Vector2 gizmoRadius;
@@ -47,26 +50,30 @@ namespace _00._Work.Teams.PMC._01._Codes
                 RectTransform slotRect = starSlots[i].GetComponent<RectTransform>();
 
                 // 정확한 위치를 위해 WorldPosition으로 총알 생성
-                Vector3 startWorldPos = startRect.position;
-                Vector3 targetWorldPos = slotRect.position;
+                Vector3 worldStartPos = startRect.position;
+                Vector3 worldTargetPos = slotRect.position;
 
-                GameObject bullet = Instantiate(bulletPrefab, startWorldPos, Quaternion.identity, starPanel.transform);
-                bullet.transform.DOMove(targetWorldPos, bulletArrivalTime).SetEase(Ease.OutQuad);
+                GameObject bullet = Instantiate(bulletPrefab, worldStartPos, Quaternion.identity, starPanel.transform);
+                bullet.transform.position = worldStartPos;
+
+                bullet.transform.DOMove(worldTargetPos, bulletArrivalTime).SetEase(Ease.OutQuad);
 
                 yield return new WaitForSeconds(bulletArrivalTime);
                 
                 Destroy(bullet);
                 
-                // 랜덤 오프셋 계산 (예: -10 ~ +10 px 범위)
-                Vector2 randomOffset = new Vector2(
-                    Random.Range(-10f, 10f),
-                    Random.Range(-10f, 10f)
+                // 랜덤 오프셋을 UI 로컬 좌표가 아니라 월드 좌표 기준으로 변환
+                Vector3 targetWorldPos = starSlots[i].GetComponent<RectTransform>().position;
+                Vector3 randomWorldOffset = new Vector3(
+                    Random.Range(-10f, 10f) * starPanel.transform.lossyScale.x,
+                    Random.Range(-10f, 10f) * starPanel.transform.lossyScale.y,
+                    0f
                 );
 
-                Vector3 shatterPos = targetPos + (Vector3)randomOffset;
+                // 월드 좌표로 파편 생성
+                Vector3 shatterWorldPos = targetWorldPos + randomWorldOffset;
 
-                // 파편 이펙트 생성
-                GameObject shatter = Instantiate(shatterEffectPrefab, shatterPos, Quaternion.identity, starPanel.transform);
+                GameObject shatter = Instantiate(shatterEffectPrefab, shatterWorldPos, Quaternion.identity, starPanel.transform);
                 RectTransform shatterRect = shatter.GetComponent<RectTransform>();
                 CanvasGroup shatterCanvas = shatter.GetComponent<CanvasGroup>();
 
@@ -74,13 +81,14 @@ namespace _00._Work.Teams.PMC._01._Codes
                 shatterCanvas.alpha = 1f;
 
                 shatterRect.DOScale(1.5f, 0.2f).SetEase(Ease.OutBack);
-                shatterCanvas.DOFade(0f, 0.5f).SetEase(Ease.OutQuad).SetDelay(0.1f).OnComplete(() =>
-                {
-                    Destroy(shatter);
-                });
+                shatterCanvas.DOFade(0f, 0.5f)
+                    .SetEase(Ease.OutQuad)
+                    .SetDelay(0.1f)
+                    .OnComplete(() => Destroy(shatter));
 
                 GameObject star = Instantiate(starPrefab, targetPos,
                     Quaternion.identity, starSlots[i].transform);
+
                 //별 등장 애니메이션
                 star.transform.DOScale(1.2f, 0.3f).SetEase(Ease.OutBack).OnComplete(() =>
                 {
@@ -96,7 +104,7 @@ namespace _00._Work.Teams.PMC._01._Codes
         
         private void OnDrawGizmos()
         {
-            if (bulletStartPoints == null) return;
+            if (bulletStartPoints == null || onDrowGizmo == false) return;
             
             foreach (var trm in starSlots)
             {
