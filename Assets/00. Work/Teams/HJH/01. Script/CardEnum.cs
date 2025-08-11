@@ -4,7 +4,6 @@ public enum CardEnum
     Penetration,
     SpeedUp,
     SpeedDown,
-    Gravity,
     Explode,
     Magnet,
     Default
