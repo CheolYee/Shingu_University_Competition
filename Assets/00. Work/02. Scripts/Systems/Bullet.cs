@@ -7,7 +7,7 @@ namespace _00._Work._02._Scripts.Systems
 {
     public class Bullet : MonoBehaviour
     {
-        private event Action fireEvent;
+        /*private event Action fireEvent;*/
 
         private Rigidbody2D rigid;
         public Collider2D collide;
