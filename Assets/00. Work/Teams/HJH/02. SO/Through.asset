@@ -15,5 +15,5 @@ MonoBehaviour:
   cardName: ThroughCard
   cardImage: {fileID: 0}
   cardEnum: 1
-  explanation: "\uCD1D\uC54C\uC774 \uAD11\uBC94\uC704\uD55C \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4."
-  price: 7
+  explanation: "\uCD1D\uC54C\uC774 \uBCBD\uC744 \uAD00\uD1B5\uD569\uB2C8\uB2E4."
+  price: 4

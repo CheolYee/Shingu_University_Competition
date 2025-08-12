@@ -281,6 +281,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6464703323161136829, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
+  onOffCard: {fileID: 1190693545}
 --- !u!114 &9436198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1465,6 +1466,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6464703323161136829, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
+  onOffCard: {fileID: 1190693545}
 --- !u!224 &811844579
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1904,6 +1906,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3749665471106913477, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
   m_PrefabInstance: {fileID: 776800118}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1190693545 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5762972174610830682, guid: f223fa01dade26247a06cbb91c8240f5, type: 3}
+  m_PrefabInstance: {fileID: 2118973584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0f5bd2b64090941b271b5912ceaa14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1234925836
 GameObject:
   m_ObjectHideFlags: 0
