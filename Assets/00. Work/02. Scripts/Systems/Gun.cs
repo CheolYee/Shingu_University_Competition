@@ -1,4 +1,5 @@
 ﻿using _00._Work._02._Scripts.Systems;
+using _00.Work.Scripts.Managers;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -95,11 +96,12 @@ public class Gun : MonoBehaviour
 
     private void Shot()
     {
+        SoundManager.Instance.PlaySfx("Shot");
+        SoundManager.Instance.PlaySfx("Reload");
         TimeWall.Instance?.DoTime();
         GameObject bullet = bulletPool[0];
         if (bullet.activeSelf || !canfire)
             return;
-
         bullet.transform.position = bulletPosition.position;
         bullet.transform.rotation = transform.rotation;
         bullet.SetActive(true);
