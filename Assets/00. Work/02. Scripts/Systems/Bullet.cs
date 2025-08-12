@@ -27,7 +27,7 @@ namespace _00._Work._02._Scripts.Systems
         [SerializeField] private GameObject boomEffect;
 
         [Header("EnumName")]
-        [SerializeField] private List<CardEnum> currentSequence;
+        [SerializeField] public List<CardEnum> currentSequence;
 
         private void Awake()
         {
