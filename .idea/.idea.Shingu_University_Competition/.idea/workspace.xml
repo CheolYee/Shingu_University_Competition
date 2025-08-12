@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f311dd68-401b-4f3f-8caf-82d353dd7f53" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/SaveStageData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/SaveStageData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shingu_University_Competition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shingu_University_Competition/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF 1.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/SelectScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/SelectScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/ClearUIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/ClearUIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/BulletUIPrefabs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/BulletUIPrefabs.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/StarPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/StarPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/bulletTrace.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/04. Prefabs/bulletTrace.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/05. Shader/SinguBtn.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/05. Shader/SinguBtn.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Desktop/개발/유니티 패키지/MonoSingleton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/SaveManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/UI/StartUIAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@4027c60e8806/Editor/UGUI/UI/HorizontalOrVerticalLayoutGroupEditor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -105,7 +106,8 @@
       <workItem from="1753092735459" duration="4321000" />
       <workItem from="1754448675172" duration="1328000" />
       <workItem from="1754593355923" duration="3464000" />
-      <workItem from="1754884907406" duration="2654000" />
+      <workItem from="1754884907406" duration="5509000" />
+      <workItem from="1754991226489" duration="1699000" />
     </task>
     <servers />
   </component>
