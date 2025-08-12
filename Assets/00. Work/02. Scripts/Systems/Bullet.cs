@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,8 +6,6 @@ namespace _00._Work._02._Scripts.Systems
 {
     public class Bullet : MonoBehaviour
     {
-        /*private event Action fireEvent;*/
-
         private Rigidbody2D rigid;
         public Collider2D collide;
         private TrailRenderer trail;
@@ -198,6 +195,7 @@ namespace _00._Work._02._Scripts.Systems
                     break;
 
                 case CardEnum.Default:
+                    ChangeTrailColorSimple("#FFFFFF");
                     break;
             }
         }

@@ -15,5 +15,5 @@ MonoBehaviour:
   cardName: SpeedUpCard
   cardImage: {fileID: 0}
   cardEnum: 2
-  explanation: "\uBE68\uB77C\uC9D1\uB2C8\uB2E4 \u3147\u314B?"
-  price: 6
+  explanation: "\uCD1D\uC54C\uC758 \uC18D\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4.(1\uCD08)"
+  price: 1

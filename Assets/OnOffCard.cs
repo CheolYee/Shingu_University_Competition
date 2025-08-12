@@ -33,5 +33,21 @@ public class OnOffCard : MonoBehaviour
             a.DOAnchorPos(aTarget, moveDuration).SetUpdate(true);
             b.DOAnchorPos(bTarget, moveDuration).SetUpdate(true);
         });
+
+
+    }
+    public void OpenCards()
+    {
+        if (isToggled) return;
+
+        isToggled = true;
+
+        Vector2 aTarget = aStartPos - new Vector2(0, moveDistance);
+        Vector2 bTarget = bStartPos + new Vector2(0, moveDistance);
+
+        Time.timeScale = 1;
+
+        a.DOAnchorPos(aTarget, moveDuration).SetUpdate(true);
+        b.DOAnchorPos(bTarget, moveDuration).SetUpdate(true);
     }
 }

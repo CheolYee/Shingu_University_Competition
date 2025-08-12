@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using _00._Work._02._Scripts.Systems;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ReadyButton : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class ReadyButton : MonoBehaviour
     public List<CardEnum> cardSequence = new List<CardEnum>();
     public Bullet targetBullet;
     public static List<CardEnum> lastUsedSequence = new List<CardEnum>();
+    public OnOffCard onOffCard;
 
     private void Awake()
     {
@@ -31,13 +33,23 @@ public class ReadyButton : MonoBehaviour
             targetBullet.SetCardSequence(cardSequence);
             Debug.Log("비활성화 여부: " + !targetBullet.gameObject.activeInHierarchy);
 
-            // 🔹 Bullet이 꺼져있어도 Initialize 강제 호출
             targetBullet.Initialize();
         }
         else
         {
             Debug.LogWarning("ReadyButton: Bullet이 등록되지 않았습니다.");
         }
+
+        if (onOffCard != null)
+        {
+            onOffCard.OpenCards(); // 카드 열기
+        }
+    }
+
+    public void OnClick_UnReady()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private List<CardEnum> GetCardSequenceFromSlots()
