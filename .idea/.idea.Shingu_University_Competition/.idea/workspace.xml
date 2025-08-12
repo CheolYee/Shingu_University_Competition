@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f311dd68-401b-4f3f-8caf-82d353dd7f53" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/02. Scripts/Systems/Bullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/SaveStageData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/SaveStageData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shingu_University_Competition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shingu_University_Competition/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/02.Sprites/UI/Icons/SpeedUp 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/02.Sprites/UI/Icons/SpeedUp 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/07. Font/goungiChunNun_Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/SelectScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/00. Scenes/SelectScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/ClearUIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/ClearUIController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Desktop/개발/유니티 패키지/MonoSingleton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/SaveManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/00. Work/Teams/PMC/01. Codes/UI/StartUIAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@4027c60e8806/Editor/UGUI/UI/HorizontalOrVerticalLayoutGroupEditor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -102,6 +107,7 @@
       <workItem from="1754448675172" duration="1328000" />
       <workItem from="1754593355923" duration="3464000" />
       <workItem from="1754884907406" duration="5509000" />
+      <workItem from="1754991226489" duration="1699000" />
     </task>
     <servers />
   </component>
