@@ -282,6 +282,7 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
+  moneyManager: {fileID: 0}
 --- !u!114 &9436198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1280,10 +1281,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MoneyManager
       objectReference: {fileID: 0}
-    - target: {fileID: 4759582719159895926, guid: 0c03c1a8711fa744ca8e9ca7be03df6e, type: 3}
-      propertyPath: money
-      value: 1000
-      objectReference: {fileID: 0}
     - target: {fileID: 4985139087117501126, guid: 0c03c1a8711fa744ca8e9ca7be03df6e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1623,6 +1620,7 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
+  moneyManager: {fileID: 0}
 --- !u!224 &811844579
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2513,7 +2511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1506516192
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2710,63 +2708,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9151607936795958034, guid: 2343cea6e089b5a4c89450ff329e1ec3, type: 3}
   m_PrefabInstance: {fileID: 1521141962}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1552338173
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3767061599555958469, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
-      propertyPath: m_Name
-      value: MagnetWall (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
 --- !u!114 &1571598330 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6542424243305640056, guid: 664e5016dfee8ed469576875d288540c, type: 3}
@@ -4488,6 +4429,5 @@ SceneRoots:
   - {fileID: 1032181102}
   - {fileID: 1872861490}
   - {fileID: 1775194696}
-  - {fileID: 1552338173}
   - {fileID: 1253630281}
   - {fileID: 1034529557}

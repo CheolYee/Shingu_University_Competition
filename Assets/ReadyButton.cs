@@ -1,5 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using _00._Work._02._Scripts.Manager.MoneyManager;
 using _00._Work._02._Scripts.Systems;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,10 +12,10 @@ public class ReadyButton : MonoBehaviour
     public Bullet targetBullet;
     public static List<CardEnum> lastUsedSequence = new List<CardEnum>();
     public OnOffCard onOffCard;
-
+    public MoneyManager moneyManager;
     private void Awake()
     {
-        lastUsedSequence.Clear(); // 게임 시작 시 초기화
+        lastUsedSequence.Clear();
     }
 
     public void RegisterBullet(Bullet bullet)
@@ -42,8 +43,36 @@ public class ReadyButton : MonoBehaviour
 
         if (onOffCard != null)
         {
-            onOffCard.OpenCards(); // 카드 열기
+            onOffCard.OpenCards();
         }
+
+        int totalPrice = 0;
+
+        for (int i = 0; i < slotParents.Length; i++)
+        {
+            Transform slot = slotParents[i];
+            if (slot.childCount > 0)
+            {
+                CardView card = slot.GetChild(0).GetComponent<CardView>();
+                if (card != null && card.data != null)
+                {
+                    string priceStr = card.data.price.Trim();
+                    string numericStr = System.Text.RegularExpressions.Regex.Match(priceStr, @"\d+").Value;
+
+                    if (int.TryParse(numericStr, out int price))
+                    {
+                        totalPrice += price;
+                        Debug.Log($"카드 {card.data.cardName} 가격: {price}");
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"가격 파싱 실패: 카드 이름 = {card.data.cardName}, 원래 price = \"{priceStr}\"");
+                    }
+                }
+            }
+        }
+
+        moneyManager.SpendMoney(totalPrice);
     }
 
     public void OnClick_UnReady()
