@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f8d041986acc44b96ffd74ede431eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boxSize: {x: 1, y: 1}
   switchGameObject: {fileID: 7449455407671847524}
 --- !u!1 &7449455407671847524
 GameObject:

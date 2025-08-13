@@ -483,6 +483,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AbsorptionWall
       objectReference: {fileID: 0}
+    - target: {fileID: 2085206377920974186, guid: ac06646a5f960144b8065d580e0cbd38, type: 3}
+      propertyPath: boxSize.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085206377920974186, guid: ac06646a5f960144b8065d580e0cbd38, type: 3}
+      propertyPath: boxSize.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2150056603556825745, guid: ac06646a5f960144b8065d580e0cbd38, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -829,7 +837,7 @@ GameObject:
   - component: {fileID: 385578061}
   m_Layer: 0
   m_Name: ClearUIController
-  m_TagString: Untagged
+  m_TagString: clearController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
