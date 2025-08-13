@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using _00.Work.Scripts.Managers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -59,6 +60,12 @@ namespace _00._Work.Teams.PMC._01._Codes.UI
             {
                 SceneManager.LoadScene(sceneIndex);
             });
+
+            if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                SoundManager.Instance.PlayBgm("MenuBGM");
+            }
+
         }
 
 

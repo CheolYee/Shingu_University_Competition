@@ -23,7 +23,7 @@ namespace _00._Work.Teams.PMC._01._Codes
         [SerializeField] private Vector2 gizmoRadius;
         
         [Header("StarCounts")]
-        [SerializeField] private int starCount;
+        private int starCount = 1;
 
         public void SubscribeToEnemy(Enemy enemy)
         {
