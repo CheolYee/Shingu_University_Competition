@@ -282,7 +282,7 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
-  moneyManager: {fileID: 0}
+  moneyManager: {fileID: 769023936}
 --- !u!114 &9436198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1551,6 +1551,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4985139087117501126, guid: 0c03c1a8711fa744ca8e9ca7be03df6e, type: 3}
   m_PrefabInstance: {fileID: 769023934}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &769023936 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4759582719159895926, guid: 0c03c1a8711fa744ca8e9ca7be03df6e, type: 3}
+  m_PrefabInstance: {fileID: 769023934}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c086ed8e97edb438a55ff05c3bfc0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &775253912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,7 +1945,7 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
-  moneyManager: {fileID: 0}
+  moneyManager: {fileID: 769023936}
 --- !u!224 &811844579
 RectTransform:
   m_ObjectHideFlags: 0
