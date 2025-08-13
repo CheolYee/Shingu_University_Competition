@@ -1,4 +1,5 @@
 ﻿using _00._Work._02._Scripts.Systems;
+using _00.Work.Scripts.Managers;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -10,7 +11,6 @@ public class Gun : MonoBehaviour
     private GameObject bulletr;
     private GameObject[] bulletPool;
     private Magnazine magnazine;
-
     private SpriteRenderer sprite;
 
     [SerializeField] private Transform bulletPosition;
@@ -66,6 +66,7 @@ public class Gun : MonoBehaviour
         {
             bulletr.transform.position = bulletPosition.transform.position;
             TimeWall.Instance?.DoReset();
+            SwitchWall.Instance?.gameObject.SetActive(true);
             magnazine.gameObject.SetActive(true);
         }
     }
@@ -95,11 +96,11 @@ public class Gun : MonoBehaviour
 
     private void Shot()
     {
+        SoundManager.Instance.PlaySfx("Shot");
         TimeWall.Instance?.DoTime();
         GameObject bullet = bulletPool[0];
         if (bullet.activeSelf || !canfire)
             return;
-
         bullet.transform.position = bulletPosition.position;
         bullet.transform.rotation = transform.rotation;
         bullet.SetActive(true);
@@ -110,6 +111,7 @@ public class Gun : MonoBehaviour
 
     private IEnumerator CoolTime()
     {
+        SoundManager.Instance.PlaySfx("Reload");
         yield return new WaitForSeconds(2f);
         canfire = true;
     }

@@ -1,4 +1,5 @@
 using _00._Work._02._Scripts.Systems;
+using _00.Work.Scripts.Managers;
 using System;
 using UnityEngine;
 
@@ -34,6 +35,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             ani.SetBool("Dead", true);
+            SoundManager.Instance.PlaySfx("EnemyDead");
         }
     }
 
@@ -42,6 +44,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             ani.SetBool("Dead", true);
+            SoundManager.Instance.PlaySfx("EnemyDead");
         }
     }
 
