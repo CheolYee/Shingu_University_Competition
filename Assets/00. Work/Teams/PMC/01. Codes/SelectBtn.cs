@@ -1,3 +1,4 @@
+using _00._Work.Teams.PMC._01._Codes.UI;
 using _00.Work.Scripts.UI;
 using TMPro;
 using UnityEngine;
@@ -12,14 +13,11 @@ namespace _00._Work.Teams.PMC._01._Codes
 
         private void Start()
         {
-            if (!SaveManager.IsStageCleared(id))
+            if (SaveManager.IsStageCleared(id))
             {
-                lockPanel.SetActive(true);
+                lockPanel.SetActive(false);
             }
-            
-            stageText.text = id;
         }
-
 
         public void RoadStage()
         {
