@@ -23,6 +23,7 @@ namespace _00._Work.Teams.PMC._01._Codes
             {
                 SaveStageData saveStageData = new SaveStageData();
                 saveStageData.clearStageIds.Add("3");
+                saveStageData.clearTutorialIds.Add("16");
                 SaveStageData(saveStageData);
                 return saveStageData;
             }
@@ -46,9 +47,20 @@ namespace _00._Work.Teams.PMC._01._Codes
                 SaveStageData(data);
             }
         }
-
-        public static bool IsStageCleared(string stageId)
+        
+        public static void SaveTutorialStageId(string saveStageData)
         {
+            var data = LoadSaveStageData();
+            if (!data.clearTutorialIds.Contains(saveStageData))
+            {
+                data.clearTutorialIds.Add(saveStageData);
+                SaveStageData(data);
+            }
+        }
+
+        public static bool IsStageCleared(string stageId, bool isTutorial = false)
+        {
+            if (isTutorial) return LoadSaveStageData().clearTutorialIds.Contains(stageId);
             return LoadSaveStageData().clearStageIds.Contains(stageId);
         }
 

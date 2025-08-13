@@ -1540,6 +1540,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -125
       objectReference: {fileID: 0}
+    - target: {fileID: 7543753209619034660, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
+      propertyPath: isTutorial
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7799499317129951228, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_Name
       value: ClearUICanvas

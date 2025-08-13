@@ -1,3 +1,4 @@
+using System;
 using _00._Work.Teams.PMC._01._Codes;
 using _00.Work.Scripts.Managers;
 using UnityEngine;
@@ -14,17 +15,24 @@ namespace _00._Work._02._Scripts.UI
         public Slider sfxSlider;
 
         private bool esc;
+        private void Awake()
+        {
+            playerInputSo.ToggleMenu += ToggleMenu;
+        }
 
         private void Start()
         {
-            playerInputSo.toggleMenu += ToggleMenu;
-            
             bgmSlider.value = SoundManager.Instance.GetBGMVolume();
             sfxSlider.value = SoundManager.Instance.GetSfxVolume();
 
             bgmSlider.onValueChanged.AddListener((v) => SoundManager.Instance.SetBgmVolume(v));
             sfxSlider.onValueChanged.AddListener((v) => SoundManager.Instance.SetSfxVolume(v));
             menu.SetActive(false);
+        }
+
+        private void OnDisable()
+        {
+            playerInputSo.ToggleMenu -= ToggleMenu;
         }
 
         /// <summary>

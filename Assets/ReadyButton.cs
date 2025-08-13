@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using _00._Work._02._Scripts.Systems;
+using _00._Work.Teams.PMC._01._Codes.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -49,7 +50,7 @@ public class ReadyButton : MonoBehaviour
     public void OnClick_UnReady()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        FadeManager.Instance.FadeToScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private List<CardEnum> GetCardSequenceFromSlots()

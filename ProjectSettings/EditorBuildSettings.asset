@@ -14,6 +14,60 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00. Work/Teams/PMC/00. Scenes/SelectScene.unity
     guid: 324dd839a5b46d84c8624595f06968e2
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 1.unity
+    guid: 026274d46018d0348b3d689ec120df2c
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 2.unity
+    guid: b9c7ff3fc5c713c4e961d5d806c01389
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 3.unity
+    guid: 95003352971f5b345af191f1f6c6ae88
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 4.unity
+    guid: d50fd0d89015ffe48b87b4f708c95acc
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 5.unity
+    guid: a2cb076eef0d97048ba381a8995b0ff5
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 6.unity
+    guid: f892f82523eca224d8b68c37b9a57555
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 7.unity
+    guid: df9ca9044db9fab4bb2a8dcd6a179b48
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 8.unity
+    guid: c06ebaa3cf254564592ddb939a2f79f9
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 9.unity
+    guid: cb7de0893428e3d4d946cab5eb60a027
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 10.unity
+    guid: 52dfc756db9dcff41bcd8b87aa049a4a
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 11.unity
+    guid: 77881614fb2662b40b55d0c311d93818
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 12.unity
+    guid: dbf2faedb4eb254499d0cc4502b5fbfc
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Stage/Level 13.unity
+    guid: 4e53821c5799e77409294427d98fe0a4
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Tutorial/Stage 1.unity
+    guid: 00a152a28cdefdc41b58a2bb5dd052a5
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Tutorial/Stage 2.unity
+    guid: 0700a42db903f70458edbfda7799c4fb
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Tutorial/Stage 3.unity
+    guid: d437fd47c3c35da41bfb10b02c9da854
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Tutorial/Stage 4.unity
+    guid: 89453015f0a204e4bae8a33c00b3e268
+  - enabled: 1
+    path: Assets/00. Work/01. Scene/Tutorial/Stage 5.unity
+    guid: 9d5e7aefe355f544185b42d83ab339a8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
