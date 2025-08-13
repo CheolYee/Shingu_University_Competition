@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class ReadyButton : MonoBehaviour
 {
     public Transform[] slotParents;
@@ -77,8 +78,7 @@ public class ReadyButton : MonoBehaviour
 
     public void OnClick_UnReady()
     {
-        Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(0);
     }
 
     private List<CardEnum> GetCardSequenceFromSlots()
