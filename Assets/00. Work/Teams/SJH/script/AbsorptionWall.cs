@@ -1,4 +1,6 @@
+using _00._Work.Teams.PMC._01._Codes.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AbsorptionWall : MonoBehaviour
 {
@@ -13,6 +15,7 @@ public class AbsorptionWall : MonoBehaviour
 
         if (hitBullet != null)
         {
+            FadeManager.Instance.FadeToScene(SceneManager.GetActiveScene().buildIndex);
             hitBullet.gameObject.SetActive(false);
         }
     }

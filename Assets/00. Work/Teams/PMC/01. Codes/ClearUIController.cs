@@ -1,4 +1,6 @@
 using System.Collections;
+using _00._Work._02._Scripts.Manager.MoneyManager;
+using _00._Work.Teams.PMC._03._SO;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,7 +25,8 @@ namespace _00._Work.Teams.PMC._01._Codes
         [SerializeField] private Vector2 gizmoRadius;
         
         [Header("StarCounts")]
-        private int starCount = 1;
+        [SerializeField] private MoneyCountSo moneyCountSo;
+        private int starCount;
 
         public void SubscribeToEnemy(Enemy enemy)
         {
@@ -42,6 +45,8 @@ namespace _00._Work.Teams.PMC._01._Codes
         
         public void ShowStars(int count)
         {
+            if (MoneyManager.Instance.Money >= moneyCountSo.moneyCount) starCount++;
+            
             starPanel.SetActive(true);
             clearButton.gameObject.SetActive(false);
 

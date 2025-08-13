@@ -56,4 +56,9 @@ public class OnOffCard : MonoBehaviour
         a.DOAnchorPos(aTarget, moveDuration).SetUpdate(true);
         b.DOAnchorPos(bTarget, moveDuration).SetUpdate(true);
     }
+
+    public void ShotState()
+    {
+        toggleButton.interactable = false;
+    }
 }

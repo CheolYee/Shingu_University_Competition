@@ -773,7 +773,7 @@ MonoBehaviour:
   - {fileID: 1575262256}
   bulletArrivalTime: 0.2
   gizmoRadius: {x: 10, y: 10}
-  starCount: 1
+  moneyCountSo: {fileID: 11400000, guid: 50d9e2b8a9daeab438f7af4a9a9d0000, type: 2}
 --- !u!4 &385578062
 Transform:
   m_ObjectHideFlags: 0

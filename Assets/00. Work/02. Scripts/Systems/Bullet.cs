@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using _00._Work.Teams.PMC._01._Codes.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace _00._Work._02._Scripts.Systems
 {
@@ -64,7 +66,7 @@ namespace _00._Work._02._Scripts.Systems
             if (collision.gameObject.CompareTag("Enemy"))
             {
                 if (explode) BulletExplode();
-                BulletDead();
+                BulletDead(true);
                 return;
             }
 
@@ -102,7 +104,7 @@ namespace _00._Work._02._Scripts.Systems
             if (collision.gameObject.CompareTag("Enemy"))
             {
                 if (explode) BulletExplode();
-                BulletDead();
+                BulletDead(true);
             }
             else if (collision.gameObject.CompareTag("Wall"))
             {
@@ -233,8 +235,12 @@ namespace _00._Work._02._Scripts.Systems
             Instantiate(boomEffect, transform.position, Quaternion.identity);
         }
 
-        private void BulletDead()
+        private void BulletDead(bool cleared = false)
         {
+            if (!cleared)
+            {
+                FadeManager.Instance.FadeToScene(SceneManager.GetActiveScene().buildIndex);
+            }
             gameObject.SetActive(false);
         }
 
@@ -291,7 +297,7 @@ namespace _00._Work._02._Scripts.Systems
             GetComponent<TrailRenderer>()?.Clear();
 
             currentEffectIndex = 0;
-            currentSequence = new List<CardEnum>(ReadyButton.lastUsedSequence);
+            currentSequence = new List<CardEnum>(ReadyButton.LastUsedSequence);
             Debug.Log("[Bullet] 시퀀스 초기화됨: " + string.Join(", ", currentSequence));
 
             if (currentSequence.Count > 0)

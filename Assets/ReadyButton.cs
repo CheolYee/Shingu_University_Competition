@@ -11,12 +11,13 @@ public class ReadyButton : MonoBehaviour
     public GameObject bulletPrefab;
     public List<CardEnum> cardSequence = new List<CardEnum>();
     public Bullet targetBullet;
-    public static List<CardEnum> lastUsedSequence = new List<CardEnum>();
+    public static List<CardEnum> LastUsedSequence = new List<CardEnum>();
     public OnOffCard onOffCard;
-    public MoneyManager moneyManager;
+    
+    private bool isReady;
     private void Awake()
     {
-        lastUsedSequence.Clear();
+        LastUsedSequence.Clear();
     }
 
     public void RegisterBullet(Bullet bullet)
@@ -26,8 +27,12 @@ public class ReadyButton : MonoBehaviour
 
     public void OnClick_Ready()
     {
+        if (isReady) return;
+        
+        isReady = true;
+        
         cardSequence = GetCardSequenceFromSlots();
-        lastUsedSequence = new List<CardEnum>(cardSequence);
+        LastUsedSequence = new List<CardEnum>(cardSequence);
         Debug.Log($"ReadyButton 시퀀스 저장: {string.Join(", ", cardSequence)}");
 
         if (targetBullet != null)
@@ -45,13 +50,13 @@ public class ReadyButton : MonoBehaviour
         if (onOffCard != null)
         {
             onOffCard.OpenCards();
+            onOffCard.ShotState();
         }
 
         int totalPrice = 0;
 
-        for (int i = 0; i < slotParents.Length; i++)
+        foreach (var slot in slotParents)
         {
-            Transform slot = slotParents[i];
             if (slot.childCount > 0)
             {
                 CardView card = slot.GetChild(0).GetComponent<CardView>();
@@ -73,7 +78,7 @@ public class ReadyButton : MonoBehaviour
             }
         }
 
-        moneyManager.SpendMoney(totalPrice);
+        MoneyManager.Instance.SpendMoney(totalPrice);
     }
 
     public void OnClick_UnReady()

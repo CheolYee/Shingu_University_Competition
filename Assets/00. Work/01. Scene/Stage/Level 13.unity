@@ -282,7 +282,6 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
-  moneyManager: {fileID: 0}
 --- !u!114 &9436198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -928,6 +927,7 @@ MonoBehaviour:
   - {fileID: 1575262256}
   bulletArrivalTime: 0.2
   gizmoRadius: {x: 10, y: 10}
+  moneyCountSo: {fileID: 11400000, guid: 3f523cd0cf80a344ca23da0656c617c8, type: 2}
 --- !u!4 &385578062
 Transform:
   m_ObjectHideFlags: 0
@@ -1882,7 +1882,6 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
-  moneyManager: {fileID: 0}
 --- !u!224 &811844579
 RectTransform:
   m_ObjectHideFlags: 0
