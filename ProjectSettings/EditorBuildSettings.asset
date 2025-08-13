@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/00. Work/Teams/PMC/00. Scenes/Start.unity
     guid: 2fbd0fdcb71ae8f48bc96775a214da35
   - enabled: 1
-    path: Assets/00. Work/Scenes/Main.unity
-    guid: af75820899d28db4ebb22e2ae30ae9f6
+    path: Assets/00. Work/Teams/PMC/00. Scenes/TutoSelectScene.unity
+    guid: 996687c90615a254a891e06fae05e779
   - enabled: 1
     path: Assets/00. Work/Teams/PMC/00. Scenes/SelectScene.unity
     guid: 324dd839a5b46d84c8624595f06968e2

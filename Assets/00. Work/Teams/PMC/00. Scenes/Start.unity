@@ -941,46 +941,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1832095596118850981, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1832095596118850981, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1832095596118850981, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1832095596118850981, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1832095596118850981, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1832095596118850981, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1832095596118850981, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1832095596118850981, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1832095596118850981, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1832095596118850981, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3960360428076540748, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1061,10 +1021,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7288986082863407789, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_PresetInfoIsWorld
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7439505161954002351, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
       propertyPath: m_Name
       value: FadeManager
@@ -1073,10 +1029,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1260064647}
-    - target: {fileID: 8354633153448284531, guid: 2bf8370da932ebd47af9d4993d1ec97a, type: 3}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1433,7 +1385,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1085965044}
         m_TargetAssemblyTypeName: _00._Work.Teams.PMC._01._Codes.UI.StartUIAnim,
           Assembly-CSharp
-        m_MethodName: TestBtnClicked
+        m_MethodName: StartBtnClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1658,7 +1610,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1085965044}
         m_TargetAssemblyTypeName: _00._Work.Teams.PMC._01._Codes.UI.StartUIAnim,
           Assembly-CSharp
-        m_MethodName: TestBtnClicked
+        m_MethodName: TutorialBtnClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1841,7 +1793,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1085965044}
         m_TargetAssemblyTypeName: _00._Work.Teams.PMC._01._Codes.UI.StartUIAnim,
           Assembly-CSharp
-        m_MethodName: TestBtnClicked
+        m_MethodName: ExitBtnClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
