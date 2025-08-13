@@ -1,6 +1,6 @@
-﻿using System.Collections;
+﻿using _00._Work.Teams.PMC._01._Codes.UI;
+using System.Collections;
 using System.Collections.Generic;
-using _00._Work.Teams.PMC._01._Codes.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -65,8 +65,9 @@ namespace _00._Work._02._Scripts.Systems
 
             if (collision.gameObject.CompareTag("Enemy"))
             {
-                if (explode) BulletExplode();
-                BulletDead(true);
+                if (explode)
+                    BulletExplode();
+                BulletDead();
                 return;
             }
 
@@ -83,7 +84,7 @@ namespace _00._Work._02._Scripts.Systems
                 if (explode)
                 {
                     BulletExplode();
-                    BulletDead(true);
+                    BulletDead();
                     NextBulletPower();
                     return;
                 }
@@ -104,7 +105,7 @@ namespace _00._Work._02._Scripts.Systems
             if (collision.gameObject.CompareTag("Enemy"))
             {
                 if (explode) BulletExplode();
-                BulletDead(true);
+                BulletDead();
             }
             else if (collision.gameObject.CompareTag("Wall"))
             {
@@ -143,15 +144,23 @@ namespace _00._Work._02._Scripts.Systems
                 return;
             }
 
-            if (currentEffectIndex >= currentSequence.Count)
+            while (currentEffectIndex < currentSequence.Count)
             {
-                SetBulletPower();
+                CardEnum effect = currentSequence[currentEffectIndex];
+                currentEffectIndex++;
+
+                if (effect == CardEnum.Magnet)
+                {
+                    magnet = true;
+                    ChangeTrailColorSimple("#000000");
+                    continue;
+                }
+
+                SetBulletPower(effect);
                 return;
             }
 
-            CardEnum effect = currentSequence[currentEffectIndex];
-            SetBulletPower(effect);
-            currentEffectIndex++;
+            SetBulletPower();
         }
 
         private void SetBulletPower(CardEnum effect = CardEnum.Default)
@@ -232,7 +241,8 @@ namespace _00._Work._02._Scripts.Systems
 
         private void BulletExplode()
         {
-            if (boomEffect == null) { return; }
+            if (boomEffect == null)
+                return;
             Instantiate(boomEffect, transform.position, Quaternion.identity);
         }
 
@@ -301,11 +311,7 @@ namespace _00._Work._02._Scripts.Systems
             currentSequence = new List<CardEnum>(ReadyButton.LastUsedSequence);
             Debug.Log("[Bullet] 시퀀스 초기화됨: " + string.Join(", ", currentSequence));
 
-            if (currentSequence.Count > 0)
-            {
-                SetBulletPower(currentSequence[currentEffectIndex]);
-                currentEffectIndex++;
-            }
+            NextBulletPower();
         }
         #endregion
 
