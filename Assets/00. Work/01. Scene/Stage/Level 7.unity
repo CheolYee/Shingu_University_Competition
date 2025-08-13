@@ -282,6 +282,7 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
+  moneyManager: {fileID: 0}
 --- !u!114 &9436198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1339,7 +1340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4759582719159895926, guid: 0c03c1a8711fa744ca8e9ca7be03df6e, type: 3}
       propertyPath: money
-      value: 1000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4985139087117501126, guid: 0c03c1a8711fa744ca8e9ca7be03df6e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1765,6 +1766,7 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
+  moneyManager: {fileID: 0}
 --- !u!224 &811844579
 RectTransform:
   m_ObjectHideFlags: 0

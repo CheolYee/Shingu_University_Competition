@@ -282,6 +282,7 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
+  moneyManager: {fileID: 0}
 --- !u!114 &9436198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1174,11 +1175,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.83
+      value: 2.68
       objectReference: {fileID: 0}
     - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.07
+      value: 4.24
       objectReference: {fileID: 0}
     - target: {fileID: 3489385321347755617, guid: 2e407128492b1fa4098d59b23312e9ea, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1453,7 +1454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4759582719159895926, guid: 0c03c1a8711fa744ca8e9ca7be03df6e, type: 3}
       propertyPath: money
-      value: 1000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4985139087117501126, guid: 0c03c1a8711fa744ca8e9ca7be03df6e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1794,6 +1795,7 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
+  moneyManager: {fileID: 0}
 --- !u!224 &811844579
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3211,11 +3213,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8760761527382645776, guid: 664e5016dfee8ed469576875d288540c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.08
+      value: 8.33
       objectReference: {fileID: 0}
     - target: {fileID: 8760761527382645776, guid: 664e5016dfee8ed469576875d288540c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.83
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8760761527382645776, guid: 664e5016dfee8ed469576875d288540c, type: 3}
       propertyPath: m_LocalPosition.z

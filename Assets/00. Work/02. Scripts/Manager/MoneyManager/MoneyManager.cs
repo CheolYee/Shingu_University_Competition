@@ -42,6 +42,7 @@ namespace _00._Work._02._Scripts.Manager.MoneyManager
             //돈 += 돈 추가값(int)
             money -= amount;
             //구독자가 null이 아니라면(구독자가 이벤트 듣고 있으면), 실행해(돈이 바뀜, (방송을 한다))
+
             OnMoneyChanged?.Invoke();
         }
 
