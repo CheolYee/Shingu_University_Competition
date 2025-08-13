@@ -23,7 +23,7 @@ namespace _00._Work.Teams.PMC._01._Codes
             {
                 SaveStageData saveStageData = new SaveStageData();
                 saveStageData.clearStageIds.Add("3");
-                saveStageData.clearTutorialIds.Add("16");
+                saveStageData.clearTutorialIds.Add("15");
                 SaveStageData(saveStageData);
                 return saveStageData;
             }
