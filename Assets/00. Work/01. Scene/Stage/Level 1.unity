@@ -851,7 +851,6 @@ MonoBehaviour:
   - {fileID: 1575262256}
   bulletArrivalTime: 0.2
   gizmoRadius: {x: 10, y: 10}
-  starCount: 2
 --- !u!4 &385578062
 Transform:
   m_ObjectHideFlags: 0
