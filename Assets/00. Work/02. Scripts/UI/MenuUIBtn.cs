@@ -41,7 +41,7 @@ namespace _00._Work._02._Scripts.UI
         private void ToggleMenu()
         {
             esc = !esc; // 상태 반전
-            Debug.Log(esc);
+            SoundManager.Instance.PlaySfx("buttonPress");
             
             if (esc)
             {

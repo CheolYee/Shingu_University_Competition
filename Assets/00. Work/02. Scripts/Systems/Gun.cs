@@ -26,6 +26,8 @@ public class Gun : MonoBehaviour
     private bool aim = false;
     public bool magnazineget = false;
 
+    private bool ready;
+
     private void OnEnable()
     {
         BulletDead += BulletActivr;
@@ -45,6 +47,8 @@ public class Gun : MonoBehaviour
 
     private void Start()
     {
+        readyButton.OnClick += isReady => ready = isReady;
+        
         SoundManager.Instance.PlayBgm("StageBGM");
         sprite.enabled = false;
         startPos = transform.position;
@@ -81,7 +85,6 @@ public class Gun : MonoBehaviour
 
         if (qwer == true && magnazineget == true && asdf == true)
         {
-            print(magnazineget);
             magnazine.gameObject.SetActive(false);
         }
     }
@@ -164,6 +167,8 @@ public class Gun : MonoBehaviour
     {
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
+            if (ready == false) return;
+            
             PlayerAnimation.Instance.IdleToAimAnimation();
             StartCoroutine(AimTime());
         }

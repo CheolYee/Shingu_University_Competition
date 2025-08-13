@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -15,6 +16,12 @@ public class TimeWall : MonoBehaviour
         if (Instance == null)
             Instance = this;
         DoReset();
+    }
+
+    private void OnDisable()
+    {
+        Instance = null;
+        Destroy(gameObject);
     }
 
     public void DoTime()

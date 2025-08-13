@@ -17,7 +17,7 @@ namespace _00._Work.Teams.PMC._01._Codes
         [SerializeField] private GameObject shatterEffectPrefab;
         [SerializeField] private Button clearButton;
         
-        [Header("OnDrowGizmo")]
+        [Header("OnDrawGizmo")]
         [SerializeField] private bool onDrowGizmo;
         
         [SerializeField] private Transform[] bulletStartPoints;
@@ -26,7 +26,7 @@ namespace _00._Work.Teams.PMC._01._Codes
         
         [Header("StarCounts")]
         [SerializeField] private MoneyCountSo moneyCountSo;
-        private int starCount;
+        private int starCount = 1;
 
         public void SubscribeToEnemy(Enemy enemy)
         {
@@ -38,14 +38,9 @@ namespace _00._Work.Teams.PMC._01._Codes
             starCount++;
         }
 
-        public void ResetStarCount()
+        private void ShowStars(int count)
         {
-            starCount = 0;
-        }
-        
-        public void ShowStars(int count)
-        {
-            if (MoneyManager.Instance.Money >= moneyCountSo.moneyCount) starCount++;
+            if (MoneyManager.Instance.money >= moneyCountSo.moneyCount) count++;
             
             starPanel.SetActive(true);
             clearButton.gameObject.SetActive(false);

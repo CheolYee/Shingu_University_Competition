@@ -61,8 +61,7 @@ public class Magnazine : MonoBehaviour
         if (!isActiveAndEnabled)
             return;
         Gun.Instance.asdf = true;
-        if (Gun.Instance.magnazineget)
-            clearController.AddStarCount();
+        clearController.AddStarCount();
         gameObject.SetActive(false);
     }
 

@@ -9,8 +9,15 @@ namespace _00._Work.Teams.PMC._01._Codes.UI
         
         public void StageClearBtnClicked()
         {
+            if (!SaveManager.IsStageCleared((SceneManager.GetActiveScene().buildIndex + 1).ToString()))
+            {
+                if (isTutorial)
+                    SaveManager.SaveTutorialStageId((SceneManager.GetActiveScene().buildIndex + 1).ToString());
+                else
+                    SaveManager.SaveStageId((SceneManager.GetActiveScene().buildIndex + 1).ToString());
+            }
+            
             FadeManager.Instance.FadeToScene(isTutorial ? 1 : 2);
-            SaveManager.IsStageCleared(SceneManager.GetActiveScene().buildIndex.ToString());
         }
     }
 }

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cff049d6e714d5f81b6b3e3c0c3ff78, type: 3}
   m_Name: Money Stage 3
   m_EditorClassIdentifier: 
-  moneyCount: 14
+  moneyCount: 6

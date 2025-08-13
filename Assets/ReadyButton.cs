@@ -1,6 +1,9 @@
-﻿using _00._Work._02._Scripts.Manager.MoneyManager;
+﻿using System;
+using _00._Work._02._Scripts.Manager.MoneyManager;
 using _00._Work._02._Scripts.Systems;
 using System.Collections.Generic;
+using _00._Work.Teams.PMC._01._Codes.UI;
+using _00.Work.Scripts.Managers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,6 +16,8 @@ public class ReadyButton : MonoBehaviour
     public Bullet targetBullet;
     public static List<CardEnum> LastUsedSequence = new List<CardEnum>();
     public OnOffCard onOffCard;
+    
+    public event Action<bool> OnClick;
     
     private bool isReady;
     private void Awake()
@@ -29,7 +34,9 @@ public class ReadyButton : MonoBehaviour
     {
         if (isReady) return;
         
+        SoundManager.Instance.PlaySfx("buttonPress");
         isReady = true;
+        OnClick?.Invoke(isReady);
         
         cardSequence = GetCardSequenceFromSlots();
         LastUsedSequence = new List<CardEnum>(cardSequence);
@@ -83,7 +90,15 @@ public class ReadyButton : MonoBehaviour
 
     public void OnClick_UnReady()
     {
-        SceneManager.LoadScene(0);
+        SoundManager.Instance.PlaySfx("buttonPress");
+        if (SceneManager.GetActiveScene().buildIndex < 15)
+        {
+            FadeManager.Instance.FadeToScene(2);
+        }
+        else
+        {
+            FadeManager.Instance.FadeToScene(1);
+        }
     }
 
     private List<CardEnum> GetCardSequenceFromSlots()
