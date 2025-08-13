@@ -9,7 +9,7 @@ namespace _00._Work.Teams.PMC._01._Codes
     {
         private Controls controls;
 
-        public event Action toggleMenu;
+        public event Action ToggleMenu;
         
         private void OnEnable()
         {
@@ -28,7 +28,7 @@ namespace _00._Work.Teams.PMC._01._Codes
 
         public void OnESC(InputAction.CallbackContext context)
         {
-            toggleMenu?.Invoke();
+            ToggleMenu?.Invoke();
         }
     }
 }

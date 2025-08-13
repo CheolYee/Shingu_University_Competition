@@ -10,10 +10,11 @@ namespace _00._Work.Teams.PMC._01._Codes
         [SerializeField] private GameObject lockPanel;
         [SerializeField] private TextMeshProUGUI stageText;
         [SerializeField] private string id;
+        [SerializeField] private bool isTutorial;
 
         private void Start()
         {
-            if (SaveManager.IsStageCleared(id))
+            if (SaveManager.IsStageCleared(id, isTutorial))
             {
                 lockPanel.SetActive(false);
             }

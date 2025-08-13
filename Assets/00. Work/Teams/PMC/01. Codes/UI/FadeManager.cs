@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using _00.Work.Scripts.Managers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -31,7 +32,7 @@ namespace _00._Work.Teams.PMC._01._Codes.UI
             
             fadeGroup.gameObject.SetActive(true);
             fadeGroup.alpha = 1;
-            fadeGroup.DOFade(0f, fadeDuration).OnComplete(() =>
+            fadeGroup.DOFade(0f, fadeDuration).SetUpdate(true).OnComplete(() =>
             {
                 fadeGroup.gameObject.SetActive(false);
                 onComplete?.Invoke();
@@ -46,10 +47,10 @@ namespace _00._Work.Teams.PMC._01._Codes.UI
             }
             fadeGroup.gameObject.SetActive(true);
             fadeGroup.alpha = 0;
-            fadeGroup.DOFade(1f, fadeDuration).OnComplete(() =>
+            fadeGroup.DOFade(1f, fadeDuration).SetUpdate(true).OnComplete(() =>
             {
                 onFadeComplete?.Invoke();
-                FadeManager.Instance.FadeOut();
+                FadeOut();
             });
         }
         
@@ -59,6 +60,12 @@ namespace _00._Work.Teams.PMC._01._Codes.UI
             {
                 SceneManager.LoadScene(sceneIndex);
             });
+
+            if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                SoundManager.Instance.PlayBgm("MenuBGM");
+            }
+
         }
 
 
@@ -70,7 +77,7 @@ namespace _00._Work.Teams.PMC._01._Codes.UI
         private IEnumerator DelayAndFadeToScene(int sceneIndex)
         {
             yield return null; // 한 프레임 대기: 모든 Awake() 보장
-            FadeManager.Instance.FadeToScene(sceneIndex);
+            FadeToScene(sceneIndex);
         }
     }
 }
