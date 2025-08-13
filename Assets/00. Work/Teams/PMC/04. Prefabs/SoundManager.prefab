@@ -48,8 +48,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 7521794278425370003}
   sfxSource: {fileID: 176708686093839195}
-  audioClips: []
-  sfxClips: []
+  audioClips:
+  - {fileID: 8300000, guid: 57362630e97dd4f48be2586fb50a0eba, type: 3}
+  - {fileID: 8300000, guid: d47601ae1073bcc47aa37018e515b5d7, type: 3}
+  sfxClips:
+  - {fileID: 8300000, guid: 010e9a0eb33dd7b48be3e9dd74a4ae98, type: 3}
+  - {fileID: 8300000, guid: b0fd8225403da504cb87b98628419856, type: 3}
+  - {fileID: 8300000, guid: c6fb0118cbb0dac49b259f14e61959ea, type: 3}
+  - {fileID: 8300000, guid: 6611c9872ffab0047b900f4a4e3d45f4, type: 3}
+  - {fileID: 8300000, guid: 63aadc6a86c508a4e83c3246b35456e3, type: 3}
+  - {fileID: 8300000, guid: 1e691ff3b6a77a140899eaf2390fad56, type: 3}
 --- !u!82 &7521794278425370003
 AudioSource:
   m_ObjectHideFlags: 0

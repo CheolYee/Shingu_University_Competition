@@ -1,12 +1,25 @@
+using _00._Work.Teams.PMC._01._Codes;
 using UnityEngine;
 
 public class Magnazine : MonoBehaviour
 {
+    private ClearUIController clearController;
+
+    private void Awake()
+    {
+        clearController = GameObject.FindWithTag("clearController").GetComponent<ClearUIController>();
+    }
+
+    private void OnEnable()
+    {
+        if (Enemy.Instance != null)
+            Enemy.Instance.OnDead += GetMagnazine;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            Destroy(gameObject);
+            GetMagnazine();
         }
     }
 
@@ -14,7 +27,13 @@ public class Magnazine : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            Destroy(gameObject);
+            GetMagnazine();
         }
+    }
+
+    private void GetMagnazine()
+    {
+        clearController.AddStarCount();
+        gameObject.SetActive(false);
     }
 }

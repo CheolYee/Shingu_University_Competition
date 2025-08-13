@@ -1,9 +1,11 @@
 using _00._Work._02._Scripts.Systems;
+using _00.Work.Scripts.Managers;
 using System;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public static Enemy Instance = null;
     public event Action OnDead;
     private Bullet bullet;
     private Collider2D collid;
@@ -13,6 +15,8 @@ public class Enemy : MonoBehaviour
     {
         collid = GetComponent<Collider2D>();
         ani = GetComponent<Animator>();
+        if (Instance == null)
+            Instance = this;
     }
 
     private void Update()
@@ -34,6 +38,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             ani.SetBool("Dead", true);
+            SoundManager.Instance.PlaySfx("EnemyDead");
         }
     }
 
@@ -42,6 +47,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             ani.SetBool("Dead", true);
+            SoundManager.Instance.PlaySfx("EnemyDead");
         }
     }
 

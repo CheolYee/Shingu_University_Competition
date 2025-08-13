@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3152865109186976351}
   - component: {fileID: 5688365124807652854}
   - component: {fileID: 8850335419459001035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TimeWall
   m_TagString: Wall
   m_Icon: {fileID: 0}

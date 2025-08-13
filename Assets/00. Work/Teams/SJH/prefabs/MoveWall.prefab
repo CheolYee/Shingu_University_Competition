@@ -151,6 +151,10 @@ MonoBehaviour:
   - {fileID: 7074348515633842875}
   - {fileID: 1732594648136910607}
   moveTime: 1
+  isRotation: 0
+  isRotationSelect: 0
+  rotationSeclectValue: 0
+  rotationSeclectSpeed: 0
 --- !u!1 &1919907521879770988
 GameObject:
   m_ObjectHideFlags: 0

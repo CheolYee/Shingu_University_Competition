@@ -9,6 +9,8 @@ TagManager:
   - Bullet
   - DeadZone
   - Slot
+  - Magnazine
+  - clearController
   layers:
   - Default
   - TransparentFX
