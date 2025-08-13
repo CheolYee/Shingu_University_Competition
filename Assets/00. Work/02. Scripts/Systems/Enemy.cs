@@ -37,8 +37,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            ani.SetBool("Dead", true);
-            SoundManager.Instance.PlaySfx("EnemyDead");
+            Dead();
         }
     }
 
@@ -46,9 +45,15 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            ani.SetBool("Dead", true);
-            SoundManager.Instance.PlaySfx("EnemyDead");
+            Dead();
         }
+    }
+
+    private void Dead()
+    {
+        ani.SetBool("Dead", true);
+        Gun.Instance.magnazineget = true;
+        SoundManager.Instance.PlaySfx("EnemyDead");
     }
 
     public void DeadAniEvent()
