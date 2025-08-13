@@ -18,29 +18,35 @@ public class OnOffCard : MonoBehaviour
         aStartPos = a.anchoredPosition;
         bStartPos = b.anchoredPosition;
 
-        Time.timeScale = 0;
+        // 처음부터 열려 있는 상태로 만들기
+        Vector2 aTarget = aStartPos - new Vector2(0, moveDistance);
+        Vector2 bTarget = bStartPos + new Vector2(0, moveDistance);
+
+        a.anchoredPosition = aTarget;
+        b.anchoredPosition = bTarget;
+
+        Time.timeScale = 1;
         isToggled = false;
 
         toggleButton.onClick.AddListener(() =>
         {
             isToggled = !isToggled;
 
-            Vector2 aTarget = isToggled ? aStartPos - new Vector2(0, moveDistance) : aStartPos;
-            Vector2 bTarget = isToggled ? bStartPos + new Vector2(0, moveDistance) : bStartPos;
+            Vector2 newATarget = isToggled ? aStartPos : aStartPos - new Vector2(0, moveDistance);
+            Vector2 newBTarget = isToggled ? bStartPos : bStartPos + new Vector2(0, moveDistance);
 
-            Time.timeScale = isToggled ? 1 : 0;
+            Time.timeScale = isToggled ? 0 : 1;
 
-            a.DOAnchorPos(aTarget, moveDuration).SetUpdate(true);
-            b.DOAnchorPos(bTarget, moveDuration).SetUpdate(true);
+            a.DOAnchorPos(newATarget, moveDuration).SetUpdate(true);
+            b.DOAnchorPos(newBTarget, moveDuration).SetUpdate(true);
         });
-
-
     }
+
     public void OpenCards()
     {
-        if (isToggled) return;
+        if (!isToggled) return;
 
-        isToggled = true;
+        isToggled = false;
 
         Vector2 aTarget = aStartPos - new Vector2(0, moveDistance);
         Vector2 bTarget = bStartPos + new Vector2(0, moveDistance);
