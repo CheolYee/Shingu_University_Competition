@@ -12,6 +12,7 @@ public class Gun : MonoBehaviour
     private GameObject[] bulletPool;
     private Magnazine magnazine;
     private SpriteRenderer sprite;
+    public static Gun Instance = null;
 
     [SerializeField] private Transform bulletPosition;
     private Vector3 mouse;
@@ -21,11 +22,14 @@ public class Gun : MonoBehaviour
 
     private bool canfire = true;
     private bool aim = false;
+    public bool magnazineget = false;
 
     private void Awake()
     {
         sprite = GetComponent<SpriteRenderer>();
         magnazine = GameObject.FindWithTag("Magnazine").GetComponent<Magnazine>();
+        if (Instance == null)
+            Instance = this;
     }
 
     private void Start()
@@ -68,7 +72,10 @@ public class Gun : MonoBehaviour
             bulletr.transform.position = bulletPosition.transform.position;
             TimeWall.Instance?.DoReset();
             SwitchWall.Instance?.gameObject.SetActive(true);
-            magnazine.gameObject.SetActive(true);
+            if (!magnazineget && magnazine != null && !magnazine.gameObject.activeSelf)
+            {
+                magnazine.gameObject.SetActive(true);
+            }
         }
     }
 
