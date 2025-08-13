@@ -30,6 +30,7 @@ public class Gun : MonoBehaviour
 
     private void Start()
     {
+        SoundManager.Instance.PlayBgm("StageBGM");
         sprite.enabled = false;
         startPos = transform.position;
 
