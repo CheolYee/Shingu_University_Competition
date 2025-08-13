@@ -282,7 +282,7 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
-  moneyManager: {fileID: 0}
+  moneyManager: {fileID: 769023936}
 --- !u!114 &9436198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,29 +484,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: TimeWall (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 3152865109186976351, guid: 91f09097844493b4c88a2caf76b01b50, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152865109186976351, guid: 91f09097844493b4c88a2caf76b01b50, type: 3}
-      propertyPath: m_DrawMode
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 5688365124807652854, guid: 91f09097844493b4c88a2caf76b01b50, type: 3}
       propertyPath: time
       value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850335419459001035, guid: 91f09097844493b4c88a2caf76b01b50, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850335419459001035, guid: 91f09097844493b4c88a2caf76b01b50, type: 3}
-      propertyPath: m_SpriteTilingProperty.drawMode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850335419459001035, guid: 91f09097844493b4c88a2caf76b01b50, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9151607936795958034, guid: 91f09097844493b4c88a2caf76b01b50, type: 3}
       propertyPath: m_LocalPosition.x
@@ -514,7 +494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9151607936795958034, guid: 91f09097844493b4c88a2caf76b01b50, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.81
+      value: -3.53
       objectReference: {fileID: 0}
     - target: {fileID: 9151607936795958034, guid: 91f09097844493b4c88a2caf76b01b50, type: 3}
       propertyPath: m_LocalPosition.z
@@ -694,10 +674,6 @@ PrefabInstance:
     - target: {fileID: 7111969675827113657, guid: 58d0ed0789632d646b1a7f0fe2c8a93d, type: 3}
       propertyPath: m_Name
       value: SoundManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111969675827113657, guid: 58d0ed0789632d646b1a7f0fe2c8a93d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1476,6 +1452,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4985139087117501126, guid: 0c03c1a8711fa744ca8e9ca7be03df6e, type: 3}
   m_PrefabInstance: {fileID: 769023934}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &769023936 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4759582719159895926, guid: 0c03c1a8711fa744ca8e9ca7be03df6e, type: 3}
+  m_PrefabInstance: {fileID: 769023934}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c086ed8e97edb438a55ff05c3bfc0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &776800118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1490,7 +1477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1010651779155615795, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3072707418194436322, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_Camera
@@ -1498,15 +1485,15 @@ PrefabInstance:
       objectReference: {fileID: 1234925838}
     - target: {fileID: 3336971412579432209, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3336971412579432209, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3336971412579432209, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3667140227299870736, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_IsActive
@@ -1530,11 +1517,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6335488027445666029, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6335488027445666029, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6899269451404683790, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1556,10 +1543,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClearUICanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 7799499317129951228, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8089457012358309402, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1578,7 +1561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8562015356987349039, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8724633580430705376, guid: b19e776dc0dbcec4ab86ac1b30f65925, type: 3}
       propertyPath: m_Pivot.x
@@ -1797,7 +1780,7 @@ MonoBehaviour:
   cardSequence: 
   targetBullet: {fileID: 4318384971505847469, guid: 9cf34a87c0a08b54785bb567af5a1a6f, type: 3}
   onOffCard: {fileID: 1190693545}
-  moneyManager: {fileID: 0}
+  moneyManager: {fileID: 769023936}
 --- !u!224 &811844579
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2550,7 +2533,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1506516192
 RectTransform:
   m_ObjectHideFlags: 0

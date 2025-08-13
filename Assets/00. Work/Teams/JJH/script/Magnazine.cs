@@ -13,7 +13,7 @@ public class Magnazine : MonoBehaviour
 
     private void Update()
     {
-        TrySubscribe();
+        //TrySubscribe();
     }
 
     private void OnEnable()
@@ -28,6 +28,15 @@ public class Magnazine : MonoBehaviour
         {
             subscribedEnemy.OnDead -= GetMagnazine;
             subscribedEnemy = null;
+        }
+        if (Gun.Instance == null)
+            return;
+        else if (Gun.Instance != null)
+        {
+            if (Gun.Instance.magnazineget)
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 
@@ -51,20 +60,20 @@ public class Magnazine : MonoBehaviour
     {
         if (!isActiveAndEnabled)
             return;
-        clearController.AddStarCount();
+        Gun.Instance.asdf = true;
+        if (Gun.Instance.magnazineget)
+            clearController.AddStarCount();
         gameObject.SetActive(false);
     }
 
     private void TrySubscribe()
     {
-        if (Enemy.Instance == null) return;
+        if (Enemy.Instance == null)
+            return;
 
-        if (subscribedEnemy == Enemy.Instance) return;
+        if (subscribedEnemy == Enemy.Instance)
+            return;
 
-        if (subscribedEnemy != null)
-            subscribedEnemy.OnDead -= GetMagnazine;
-
-        Enemy.Instance.OnDead += GetMagnazine;
         subscribedEnemy = Enemy.Instance;
     }
 }

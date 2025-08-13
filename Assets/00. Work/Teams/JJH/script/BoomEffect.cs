@@ -4,8 +4,19 @@ using UnityEngine;
 
 public class BoomEffect : MonoBehaviour
 {
+    private GameObject mag;
+
+    private void Awake()
+    {
+        mag = GameObject.FindWithTag("Magnazine");
+    }
+
     private void OnEnable()
     {
+        if (mag != null)
+        {
+            mag.SetActive(false);
+        }
         StartCoroutine(Effect());
     }
 

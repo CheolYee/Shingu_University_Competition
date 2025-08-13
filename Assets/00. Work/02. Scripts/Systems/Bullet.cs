@@ -232,6 +232,7 @@ namespace _00._Work._02._Scripts.Systems
 
         private void BulletExplode()
         {
+            if (boomEffect == null) { return; }
             Instantiate(boomEffect, transform.position, Quaternion.identity);
         }
 

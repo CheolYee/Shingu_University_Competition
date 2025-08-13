@@ -7,12 +7,14 @@ public class Enemy : MonoBehaviour
 {
     public static Enemy Instance = null;
     public event Action OnDead;
+    private Magnazine magnazine;
     private Bullet bullet;
     private Collider2D collid;
     private Animator ani;
 
     private void Awake()
     {
+        magnazine = GameObject.FindWithTag("Magnazine").GetComponent<Magnazine>();
         collid = GetComponent<Collider2D>();
         ani = GetComponent<Animator>();
         if (Instance == null)
@@ -53,6 +55,7 @@ public class Enemy : MonoBehaviour
     {
         ani.SetBool("Dead", true);
         Gun.Instance.magnazineget = true;
+        Gun.Instance.BulletDead?.Invoke();
         SoundManager.Instance.PlaySfx("EnemyDead");
     }
 

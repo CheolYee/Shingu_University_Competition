@@ -1,5 +1,6 @@
 ﻿using _00._Work._02._Scripts.Systems;
 using _00.Work.Scripts.Managers;
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -12,6 +13,7 @@ public class Gun : MonoBehaviour
     private GameObject[] bulletPool;
     private Magnazine magnazine;
     private SpriteRenderer sprite;
+    public Action BulletDead;
     public static Gun Instance = null;
 
     [SerializeField] private Transform bulletPosition;
@@ -24,6 +26,15 @@ public class Gun : MonoBehaviour
     private bool aim = false;
     public bool magnazineget = false;
 
+    private void OnEnable()
+    {
+        BulletDead += BulletActivr;
+    }
+
+    private void OnDisable()
+    {
+        BulletDead -= BulletActivr;
+    }
     private void Awake()
     {
         sprite = GetComponent<SpriteRenderer>();
@@ -55,6 +66,8 @@ public class Gun : MonoBehaviour
             Debug.LogWarning("[Gun] ReadyButton 참조가 유니티에서 연결되지 않았습니다.");
         }
     }
+    private bool qwer = false;
+    public bool asdf = false;
 
     private void Update()
     {
@@ -66,16 +79,39 @@ public class Gun : MonoBehaviour
         else if (!aim)
             Aiming();
 
+        if (qwer == true && magnazineget == true && asdf == true)
+        {
+            print(magnazineget);
+            magnazine.gameObject.SetActive(false);
+        }
+    }
 
-        if (!bulletr.activeSelf)
+    private void FixedUpdate()
+    {
+
+        if (!bulletr.activeSelf && qwer == false)
         {
             bulletr.transform.position = bulletPosition.transform.position;
             TimeWall.Instance?.DoReset();
             SwitchWall.Instance?.gameObject.SetActive(true);
-            if (!magnazineget && magnazine != null && !magnazine.gameObject.activeSelf)
+            if (magnazineget == false && magnazine != null && !magnazine.gameObject.activeSelf)
             {
                 magnazine.gameObject.SetActive(true);
             }
+        }
+    }
+
+    private void BulletActivr()
+    {
+        qwer = true;
+    }
+
+    private IEnumerator asfmjk()
+    {
+        yield return new WaitForSeconds(0.01f);
+        if (!magnazineget && magnazine != null && !magnazine.gameObject.activeSelf)
+        {
+            magnazine.gameObject.SetActive(true);
         }
     }
 
