@@ -851,7 +851,6 @@ MonoBehaviour:
   - {fileID: 1575262256}
   bulletArrivalTime: 0.2
   gizmoRadius: {x: 10, y: 10}
-  starCount: 2
 --- !u!4 &385578062
 Transform:
   m_ObjectHideFlags: 0
@@ -1055,9 +1054,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Unready
-
-'
+  m_text: Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e11f96cea56045449bad49880b6a47d7, type: 2}
   m_sharedMaterial: {fileID: 2948822273595004430, guid: e11f96cea56045449bad49880b6a47d7, type: 2}
@@ -1084,8 +1081,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.57
-  m_fontSizeBase: 40.57
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
