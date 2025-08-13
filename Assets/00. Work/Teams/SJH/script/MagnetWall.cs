@@ -24,8 +24,9 @@ public class MagnetWall : MonoBehaviour
         if (bulletCollid != null && bulletCollid.TryGetComponent(out Bullet b))
         {
             float distance = (transform.position - bulletCollid.transform.position).magnitude;
-            float strangth = Mathf.InverseLerp(0, maxDistance, distance) * 0.5f;
-            Vector3 magnetDir = magnetfloat * ((transform.position - bulletCollid.transform.position) / 200) * strangth;
+            float strangth = Mathf.InverseLerp(0, maxDistance, distance) * 2f;
+            Vector3 dir = (transform.position - bulletCollid.transform.position).normalized;
+            Vector3 magnetDir = dir * magnetfloat * strangth / 200f;
             b.Dir += magnetDir;
         }
     }

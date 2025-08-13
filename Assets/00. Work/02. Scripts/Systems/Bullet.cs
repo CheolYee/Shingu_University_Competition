@@ -162,6 +162,7 @@ namespace _00._Work._02._Scripts.Systems
             speedDown = false;
             explode = false;
             magnet = false;
+            ChangeTrailColorSimple("#FFFFFF");
 
             switch (effect)
             {
@@ -190,7 +191,7 @@ namespace _00._Work._02._Scripts.Systems
                     break;
 
                 case CardEnum.Magnet:
-                    MagnetTrail();
+                    ChangeTrailColorSimple("#000000");
                     magnet = true;
                     break;
 
@@ -247,13 +248,6 @@ namespace _00._Work._02._Scripts.Systems
             }
         }
 
-        private void MagnetTrail()
-        {
-            var trail = GetComponent<TrailRenderer>();
-            Color MagnetColor = new Color(1f - trail.startColor.r, 1f - trail.startColor.g, 1f - trail.startColor.b, trail.startColor.a);
-            trail.startColor = MagnetColor;
-            trail.endColor = MagnetColor;
-        }
         #endregion
 
         #region 유지 코루틴
@@ -287,6 +281,15 @@ namespace _00._Work._02._Scripts.Systems
 
         public void Initialize()
         {
+            bounce = false;
+            penetration = false;
+            speedUp = false;
+            speedDown = false;
+            explode = false;
+            magnet = false;
+            ChangeTrailColorSimple("#FFFFFF");
+            GetComponent<TrailRenderer>()?.Clear();
+
             currentEffectIndex = 0;
             currentSequence = new List<CardEnum>(ReadyButton.lastUsedSequence);
             Debug.Log("[Bullet] 시퀀스 초기화됨: " + string.Join(", ", currentSequence));
