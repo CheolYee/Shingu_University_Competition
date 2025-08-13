@@ -1,12 +1,10 @@
 using System;
 using System.Collections;
-using _00._Work.Teams.PMC._01._Codes;
-using _00.Work.Scripts.Managers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace _00.Work.Scripts.UI
+namespace _00._Work.Teams.PMC._01._Codes.UI
 {
     public class FadeManager : MonoSingleton<FadeManager>
     {
@@ -14,13 +12,14 @@ namespace _00.Work.Scripts.UI
         public CanvasGroup fadeGroup;
         public float fadeDuration = 1f;
 
-        private void Start()
+        protected override void Awake()
         {
+            base.Awake();
             if (Instance == this)
             {
-                DontDestroyOnLoad(this.gameObject);
+                DontDestroyOnLoad(gameObject);
+                FadeOut();
             }
-            FadeOut();
         }
 
         public void FadeOut(Action onComplete = null)

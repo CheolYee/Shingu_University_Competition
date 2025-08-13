@@ -1,22 +1,24 @@
+using _00._Work.Teams.PMC._01._Codes;
 using _00.Work.Scripts.Managers;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-namespace _00.Work.Scripts.UI
+namespace _00._Work._02._Scripts.UI
 {
     public class MenuUIBtn : MonoBehaviour
     {
+        [SerializeField] private PlayerInputSo playerInputSo;
         [SerializeField] private GameObject menu;
         [SerializeField] private Button mainButton;
         public Slider bgmSlider;
         public Slider sfxSlider;
 
-        private bool _isPressedEsc;
-        private bool esc = false;
+        private bool esc;
 
         private void Start()
         {
+            playerInputSo.toggleMenu += ToggleMenu;
+            
             bgmSlider.value = SoundManager.Instance.GetBGMVolume();
             sfxSlider.value = SoundManager.Instance.GetSfxVolume();
 
@@ -25,31 +27,44 @@ namespace _00.Work.Scripts.UI
             menu.SetActive(false);
         }
 
-        private void Update()
+        /// <summary>
+        /// 메뉴 상태를 토글
+        /// </summary>
+        private void ToggleMenu()
         {
-            if (Keyboard.current.escapeKey.isPressed)
-                esc = true;
-
+            esc = !esc; // 상태 반전
+            Debug.Log(esc);
+            
             if (esc)
             {
+                // 메뉴 켜기
                 menu.SetActive(true);
                 mainButton.gameObject.SetActive(false);
-                Time.timeScale = 0;
+                Time.timeScale = 0f;
+            }
+            else
+            {
+                // 메뉴 끄기
+                menu.SetActive(false);
+                mainButton.gameObject.SetActive(true);
+                Time.timeScale = 1f;
             }
         }
 
+        /// <summary>
+        /// 버튼에서 호출 - 메뉴 강제 켜기
+        /// </summary>
         public void MainMenu()
         {
-            esc = true;
+            if (!esc) ToggleMenu(); // 꺼져있을 때만 켜기
         }
 
+        /// <summary>
+        /// 버튼에서 호출 - 메뉴 강제 끄기
+        /// </summary>
         public void ContinueButton()
         {
-            _isPressedEsc = !_isPressedEsc;
-            esc = false;
-            Time.timeScale = 1;
-            mainButton.gameObject.SetActive(true);
-            menu.SetActive(false);
+            if (esc) ToggleMenu(); // 켜져있을 때만 끄기
         }
 
         public void ExitButton()

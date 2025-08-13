@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using _00.Work.Scripts.UI;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
@@ -35,9 +36,19 @@ namespace _00._Work.Teams.PMC._01._Codes.UI
             }
         }
 
-        public void TestBtnClicked()
+        public void StartBtnClicked()
         {
-            Debug.Log("testBtnClicked");
+            FadeManager.Instance.FadeToScene(2);
+        }
+        
+        public void TutorialBtnClicked()
+        {
+            FadeManager.Instance.FadeToScene(1);
+        }
+
+        public void ExitBtnClicked()
+        {
+            Application.Quit();
         }
     }
 }
