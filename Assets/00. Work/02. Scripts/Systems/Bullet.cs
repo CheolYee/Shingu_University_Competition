@@ -83,7 +83,7 @@ namespace _00._Work._02._Scripts.Systems
                 if (explode)
                 {
                     BulletExplode();
-                    BulletDead();
+                    BulletDead(true);
                     NextBulletPower();
                     return;
                 }
