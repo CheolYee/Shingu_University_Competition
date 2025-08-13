@@ -10,6 +10,11 @@ public class Magnazine : MonoBehaviour
         clearController = GameObject.FindWithTag("clearController").GetComponent<ClearUIController>();
     }
 
+    private void OnEnable()
+    {
+        if (Enemy.Instance != null)
+            Enemy.Instance.OnDead += GetMagnazine;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Bullet"))
