@@ -1,4 +1,5 @@
 using _00._Work.Teams.PMC._01._Codes.UI;
+using _00.Work.Scripts.Managers;
 using _00.Work.Scripts.UI;
 using TMPro;
 using UnityEngine;
@@ -22,6 +23,7 @@ namespace _00._Work.Teams.PMC._01._Codes
 
         public void RoadStage()
         {
+            SoundManager.Instance.PlaySfx("buttonPress");
             FadeManager.Instance.FadeToScene(int.Parse(id));
         }
     }

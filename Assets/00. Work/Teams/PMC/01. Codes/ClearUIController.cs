@@ -27,7 +27,7 @@ namespace _00._Work.Teams.PMC._01._Codes
 
         public void SubscribeToEnemy(Enemy enemy)
         {
-            enemy.OnDead += () => ShowStars(starCount);
+            enemy.OnDead += () => ShowStars(Mathf.Clamp(starCount, 1, 3));
         }
 
         public void AddStarCount()

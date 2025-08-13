@@ -23,6 +23,11 @@ namespace _00._Work.Teams.PMC._01._Codes.UI
             }
         }
 
+        private void Start()
+        {
+            SoundManager.Instance.PlayBgm("MenuBGM");
+        }
+
         public void FadeOut(Action onComplete = null)
         {
             if (fadeGroup == null)
@@ -35,6 +40,12 @@ namespace _00._Work.Teams.PMC._01._Codes.UI
             fadeGroup.DOFade(0f, fadeDuration).SetUpdate(true).OnComplete(() =>
             {
                 fadeGroup.gameObject.SetActive(false);
+                if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1
+                                                                  || SceneManager.GetActiveScene().buildIndex == 2)
+                {
+                    SoundManager.Instance.PlayBgm("MenuBGM");
+                }
+                Debug.Log(SceneManager.GetActiveScene().buildIndex);
                 onComplete?.Invoke();
             });
         }
@@ -59,13 +70,8 @@ namespace _00._Work.Teams.PMC._01._Codes.UI
             FadeIn(() =>
             {
                 SceneManager.LoadScene(sceneIndex);
+                
             });
-
-            if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1)
-            {
-                SoundManager.Instance.PlayBgm("MenuBGM");
-            }
-
         }
 
 

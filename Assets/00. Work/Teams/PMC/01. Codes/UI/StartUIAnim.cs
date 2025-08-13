@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using _00.Work.Scripts.Managers;
 using _00.Work.Scripts.UI;
 using DG.Tweening;
 using UnityEngine;
@@ -38,16 +39,19 @@ namespace _00._Work.Teams.PMC._01._Codes.UI
 
         public void StartBtnClicked()
         {
+            SoundManager.Instance.PlaySfx("buttonPress");
             FadeManager.Instance.FadeToScene(2);
         }
         
         public void TutorialBtnClicked()
         {
+            SoundManager.Instance.PlaySfx("buttonPress");
             FadeManager.Instance.FadeToScene(1);
         }
 
         public void ExitBtnClicked()
         {
+            SoundManager.Instance.PlaySfx("buttonPress");
             Application.Quit();
         }
     }
