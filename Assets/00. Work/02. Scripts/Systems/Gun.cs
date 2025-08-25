@@ -48,7 +48,7 @@ public class Gun : MonoBehaviour
     private void Start()
     {
         readyButton.OnClick += isReady => ready = isReady;
-        
+
         SoundManager.Instance.PlayBgm("StageBGM");
         sprite.enabled = false;
         startPos = transform.position;
@@ -109,15 +109,6 @@ public class Gun : MonoBehaviour
         qwer = true;
     }
 
-    private IEnumerator asfmjk()
-    {
-        yield return new WaitForSeconds(0.01f);
-        if (!magnazineget && magnazine != null && !magnazine.gameObject.activeSelf)
-        {
-            magnazine.gameObject.SetActive(true);
-        }
-    }
-
     private void LookAtMouse()
     {
         sprite.enabled = true;
@@ -168,7 +159,7 @@ public class Gun : MonoBehaviour
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
             if (ready == false) return;
-            
+
             PlayerAnimation.Instance.IdleToAimAnimation();
             StartCoroutine(AimTime());
         }
